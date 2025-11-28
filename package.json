@@ -3,6 +3,11 @@
   "displayName": "RMS Log Outline",
   "description": "Outline for RMS workflow log",
   "version": "0.0.1",
+  "publisher": "AlifBe",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/equinor/vscode-rms-log-outline"
+  },
   "engines": {
     "vscode": "^1.90.1"
   },
@@ -18,8 +23,7 @@
       "explorer": [
         {
           "id": "rmsJobBlock",
-          "name": "RMS Log Outline",
-          "icon": "images/search-icon.svg"
+          "name": "RMS Log Outline"
         }
       ]
     },
