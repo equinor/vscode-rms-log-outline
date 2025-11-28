@@ -1,0 +1,1023 @@
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 12 - RMS_load_grid_and_props_for_export. - for project realization 1
+Got exception: Trying to set codes in Roxar: {1: 'WestLowland', 2: 'CentralSouth', 3: 'CentralNorth', 4: 'NorthHorst', 5: 'CentralRamp', 6: 'CentralHorst', 7: 'EastLowland'} for type &lt;class 'numpy.uint16'&gt;. Cannot set code names on a region model. Consider editing the codes!
+Got exception: Trying to set codes in Roxar: {1: 'WestLowland', 2: 'CentralSouth', 3: 'CentralNorth', 4: 'NorthHorst', 5: 'CentralRamp', 6: 'CentralHorst', 7: 'EastLowland'} for type &lt;class 'numpy.uint16'&gt;. Cannot set code names on a region model. Consider editing the codes!
+</pre>
+<font color="green"><b>Completed job 12</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:09.6</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:09.6</td></tr></table>
+
+<pre>
+Job 13 - make_symlinks_to_real_seismic.py - for project realization 1
+================================================================================ 
+Datapair: 20180701_20180101
+
+OK
+Seen from folder [../../share/observations/seismic]: symlinked file [/scratch/fmu/share/drogon/modeldata/share/seismic/4d/21_0_0/cropped/owexport_ampl_18h_18v.segy] to [seismic--amplitude_time--20180701_20180101.segy]
+
+OK
+Seen from folder [../../share/observations/seismic]: symlinked file [/scratch/fmu/share/drogon/modeldata/share/seismic/4d/21_0_0/cropped/owexport_relai_18h_18v.segy] to [seismic--relai_time--20180701_20180101.segy]
+================================================================================ 
+Datapair: 20190701_20180101
+
+OK
+Seen from folder [../../share/observations/seismic]: symlinked file [/scratch/fmu/share/drogon/modeldata/share/seismic/4d/21_0_0/cropped/owexport_ampl_19h_18v.segy] to [seismic--amplitude_time--20190701_20180101.segy]
+
+OK
+Seen from folder [../../share/observations/seismic]: symlinked file [/scratch/fmu/share/drogon/modeldata/share/seismic/4d/21_0_0/cropped/owexport_relai_19h_18v.segy] to [seismic--relai_time--20190701_20180101.segy]
+================================================================================ 
+Datapair: 20200701_20180101
+
+OK
+Seen from folder [../../share/observations/seismic]: symlinked file [/scratch/fmu/share/drogon/modeldata/share/seismic/4d/21_0_0/cropped/owexport_ampl_20h_18v.segy] to [seismic--amplitude_time--20200701_20180101.segy]
+
+OK
+Seen from folder [../../share/observations/seismic]: symlinked file [/scratch/fmu/share/drogon/modeldata/share/seismic/4d/21_0_0/cropped/owexport_relai_20h_18v.segy] to [seismic--relai_time--20200701_20180101.segy]
+Done symlinking.
+</pre>
+<font color="green"><b>Completed job 13</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:11.2</td></tr></table>
+
+<pre>
+Job 14 - switch_for_depth_conversion.py - for project realization 1
+dconvert_4d_seismic_cubes status is True
+</pre>
+<font color="green"><b>Completed job 14</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:11.4</td></tr></table>
+
+<pre>
+Job 15 - dconvert_4d_seismic_cubes - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+
+<pre>
+Job 2 - import_depthsurfaces_for_velmod.py. - for project realization 1
+Finished loading realization surfaces.
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.3</td></tr></table>
+
+<pre>
+Job 3 - velocitymodel_for_3d_4d - for project realization 1
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:03.7</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:03.10</td></tr></table>
+
+<pre>
+Job 4 - dc_seismic_wrapper_realization_4d_. - for project realization 1
+Looking at vintage named 18h_18v
+Loading ../../share/observations/seismic/seismic--amplitude_time--20180701_20180101.segy
+Storing time cube to RMS as placeholder_time_cube...
+Depth converting cube in RMS to placeholder_depth_cube...
+Exporting depth cube from RMS to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/observations/seismic/seismic--amplitude_depth--20180701_20180101.segy
+----
+Loading ../../share/observations/seismic/seismic--relai_time--20180701_20180101.segy
+Storing time cube to RMS as placeholder_time_cube...
+Depth converting cube in RMS to placeholder_depth_cube...
+Exporting depth cube from RMS to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/observations/seismic/seismic--relai_depth--20180701_20180101.segy
+----
+Looking at vintage named 19h_18v
+Loading ../../share/observations/seismic/seismic--amplitude_time--20190701_20180101.segy
+Storing time cube to RMS as placeholder_time_cube...
+Depth converting cube in RMS to placeholder_depth_cube...
+Exporting depth cube from RMS to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/observations/seismic/seismic--amplitude_depth--20190701_20180101.segy
+----
+Loading ../../share/observations/seismic/seismic--relai_time--20190701_20180101.segy
+Storing time cube to RMS as placeholder_time_cube...
+Depth converting cube in RMS to placeholder_depth_cube...
+Exporting depth cube from RMS to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/observations/seismic/seismic--relai_depth--20190701_20180101.segy
+----
+Looking at vintage named 20h_18v
+Loading ../../share/observations/seismic/seismic--amplitude_time--20200701_20180101.segy
+Storing time cube to RMS as placeholder_time_cube...
+Depth converting cube in RMS to placeholder_depth_cube...
+Exporting depth cube from RMS to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/observations/seismic/seismic--amplitude_depth--20200701_20180101.segy
+----
+Loading ../../share/observations/seismic/seismic--relai_time--20200701_20180101.segy
+Storing time cube to RMS as placeholder_time_cube...
+Depth converting cube in RMS to placeholder_depth_cube...
+Exporting depth cube from RMS to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/observations/seismic/seismic--relai_depth--20200701_20180101.segy
+----
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:19.7</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:23.7</td></tr></table>
+
+<pre>
+Job 5 - dc_seismic_placeholder - for project realization 1 - deactivated
+
+<pre>
+Job 6 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+
+<font color="green"><b>Completed workflow dconvert_4d_seismic_cubes</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:09:42</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:23.7</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 15</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:23.7</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:35.1</td></tr></table>
+
+<pre>
+Job 16 - pem_4d - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 4 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+
+<pre>
+Job 5 - import_eclsimulation.py - for project realization 1
+Run in flowsim HISTORICAL mode
+Create/overwrite grid model Eclipsegrid_pem and set grid empty.
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/grid3d/_ecl_grid.py:542: UserWarning: Axis units specification is missing in input, assuming that no unit conversion is necessary
+  warnings.warn(
+Read INIT properties ['PORO', 'NTG', 'DEPTH'] and store in RMS...
+Read RESTART properties ['PRESSURE', 'RS', 'SWAT', 'SGAS'] for dates ['20180101', '20180701', '20190701', '20200701'] and store in RMS...
+Done
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.5</td></tr></table>
+
+<pre>
+Job 6 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+
+<pre>
+Job 7 - ntg_pem - for project realization 1
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.5</td></tr></table>
+
+<pre>
+Job 8 - set_initial_pressure_and_ntg_pem4d. - for project realization 1
+Run in flowsim HISTORICAL mode
+INITDATE is 20180101
+Defined PRESSURE_INIT...
+Defined NTG for PEM...
+Done!
+</pre>
+<font color="green"><b>Completed job 8</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.8</td></tr></table>
+
+<pre>
+Job 9 - redefine_zones - for project realization 1
+</pre>
+<font color="green"><b>Completed job 9</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.8</td></tr></table>
+
+<pre>
+Job 10 - zone - for project realization 1
+</pre>
+<font color="green"><b>Completed job 10</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.8</td></tr></table>
+
+<pre>
+Job 11 - pem_prepare_input.py - for project realization 1
+Run in flowsim HISTORICAL mode
+Retrieving RMS 3D grid : Eclipsegrid_pem ...
+  -- Loading property : DEPTH ...
+  -- Loading property : PORO ...
+  -- Loading property : NTG ...
+  -- Loading property : PRESSURE_INIT ...
+  -- Loading property : Zone ...
+  -- Loading property : PRESSURE_20180101 ...
+  -- Loading property : RS_20180101 ...
+  -- Loading property : SWAT_20180101 ...
+  -- Loading property : SGAS_20180101 ...
+  -- Loading property : PRESSURE_20180701 ...
+  -- Loading property : RS_20180701 ...
+  -- Loading property : SWAT_20180701 ...
+  -- Loading property : SGAS_20180701 ...
+  -- Loading property : PRESSURE_20190701 ...
+  -- Loading property : RS_20190701 ...
+  -- Loading property : SWAT_20190701 ...
+  -- Loading property : SGAS_20190701 ...
+  -- Loading property : PRESSURE_20200701 ...
+  -- Loading property : RS_20200701 ...
+  -- Loading property : SWAT_20200701 ...
+  -- Loading property : SGAS_20200701 ...
+Export to ../../sim2seis/input/pem/pem_data_input.csv
+Script execution finished.
+</pre>
+<font color="green"><b>Completed job 11</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.3</td></tr></table>
+
+<pre>
+Job 12 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 12</b></font>
+
+<pre>
+Job 13 - run_external ../../sim2seis/bin/ru. - for project realization 1
+</pre>
+<font color="green"><b>Completed job 13</b></font>
+
+<pre>
+Job 14 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 14</b></font>
+
+<pre>
+Job 15 - run_external ../../sim2seis/bin/ru. - for project realization 1 - deactivated
+
+<pre>
+Job 16 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 16</b></font>
+
+<pre>
+Job 17 - import_pem_results_ecl.py - for project realization 1
+Run in flowsim HISTORICAL mode
+Loading pem results from &lt;../../sim2seis/output/pem/pem_results.csv&gt;...
+Retrieving RMS 3D grid &lt;Eclipsegrid_pem&gt;...
+
+Modelling date:20180101
+  &gt;&gt; Adding property &lt;DENS_20180101&gt; to the grid...
+  &gt;&gt; Property exported to &lt;../../sim2seis/output/pem/pem_20180101.grdecl&gt;...
+  &gt;&gt; Adding property &lt;VP_20180101&gt; to the grid...
+  &gt;&gt; Property exported to &lt;../../sim2seis/output/pem/pem_20180101.grdecl&gt;...
+  &gt;&gt; Adding property &lt;VS_20180101&gt; to the grid...
+  &gt;&gt; Property exported to &lt;../../sim2seis/output/pem/pem_20180101.grdecl&gt;...
+  &gt;&gt; Adding property &lt;AI_20180101&gt; to the grid...
+  &gt;&gt; Adding property &lt;SI_20180101&gt; to the grid...
+  &gt;&gt; Adding property &lt;VPVS_20180101&gt; to the grid...
+  &gt;&gt; Adding property &lt;DTPP_20180101&gt; to the grid...
+  &gt;&gt; Calculated prop. &lt;TWTPP_20180101&gt; added to the grid...
+  &gt;&gt; Adding property &lt;DTSS_20180101&gt; to the grid...
+  &gt;&gt; Calculated prop. &lt;TWTSS_20180101&gt; added to the grid...
+  &gt;&gt; Adding property &lt;DTPS_20180101&gt; to the grid...
+  &gt;&gt; Calculated prop. &lt;TWTPS_20180101&gt; added to the grid...
+
+Modelling date:20180701
+  &gt;&gt; Adding property &lt;DENS_20180701&gt; to the grid...
+  &gt;&gt; Property exported to &lt;../../sim2seis/output/pem/pem_20180701.grdecl&gt;...
+  &gt;&gt; Adding property &lt;VP_20180701&gt; to the grid...
+  &gt;&gt; Property exported to &lt;../../sim2seis/output/pem/pem_20180701.grdecl&gt;...
+  &gt;&gt; Adding property &lt;VS_20180701&gt; to the grid...
+  &gt;&gt; Property exported to &lt;../../sim2seis/output/pem/pem_20180701.grdecl&gt;...
+  &gt;&gt; Adding property &lt;AI_20180701&gt; to the grid...
+  &gt;&gt; Adding property &lt;SI_20180701&gt; to the grid...
+  &gt;&gt; Adding property &lt;VPVS_20180701&gt; to the grid...
+  &gt;&gt; Adding property &lt;DTPP_20180701&gt; to the grid...
+  &gt;&gt; Calculated prop. &lt;TWTPP_20180701&gt; added to the grid...
+  &gt;&gt; Adding property &lt;DTSS_20180701&gt; to the grid...
+  &gt;&gt; Calculated prop. &lt;TWTSS_20180701&gt; added to the grid...
+  &gt;&gt; Adding property &lt;DTPS_20180701&gt; to the grid...
+  &gt;&gt; Calculated prop. &lt;TWTPS_20180701&gt; added to the grid...
+
+Modelling date:20190701
+  &gt;&gt; Adding property &lt;DENS_20190701&gt; to the grid...
+  &gt;&gt; Property exported to &lt;../../sim2seis/output/pem/pem_20190701.grdecl&gt;...
+  &gt;&gt; Adding property &lt;VP_20190701&gt; to the grid...
+  &gt;&gt; Property exported to &lt;../../sim2seis/output/pem/pem_20190701.grdecl&gt;...
+  &gt;&gt; Adding property &lt;VS_20190701&gt; to the grid...
+  &gt;&gt; Property exported to &lt;../../sim2seis/output/pem/pem_20190701.grdecl&gt;...
+  &gt;&gt; Adding property &lt;AI_20190701&gt; to the grid...
+  &gt;&gt; Adding property &lt;SI_20190701&gt; to the grid...
+  &gt;&gt; Adding property &lt;VPVS_20190701&gt; to the grid...
+  &gt;&gt; Adding property &lt;DTPP_20190701&gt; to the grid...
+  &gt;&gt; Calculated prop. &lt;TWTPP_20190701&gt; added to the grid...
+  &gt;&gt; Adding property &lt;DTSS_20190701&gt; to the grid...
+  &gt;&gt; Calculated prop. &lt;TWTSS_20190701&gt; added to the grid...
+  &gt;&gt; Adding property &lt;DTPS_20190701&gt; to the grid...
+  &gt;&gt; Calculated prop. &lt;TWTPS_20190701&gt; added to the grid...
+
+Modelling date:20200701
+  &gt;&gt; Adding property &lt;DENS_20200701&gt; to the grid...
+  &gt;&gt; Property exported to &lt;../../sim2seis/output/pem/pem_20200701.grdecl&gt;...
+  &gt;&gt; Adding property &lt;VP_20200701&gt; to the grid...
+  &gt;&gt; Property exported to &lt;../../sim2seis/output/pem/pem_20200701.grdecl&gt;...
+  &gt;&gt; Adding property &lt;VS_20200701&gt; to the grid...
+  &gt;&gt; Property exported to &lt;../../sim2seis/output/pem/pem_20200701.grdecl&gt;...
+  &gt;&gt; Adding property &lt;AI_20200701&gt; to the grid...
+  &gt;&gt; Adding property &lt;SI_20200701&gt; to the grid...
+  &gt;&gt; Adding property &lt;VPVS_20200701&gt; to the grid...
+  &gt;&gt; Adding property &lt;DTPP_20200701&gt; to the grid...
+  &gt;&gt; Calculated prop. &lt;TWTPP_20200701&gt; added to the grid...
+  &gt;&gt; Adding property &lt;DTSS_20200701&gt; to the grid...
+  &gt;&gt; Calculated prop. &lt;TWTSS_20200701&gt; added to the grid...
+  &gt;&gt; Adding property &lt;DTPS_20200701&gt; to the grid...
+  &gt;&gt; Calculated prop. &lt;TWTPS_20200701&gt; added to the grid...
+
+Calculating differences for dates: ['20180701', '20180101']
+
+
+Calculating differences for dates: ['20190701', '20180101']
+
+
+Calculating differences for dates: ['20200701', '20180101']
+
+</pre>
+<font color="green"><b>Completed job 17</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:07.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:09.4</td></tr></table>
+
+<pre>
+Job 18 - export_pem_parameters_dataio.py - for project realization 1
+Run in flowsim HISTORICAL mode
+Stored grid as /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/grids/eclipsegrid_pem.roff
+Write grid properties...
+20180701_20180101
+Stored AIratio as /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/grids/eclipsegrid_pem--airatio--20180701_20180101.roff
+20190701_20180101
+Stored AIratio as /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/grids/eclipsegrid_pem--airatio--20190701_20180101.roff
+20200701_20180101
+Stored AIratio as /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/grids/eclipsegrid_pem--airatio--20200701_20180101.roff
+20180701_20180101
+Stored TWTPPdiff as /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/grids/eclipsegrid_pem--twtppdiff--20180701_20180101.roff
+20190701_20180101
+Stored TWTPPdiff as /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/grids/eclipsegrid_pem--twtppdiff--20190701_20180101.roff
+20200701_20180101
+Stored TWTPPdiff as /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/grids/eclipsegrid_pem--twtppdiff--20200701_20180101.roff
+Done.
+</pre>
+<font color="green"><b>Completed job 18</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:10.4</td></tr></table>
+
+<pre>
+Job 19 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 20 - fipzon - for project realization 1
+</pre>
+<font color="green"><b>Completed job 20</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:10.5</td></tr></table>
+
+<pre>
+Job 21 - eqlnum - for project realization 1
+</pre>
+<font color="green"><b>Completed job 21</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:10.5</td></tr></table>
+
+<pre>
+Job 22 - extract_pem_grid_property_statisti. - for project realization 1
+Run in flowsim HISTORICAL mode
+INFO  &gt;&gt; Starting run...
+INFO  &gt;&gt; Reading grid geometry...
+INFO  &gt;&gt; Reading grid properties...
+INFO  &gt;&gt; Reusing gridprops: []
+INFO  &gt;&gt; New gridprops: ['AIratio_20180701_20180101', 'TWTPPdiff_20180701_20180101', 'AIratio_20190701_20180101', 'TWTPPdiff_20190701_20180101', 'AIratio_20200701_20180101', 'TWTPPdiff_20200701_20180101', 'EQLNUM', 'FIPZON']
+INFO  &gt;&gt; Creating property dataframe from grid properties
+INFO  &gt;&gt; Calculating statistics for CONT properties
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/fmu/dataio/providers/objectdata/_tables.py:138: FutureWarning: The 'table_index' was not provided, and has been set based upon commonly known table index columns found in the table: ['ZONE']. In the future the table_index will be empty in the metadata if not provided as input through the 'table_index' argument.
+  warnings.warn(
+Output to: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/tables/grid_property_statistics_pemgrid.csv
+Done
+</pre>
+<font color="green"><b>Completed job 22</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:11.3</td></tr></table>
+
+<font color="green"><b>Completed workflow pem_4d</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:10:42</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:59.8</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 16</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:59.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:01:34.9</td></tr></table>
+
+<pre>
+Job 17 - seismic_4d_modelling - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 5 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+
+<pre>
+Job 6 - make_symlink_to_seismic_layout_cub. - for project realization 1
+
+OK
+Seen from folder [../../sim2seis/input/seismic_forward]: symlinked file [/scratch/fmu/share/drogon/modeldata/share/seismic/4d/21_0_0/template/seismic_layout_4d.segy] to [seismiclayout.segy]
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.3</td></tr></table>
+
+<pre>
+Job 7 - execute_4dseismic_forward.py - for project realization 1
+Run in flowsim HISTORICAL mode
+../../sim2seis/output/pem/pem_20180101.grdecl
+
+OK
+Seen from folder [../../sim2seis/output/pem]: symlinked file [pem_20180101.grdecl] to [pem.grdecl]
+Running seismic_forward for base survey to define TWT
+External command to run: ['run_external', 'seismicforward -v 4.3', '../../sim2seis/model/seismic_forward/model_file_twt.xml']
+
+** CHECK PROGRESS IN TERMINAL WINDOW! **
+
+Success, see terminal that launched RMS for details
+20180101
+../../sim2seis/output/pem/pem_20180101.grdecl
+
+OK
+Seen from folder [../../sim2seis/output/pem]: symlinked file [pem_20180101.grdecl] to [pem.grdecl]
+Running seismic_forward for date  20180101
+External command to run: ['run_external', 'seismicforward -v 4.3', '../../sim2seis/model/seismic_forward/model_file.xml']
+
+** CHECK PROGRESS IN TERMINAL WINDOW! **
+
+Success, see terminal that launched RMS for details
+sdepthsrc ../../sim2seis/output/seismic_forward/syntseis_temp_seismic_depth_stack.segy
+../../sim2seis/output/seismic_forward/syntseis_20180101_seismic_depth.segy
+20180701
+../../sim2seis/output/pem/pem_20180701.grdecl
+
+OK
+Seen from folder [../../sim2seis/output/pem]: symlinked file [pem_20180701.grdecl] to [pem.grdecl]
+Running seismic_forward for date  20180701
+External command to run: ['run_external', 'seismicforward -v 4.3', '../../sim2seis/model/seismic_forward/model_file.xml']
+
+** CHECK PROGRESS IN TERMINAL WINDOW! **
+
+Success, see terminal that launched RMS for details
+sdepthsrc ../../sim2seis/output/seismic_forward/syntseis_temp_seismic_depth_stack.segy
+../../sim2seis/output/seismic_forward/syntseis_20180701_seismic_depth.segy
+20190701
+../../sim2seis/output/pem/pem_20190701.grdecl
+
+OK
+Seen from folder [../../sim2seis/output/pem]: symlinked file [pem_20190701.grdecl] to [pem.grdecl]
+Running seismic_forward for date  20190701
+External command to run: ['run_external', 'seismicforward -v 4.3', '../../sim2seis/model/seismic_forward/model_file.xml']
+
+** CHECK PROGRESS IN TERMINAL WINDOW! **
+
+Success, see terminal that launched RMS for details
+sdepthsrc ../../sim2seis/output/seismic_forward/syntseis_temp_seismic_depth_stack.segy
+../../sim2seis/output/seismic_forward/syntseis_20190701_seismic_depth.segy
+20200701
+../../sim2seis/output/pem/pem_20200701.grdecl
+
+OK
+Seen from folder [../../sim2seis/output/pem]: symlinked file [pem_20200701.grdecl] to [pem.grdecl]
+Running seismic_forward for date  20200701
+External command to run: ['run_external', 'seismicforward -v 4.3', '../../sim2seis/model/seismic_forward/model_file.xml']
+
+** CHECK PROGRESS IN TERMINAL WINDOW! **
+
+Success, see terminal that launched RMS for details
+sdepthsrc ../../sim2seis/output/seismic_forward/syntseis_temp_seismic_depth_stack.segy
+../../sim2seis/output/seismic_forward/syntseis_20200701_seismic_depth.segy
+Finished running seismic modelling
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:39.4</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:39.7</td></tr></table>
+
+<pre>
+Job 8 - create_segy_diff_cubes_dataio.py - for project realization 1
+Run in flowsim HISTORICAL mode
+Work with 20180701_20180101 in domain time
+Export time cube as: ../../sim2seis/output/seismic_forward/seismic--amplitude_time--20180701_20180101.segy
+Work with 20180701_20180101 in domain depth
+Export depth cube with metadata as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/seismic/seismic--amplitude_depth--20180701_20180101.segy
+Work with 20190701_20180101 in domain time
+Export time cube as: ../../sim2seis/output/seismic_forward/seismic--amplitude_time--20190701_20180101.segy
+Work with 20190701_20180101 in domain depth
+Export depth cube with metadata as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/seismic/seismic--amplitude_depth--20190701_20180101.segy
+Work with 20200701_20180101 in domain time
+Export time cube as: ../../sim2seis/output/seismic_forward/seismic--amplitude_time--20200701_20180101.segy
+Work with 20200701_20180101 in domain depth
+Export depth cube with metadata as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/seismic/seismic--amplitude_depth--20200701_20180101.segy
+Finished making 4d diff cubes.
+</pre>
+<font color="green"><b>Completed job 8</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:07.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:47.0</td></tr></table>
+
+<font color="green"><b>Completed workflow seismic_4d_modelling</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:11:29</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:47.0</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 17</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:47.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:02:21.10</td></tr></table>
+
+<pre>
+Job 18 - seismic_4d_amp_maps - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 2 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+
+<pre>
+Job 3 - 4d_ampl_maps_dataio.py - for project realization 1
+Run in flowsim HISTORICAL mode
+Writing output maps as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/topvolantis--amplitude_rms--20180701_20180101.gri
+Writing output maps as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/topvolantis--amplitude_mean--20180701_20180101.gri
+Writing output maps as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/basevolantis--amplitude_rms--20180701_20180101.gri
+Writing output maps as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/basevolantis--amplitude_mean--20180701_20180101.gri
+Writing output maps as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/topvolantis--amplitude_rms--20190701_20180101.gri
+Writing output maps as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/topvolantis--amplitude_mean--20190701_20180101.gri
+Writing output maps as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/basevolantis--amplitude_rms--20190701_20180101.gri
+Writing output maps as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/basevolantis--amplitude_mean--20190701_20180101.gri
+Writing output maps as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/topvolantis--amplitude_rms--20200701_20180101.gri
+Writing output maps as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/topvolantis--amplitude_mean--20200701_20180101.gri
+Writing output maps as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/basevolantis--amplitude_rms--20200701_20180101.gri
+Writing output maps as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/basevolantis--amplitude_mean--20200701_20180101.gri
+Finished making 4d maps. Written to share folder with metadata
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:08.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:08.8</td></tr></table>
+
+<pre>
+Job 4 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+
+<pre>
+Job 5 - sim_4d_ampl_maps_export_ert.py - for project realization 1
+Run in flowsim HISTORICAL mode
+Creating 'temp' in Simgrid_maps4ahm
+Read grid Simgrid_maps4ahm and props...
+Read grid Simgrid_maps4ahm and props...done!
+Sample attribute to grid Simgrid_maps4ahm...
+For horizon TopVolantis sample in zone Valysar at top
+-&gt; Applied cell layer is 1
+             X_UTME        Y_UTMN  REGION      ATTR
+0     456166.251521  5.935964e+06     1.0  0.000303
+1     456241.172423  5.935834e+06     1.0  0.000326
+2     456316.068247  5.935705e+06     1.0  0.000305
+3     456390.913246  5.935575e+06     1.0  0.000345
+4     456465.788342  5.935445e+06     1.0  0.000365
+...             ...           ...     ...       ...
+3353  467087.682265  5.930549e+06     2.0  0.000525
+3354  467162.650687  5.930419e+06     2.0  0.000570
+3355  467237.596004  5.930289e+06     2.0  0.000461
+3356  467312.498918  5.930159e+06     2.0  0.000461
+3357  467387.297948  5.930029e+06     2.0  0.000279
+
+[3358 rows x 4 columns]
+Output as ERT mod file: ../../share/results/points/topvolantis_amplitude_mean_20180701_20180101_1.txt
+../../share/results/points/topvolantis_amplitude_mean_20180701_20180101_1.txt
+================================================================================
+Sample attribute to grid Simgrid_maps4ahm...
+For horizon TopVolantis sample in zone Valysar at top
+-&gt; Applied cell layer is 1
+             X_UTME        Y_UTMN  REGION      ATTR
+0     456166.251521  5.935964e+06     1.0  0.000464
+1     456241.172423  5.935834e+06     1.0  0.000499
+2     456316.068247  5.935705e+06     1.0  0.000467
+3     456390.913246  5.935575e+06     1.0  0.000530
+4     456465.788342  5.935445e+06     1.0  0.000557
+...             ...           ...     ...       ...
+3353  467087.682265  5.930549e+06     2.0  0.001079
+3354  467162.650687  5.930419e+06     2.0  0.001140
+3355  467237.596004  5.930289e+06     2.0  0.000905
+3356  467312.498918  5.930159e+06     2.0  0.000900
+3357  467387.297948  5.930029e+06     2.0  0.000547
+
+[3358 rows x 4 columns]
+Output as ERT mod file: ../../share/results/points/topvolantis_amplitude_mean_20190701_20180101_1.txt
+../../share/results/points/topvolantis_amplitude_mean_20190701_20180101_1.txt
+================================================================================
+Sample attribute to grid Simgrid_maps4ahm...
+For horizon TopVolantis sample in zone Valysar at top
+-&gt; Applied cell layer is 1
+             X_UTME        Y_UTMN  REGION      ATTR
+0     456166.251521  5.935964e+06     1.0  0.000274
+1     456241.172423  5.935834e+06     1.0  0.000295
+2     456316.068247  5.935705e+06     1.0  0.000277
+3     456390.913246  5.935575e+06     1.0  0.000314
+4     456465.788342  5.935445e+06     1.0  0.000331
+...             ...           ...     ...       ...
+3353  467087.682265  5.930549e+06     2.0  0.000838
+3354  467162.650687  5.930419e+06     2.0  0.000875
+3355  467237.596004  5.930289e+06     2.0  0.000688
+3356  467312.498918  5.930159e+06     2.0  0.000686
+3357  467387.297948  5.930029e+06     2.0  0.000417
+
+[3358 rows x 4 columns]
+Output as ERT mod file: ../../share/results/points/topvolantis_amplitude_mean_20200701_20180101_1.txt
+../../share/results/points/topvolantis_amplitude_mean_20200701_20180101_1.txt
+================================================================================
+Sample attribute to grid Simgrid_maps4ahm...
+For horizon BaseVolantis sample in zone Volon at base
+-&gt; Applied cell layer is 32
+             X_UTME        Y_UTMN  REGION      ATTR
+0     456165.734150  5.935964e+06     1.0 -0.000428
+1     456240.173584  5.935835e+06     1.0 -0.000502
+2     456686.709839  5.935061e+06     1.0 -0.000482
+3     456761.306885  5.934931e+06     1.0 -0.000484
+4     456835.845595  5.934802e+06     1.0 -0.000463
+...             ...           ...     ...       ...
+3339  467089.274894  5.930543e+06     2.0 -0.000609
+3340  467163.548113  5.930414e+06     2.0 -0.000588
+3341  467237.896865  5.930286e+06     2.0 -0.000580
+3342  467312.317992  5.930157e+06     2.0 -0.000588
+3343  467386.767964  5.930028e+06     2.0 -0.000351
+
+[3344 rows x 4 columns]
+Output as ERT mod file: ../../share/results/points/basevolantis_amplitude_mean_20180701_20180101_1.txt
+../../share/results/points/basevolantis_amplitude_mean_20180701_20180101_1.txt
+================================================================================
+Sample attribute to grid Simgrid_maps4ahm...
+For horizon BaseVolantis sample in zone Volon at base
+-&gt; Applied cell layer is 32
+             X_UTME        Y_UTMN  REGION      ATTR
+0     456165.734150  5.935964e+06     1.0 -0.000667
+1     456240.173584  5.935835e+06     1.0 -0.000779
+2     456686.709839  5.935061e+06     1.0 -0.000718
+3     456761.306885  5.934931e+06     1.0 -0.000714
+4     456835.845595  5.934802e+06     1.0 -0.000681
+...             ...           ...     ...       ...
+3339  467089.274894  5.930543e+06     2.0 -0.001203
+3340  467163.548113  5.930414e+06     2.0 -0.001146
+3341  467237.896865  5.930286e+06     2.0 -0.001115
+3342  467312.317992  5.930157e+06     2.0 -0.001130
+3343  467386.767964  5.930028e+06     2.0 -0.000670
+
+[3344 rows x 4 columns]
+Output as ERT mod file: ../../share/results/points/basevolantis_amplitude_mean_20190701_20180101_1.txt
+../../share/results/points/basevolantis_amplitude_mean_20190701_20180101_1.txt
+================================================================================
+Sample attribute to grid Simgrid_maps4ahm...
+For horizon BaseVolantis sample in zone Volon at base
+-&gt; Applied cell layer is 32
+             X_UTME        Y_UTMN  REGION      ATTR
+0     456165.734150  5.935964e+06     1.0 -0.000413
+1     456240.173584  5.935835e+06     1.0 -0.000484
+2     456686.709839  5.935061e+06     1.0 -0.000428
+3     456761.306885  5.934931e+06     1.0 -0.000431
+4     456835.845595  5.934802e+06     1.0 -0.000404
+...             ...           ...     ...       ...
+3339  467089.274894  5.930543e+06     2.0 -0.000918
+3340  467163.548113  5.930414e+06     2.0 -0.000869
+3341  467237.896865  5.930286e+06     2.0 -0.000840
+3342  467312.317992  5.930157e+06     2.0 -0.000855
+3343  467386.767964  5.930028e+06     2.0 -0.000504
+
+[3344 rows x 4 columns]
+Output as ERT mod file: ../../share/results/points/basevolantis_amplitude_mean_20200701_20180101_1.txt
+../../share/results/points/basevolantis_amplitude_mean_20200701_20180101_1.txt
+================================================================================
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:09.6</td></tr></table>
+
+<font color="green"><b>Completed workflow seismic_4d_ampl_maps</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:11:39</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:09.6</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 18</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:09.6</td></tr><tr><td><b>Total elapsed time</b></td><td>0:02:31.6</td></tr></table>
+
+<pre>
+Job 19 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 20 - seismic_4d_inversion - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+
+<pre>
+Job 2 - execute_ai_4d_inversion.py - for project realization 1
+Run in flowsim HISTORICAL mode
+Work with 20180701_20180101
+Domain is time
+Running simpli for date 20180701_20180101
+External command to run: ['run_external', '../../sim2seis/bin/impedance', '-L 0.05', '-D 0.001', '-d 0.001', '-l 0.01', '-m 100', '-s 1', '-O', '../../sim2seis/output/seismic_forward/relai0.sgy', '../../sim2seis/output/seismic_forward/relai1.sgy', '../../sim2seis/output/seismic_forward/dsyn0.sgy', '../../sim2seis/output/seismic_forward/dsyn1.sgy', '--', '../../sim2seis/output/seismic_forward/syntseis_20180101_seismic_time.segy', '../../sim2seis/output/seismic_forward/syntseis_20180701_seismic_time.segy']
+
+** CHECK PROGRESS IN TERMINAL WINDOW! **
+
+Success, see terminal that launched RMS for details
+Ran simpli for date 20180701_20180101
+Work with 20190701_20180101
+Domain is time
+Running simpli for date 20190701_20180101
+External command to run: ['run_external', '../../sim2seis/bin/impedance', '-L 0.05', '-D 0.001', '-d 0.001', '-l 0.01', '-m 100', '-s 1', '-O', '../../sim2seis/output/seismic_forward/relai0.sgy', '../../sim2seis/output/seismic_forward/relai1.sgy', '../../sim2seis/output/seismic_forward/dsyn0.sgy', '../../sim2seis/output/seismic_forward/dsyn1.sgy', '--', '../../sim2seis/output/seismic_forward/syntseis_20180101_seismic_time.segy', '../../sim2seis/output/seismic_forward/syntseis_20190701_seismic_time.segy']
+
+** CHECK PROGRESS IN TERMINAL WINDOW! **
+
+Success, see terminal that launched RMS for details
+Ran simpli for date 20190701_20180101
+Work with 20200701_20180101
+Domain is time
+Running simpli for date 20200701_20180101
+External command to run: ['run_external', '../../sim2seis/bin/impedance', '-L 0.05', '-D 0.001', '-d 0.001', '-l 0.01', '-m 100', '-s 1', '-O', '../../sim2seis/output/seismic_forward/relai0.sgy', '../../sim2seis/output/seismic_forward/relai1.sgy', '../../sim2seis/output/seismic_forward/dsyn0.sgy', '../../sim2seis/output/seismic_forward/dsyn1.sgy', '--', '../../sim2seis/output/seismic_forward/syntseis_20180101_seismic_time.segy', '../../sim2seis/output/seismic_forward/syntseis_20200701_seismic_time.segy']
+
+** CHECK PROGRESS IN TERMINAL WINDOW! **
+
+Success, see terminal that launched RMS for details
+Ran simpli for date 20200701_20180101
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:48.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:48.1</td></tr></table>
+
+<pre>
+Job 3 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+
+<pre>
+Job 4 - import_depthsurfaces_for_velmod.py. - for project realization 1
+Finished loading realization surfaces.
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:48.4</td></tr></table>
+
+<pre>
+Job 5 - velocitymodel_for_3d_4d - for project realization 1
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:05.2</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:53.5</td></tr></table>
+
+<pre>
+Job 6 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+
+<pre>
+Job 7 - dc_seismic_wrapper_4drelai_dataio.. - for project realization 1
+Run in flowsim HISTORICAL mode
+Work with 20180701_20180101
+Loading ../../sim2seis/output/seismic_forward/seismic--relai_time--20180701_20180101.segy
+Storing time cube to RMS...
+Depth converting cube...
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/fmu/dataio/dataio.py:777: FutureWarning: Using the 'content' argument to set both the content and the content metadata will be deprecated. Set the 'content' argument to a valid content string, and provide the extra information through the 'content_metadata' argument instead.
+  warn(
+/scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/seismic/seismic--relai_depth--20180701_20180101.segy
+Work with 20190701_20180101
+Loading ../../sim2seis/output/seismic_forward/seismic--relai_time--20190701_20180101.segy
+Storing time cube to RMS...
+Depth converting cube...
+/scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/seismic/seismic--relai_depth--20190701_20180101.segy
+Work with 20200701_20180101
+Loading ../../sim2seis/output/seismic_forward/seismic--relai_time--20200701_20180101.segy
+Storing time cube to RMS...
+Depth converting cube...
+/scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/seismic/seismic--relai_depth--20200701_20180101.segy
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:12.4</td></tr><tr><td><b>Total elapsed time</b></td><td>0:01:05.9</td></tr></table>
+
+<pre>
+Job 8 - dc_seismic_placeholder - for project realization 1 - deactivated
+
+<font color="green"><b>Completed workflow seismic_4d_inversion</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:12:45</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:01:05.9</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 20</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:01:05.9</td></tr><tr><td><b>Total elapsed time</b></td><td>0:03:37.5</td></tr></table>
+
+<pre>
+Job 21 - seismic_4d_relai_maps - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 2 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 3 - modelled_relai_maps_export_dataio.. - for project realization 1
+Run in flowsim HISTORICAL mode
+Cube to read: ../../share/results/seismic/seismic--relai_depth--20180701_20180101.segy
+Extracting map for 4d zone: Valysar
+Using top and base surfaces:  ['TopVolantis', 'TopTherys']
+Writing output maps as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/valysar--relai_mean--20180701_20180101.gri
+Extracting map for 4d zone: Therys
+Using top and base surfaces:  ['TopTherys', 'TopVolon']
+Writing output maps as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/therys--relai_mean--20180701_20180101.gri
+Extracting map for 4d zone: Volon
+Using top and base surfaces:  ['TopVolon', 'BaseVolantis']
+Writing output maps as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/volon--relai_mean--20180701_20180101.gri
+Cube to read: ../../share/results/seismic/seismic--relai_depth--20190701_20180101.segy
+Extracting map for 4d zone: Valysar
+Using top and base surfaces:  ['TopVolantis', 'TopTherys']
+Writing output maps as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/valysar--relai_mean--20190701_20180101.gri
+Extracting map for 4d zone: Therys
+Using top and base surfaces:  ['TopTherys', 'TopVolon']
+Writing output maps as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/therys--relai_mean--20190701_20180101.gri
+Extracting map for 4d zone: Volon
+Using top and base surfaces:  ['TopVolon', 'BaseVolantis']
+Writing output maps as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/volon--relai_mean--20190701_20180101.gri
+Cube to read: ../../share/results/seismic/seismic--relai_depth--20200701_20180101.segy
+Extracting map for 4d zone: Valysar
+Using top and base surfaces:  ['TopVolantis', 'TopTherys']
+Writing output maps as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/valysar--relai_mean--20200701_20180101.gri
+Extracting map for 4d zone: Therys
+Using top and base surfaces:  ['TopTherys', 'TopVolon']
+Writing output maps as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/therys--relai_mean--20200701_20180101.gri
+Extracting map for 4d zone: Volon
+Using top and base surfaces:  ['TopVolon', 'BaseVolantis']
+Writing output maps as: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/volon--relai_mean--20200701_20180101.gri
+Finished making 4d maps. Written to share folder
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:08.6</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:08.6</td></tr></table>
+
+<pre>
+Job 4 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 5 - 4d_relai_maps_export_ert.py - for project realization 1
+Run in flowsim HISTORICAL mode
+Creating 'temp' in Simgrid_maps4ahm
+Read grid Simgrid_maps4ahm and props...
+Read grid Simgrid_maps4ahm and props...done!
+Sample attribute to grid Simgrid_maps4ahm...
+For horizon Valysar sample in zone Valysar at top
+-&gt; Applied cell layer is 1
+             X_UTME        Y_UTMN  REGION      ATTR
+0     456166.251521  5.935964e+06     1.0  0.000096
+1     456241.172423  5.935834e+06     1.0  0.000108
+2     456316.068247  5.935705e+06     1.0  0.000191
+3     456390.913246  5.935575e+06     1.0  0.000188
+4     456465.788342  5.935445e+06     1.0  0.000246
+...             ...           ...     ...       ...
+3353  467087.682265  5.930549e+06     2.0  0.000430
+3354  467162.650687  5.930419e+06     2.0  0.000474
+3355  467237.596004  5.930289e+06     2.0  0.000375
+3356  467312.498918  5.930159e+06     2.0  0.000348
+3357  467387.297948  5.930029e+06     2.0  0.000268
+
+[3358 rows x 4 columns]
+Output as ERT mod file: ../../share/results/points/valysar_relai_mean_20180701_20180101_1.txt
+================================================================================
+Sample attribute to grid Simgrid_maps4ahm...
+For horizon Valysar sample in zone Valysar at top
+-&gt; Applied cell layer is 1
+             X_UTME        Y_UTMN  REGION      ATTR
+0     456166.251521  5.935964e+06     1.0  0.000205
+1     456241.172423  5.935834e+06     1.0  0.000229
+2     456316.068247  5.935705e+06     1.0  0.000282
+3     456390.913246  5.935575e+06     1.0  0.000309
+4     456465.788342  5.935445e+06     1.0  0.000356
+...             ...           ...     ...       ...
+3353  467087.682265  5.930549e+06     2.0  0.001228
+3354  467162.650687  5.930419e+06     2.0  0.001233
+3355  467237.596004  5.930289e+06     2.0  0.001011
+3356  467312.498918  5.930159e+06     2.0  0.000929
+3357  467387.297948  5.930029e+06     2.0  0.000999
+
+[3358 rows x 4 columns]
+Output as ERT mod file: ../../share/results/points/valysar_relai_mean_20190701_20180101_1.txt
+================================================================================
+Sample attribute to grid Simgrid_maps4ahm...
+For horizon Valysar sample in zone Valysar at top
+-&gt; Applied cell layer is 1
+             X_UTME        Y_UTMN  REGION      ATTR
+0     456166.251521  5.935964e+06     1.0 -0.000150
+1     456241.172423  5.935834e+06     1.0 -0.000136
+2     456316.068247  5.935705e+06     1.0 -0.000068
+3     456390.913246  5.935575e+06     1.0 -0.000072
+4     456465.788342  5.935445e+06     1.0 -0.000043
+...             ...           ...     ...       ...
+3353  467087.682265  5.930549e+06     2.0  0.000739
+3354  467162.650687  5.930419e+06     2.0  0.000757
+3355  467237.596004  5.930289e+06     2.0  0.000622
+3356  467312.498918  5.930159e+06     2.0  0.000571
+3357  467387.297948  5.930029e+06     2.0  0.000665
+
+[3358 rows x 4 columns]
+Output as ERT mod file: ../../share/results/points/valysar_relai_mean_20200701_20180101_1.txt
+================================================================================
+Sample attribute to grid Simgrid_maps4ahm...
+For horizon Therys sample in zone Valysar at base
+-&gt; Applied cell layer is 10
+             X_UTME        Y_UTMN  REGION      ATTR
+0     456166.061370  5.935964e+06     1.0  0.000180
+1     456240.806564  5.935834e+06     1.0  0.000178
+2     456315.516925  5.935705e+06     1.0  0.000199
+3     456390.149292  5.935576e+06     1.0  0.000228
+4     456464.808569  5.935446e+06     1.0  0.000224
+...             ...           ...     ...       ...
+3353  467088.218665  5.930547e+06     2.0  0.000739
+3354  467162.950441  5.930417e+06     2.0  0.000756
+3355  467237.695886  5.930288e+06     2.0  0.000621
+3356  467312.439881  5.930158e+06     2.0  0.000571
+3357  467387.123902  5.930029e+06     2.0  0.000665
+
+[3358 rows x 4 columns]
+Output as ERT mod file: ../../share/results/points/therys_relai_mean_20180701_20180101_1.txt
+================================================================================
+Sample attribute to grid Simgrid_maps4ahm...
+For horizon Therys sample in zone Valysar at base
+-&gt; Applied cell layer is 10
+             X_UTME        Y_UTMN  REGION      ATTR
+0     456166.061370  5.935964e+06     1.0  0.000147
+1     456240.806564  5.935834e+06     1.0  0.000161
+2     456315.516925  5.935705e+06     1.0  0.000231
+3     456390.149292  5.935576e+06     1.0  0.000256
+4     456464.808569  5.935446e+06     1.0  0.000260
+...             ...           ...     ...       ...
+3353  467088.218665  5.930547e+06     2.0  0.000739
+3354  467162.950441  5.930417e+06     2.0  0.000756
+3355  467237.695886  5.930288e+06     2.0  0.000621
+3356  467312.439881  5.930158e+06     2.0  0.000571
+3357  467387.123902  5.930029e+06     2.0  0.000665
+
+[3358 rows x 4 columns]
+Output as ERT mod file: ../../share/results/points/therys_relai_mean_20190701_20180101_1.txt
+================================================================================
+Sample attribute to grid Simgrid_maps4ahm...
+For horizon Therys sample in zone Valysar at base
+-&gt; Applied cell layer is 10
+             X_UTME        Y_UTMN  REGION      ATTR
+0     456166.061370  5.935964e+06     1.0 -0.000504
+1     456240.806564  5.935834e+06     1.0 -0.000504
+2     456315.516925  5.935705e+06     1.0 -0.000437
+3     456390.149292  5.935576e+06     1.0 -0.000444
+4     456464.808569  5.935446e+06     1.0 -0.000434
+...             ...           ...     ...       ...
+3353  467088.218665  5.930547e+06     2.0  0.000739
+3354  467162.950441  5.930417e+06     2.0  0.000756
+3355  467237.695886  5.930288e+06     2.0  0.000621
+3356  467312.439881  5.930158e+06     2.0  0.000571
+3357  467387.123902  5.930029e+06     2.0  0.000665
+
+[3358 rows x 4 columns]
+Output as ERT mod file: ../../share/results/points/therys_relai_mean_20200701_20180101_1.txt
+================================================================================
+Sample attribute to grid Simgrid_maps4ahm...
+For horizon Volon sample in zone Volon at top
+-&gt; Applied cell layer is 28
+             X_UTME        Y_UTMN  REGION      ATTR
+0     456165.734299  5.935964e+06     1.0 -0.000504
+1     456240.173584  5.935835e+06     1.0 -0.000504
+2     456686.709839  5.935061e+06     1.0 -0.000443
+3     456761.306885  5.934931e+06     1.0 -0.000482
+4     456835.848633  5.934802e+06     1.0 -0.000555
+...             ...           ...     ...       ...
+3339  467088.362721  5.930546e+06     2.0  0.000602
+3340  467163.031649  5.930417e+06     2.0  0.000604
+3341  467237.723150  5.930287e+06     2.0  0.000755
+3342  467312.423451  5.930158e+06     2.0  0.000734
+3343  467387.074765  5.930028e+06     2.0  0.000631
+
+[3344 rows x 4 columns]
+Output as ERT mod file: ../../share/results/points/volon_relai_mean_20180701_20180101_1.txt
+================================================================================
+Sample attribute to grid Simgrid_maps4ahm...
+For horizon Volon sample in zone Volon at top
+-&gt; Applied cell layer is 28
+             X_UTME        Y_UTMN  REGION      ATTR
+0     456165.734299  5.935964e+06     1.0 -0.000504
+1     456240.173584  5.935835e+06     1.0 -0.000504
+2     456686.709839  5.935061e+06     1.0 -0.000443
+3     456761.306885  5.934931e+06     1.0 -0.000482
+4     456835.848633  5.934802e+06     1.0 -0.000555
+...             ...           ...     ...       ...
+3339  467088.362721  5.930546e+06     2.0  0.001311
+3340  467163.031649  5.930417e+06     2.0  0.001289
+3341  467237.723150  5.930287e+06     2.0  0.001510
+3342  467312.423451  5.930158e+06     2.0  0.001462
+3343  467387.074765  5.930028e+06     2.0  0.001063
+
+[3344 rows x 4 columns]
+Output as ERT mod file: ../../share/results/points/volon_relai_mean_20190701_20180101_1.txt
+================================================================================
+Sample attribute to grid Simgrid_maps4ahm...
+For horizon Volon sample in zone Volon at top
+-&gt; Applied cell layer is 28
+             X_UTME        Y_UTMN  REGION      ATTR
+0     456165.734299  5.935964e+06     1.0 -0.000504
+1     456240.173584  5.935835e+06     1.0 -0.000504
+2     456686.709839  5.935061e+06     1.0 -0.000443
+3     456761.306885  5.934931e+06     1.0 -0.000482
+4     456835.848633  5.934802e+06     1.0 -0.000555
+...             ...           ...     ...       ...
+3339  467088.362721  5.930546e+06     2.0  0.000615
+3340  467163.031649  5.930417e+06     2.0  0.000599
+3341  467237.723150  5.930287e+06     2.0  0.000786
+3342  467312.423451  5.930158e+06     2.0  0.000768
+3343  467387.074765  5.930028e+06     2.0  0.000567
+
+[3344 rows x 4 columns]
+Output as ERT mod file: ../../share/results/points/volon_relai_mean_20200701_20180101_1.txt
+================================================================================
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:09.6</td></tr></table>
+
+<pre>
+Job 6 - surf2grid - for project realization 1 - deactivated
+
+<font color="green"><b>Completed workflow seismic_4d_relai_maps</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:12:54</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:09.6</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 21</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:09.6</td></tr><tr><td><b>Total elapsed time</b></td><td>0:03:47.1</td></tr></table>
+
+<pre>
+Job 22 - write_target_file_4ert_sim2seis.py. - for project realization 1
+Created target file ../../RMS_TARGET_SIM2SEIS
+</pre>
+<font color="green"><b>Completed job 22</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:03:47.4</td></tr></table>
+
+<font color="green"><b>Completed workflow SIM2SEIS</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:12:55</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:03:47.4</td></tr></table>
+<hr /><div />

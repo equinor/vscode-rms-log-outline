@@ -1,0 +1,63 @@
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - test.py - for project realization 1
+Hello world
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.3</td></tr></table>
+
+<pre>
+Job 2 - Note - for project realization 1 - deactivated
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 2</b>
+<pre>
+Job 1 - test.py - for project realization 2
+Hello world
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.5</td></tr></table>
+
+<pre>
+Job 2 - Note - for project realization 2 - deactivated
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 3</b>
+<pre>
+Job 1 - test.py - for project realization 3
+Hello world
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.8</td></tr></table>
+
+<pre>
+Job 2 - Note - for project realization 3 - deactivated
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 4</b>
+<pre>
+Job 1 - test.py - for project realization 4
+Hello world
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.0</td></tr></table>
+
+<pre>
+Job 2 - Note - for project realization 4 - deactivated
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 5</b>
+<pre>
+Job 1 - test.py - for project realization 5
+Hello world
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.3</td></tr></table>
+
+<pre>
+Job 2 - Note - for project realization 5 - deactivated
+
+<font color="green"><b>Completed workflow New workflow</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>08:07:47</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:01.4</td></tr></table>
+<hr /><div />

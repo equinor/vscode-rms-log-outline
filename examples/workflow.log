@@ -1,0 +1,3865 @@
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 13 - ORION_empty_grid_models.py - for project realization 1
+Set (nearly) all grid models empty
+Simgrid
+Geogrid
+Geogrid_Valysar
+Geogrid_Therys
+Geogrid_Volon
+Eclipsegrid_pred
+Eclipsegrid_pem
+Geogrid_pem
+ERTBOX
+Geogrid_Valysar_seiscondtest
+Done
+</pre>
+<font color="green"><b>Completed job 13</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.3</td></tr></table>
+
+<pre>
+Job 14 - make_needed_folders.py - for project realization 1
+Seems that you run from rms/model folder --- good!
+Folder is already there, OK!  ../../eclipse/include/runspec
+Folder is already there, OK!  ../../eclipse/include/grid
+Folder is already there, OK!  ../../eclipse/include/edit
+Folder is already there, OK!  ../../eclipse/include/props
+Folder is already there, OK!  ../../eclipse/include/solution
+Folder is already there, OK!  ../../eclipse/include/regions
+Folder is already there, OK!  ../../eclipse/include/schedule
+Folder is already there, OK!  ../../eclipse/include/summary
+Folder is already there, OK!  ../output/aps
+Creating folder:  ../output/hum
+Creating folder:  ../output/hum_runs
+Folder is already there, OK!  ../output/pyscal
+Creating folder:  ../output/qc
+Folder is already there, OK!  ../output/regions
+Folder is already there, OK!  ../output/well_modelling
+Creating folder:  ../output/wells
+Folder is already there, OK!  ../output/zone
+Creating folder:  ../output/grids
+Folder is already there, OK!  ../../fmuconfig/output
+Folder is already there, OK!  ../../share/results/grids
+Folder is already there, OK!  ../../share/results/maps
+Creating folder:  ../../share/results/cubes
+Folder is already there, OK!  ../../share/results/polygons
+Folder is already there, OK!  ../../share/results/seismic
+Folder is already there, OK!  ../../share/results/tables
+Folder is already there, OK!  ../../share/results/volumes
+Folder is already there, OK!  ../../share/results/wells
+Creating folder:  ../../share/observations/seismic
+Creating folder:  ../../sim2seis/output/pem
+Creating folder:  ../../sim2seis/output/seismic_forward
+</pre>
+<font color="green"><b>Completed job 14</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.5</td></tr></table>
+
+<pre>
+Job 15 - switches_for_ORION.py - for project realization 1
+Job RMS_facies_aps is active
+Job RMS_props_simple is inactive
+Job RMS_props_standard is active
+Job RMS_make_sw is active
+Job RMS_eclipse_props is active
+Job RMS_eclipse_export is active
+Job RMS_eclipse_well_modelling is active
+Job RMS_volumetrics is active
+----------------------------------------
+Job ORION_facies_aps is inactive
+Job ORION_props_simple is inactive
+Job ORION_props_standard is inactive
+Job ORION_make_sw is inactive
+Job ORION_eclipse_props is inactive
+Job ORION_eclipse_export is inactive
+Job ORION_eclipse_well_modelling is inactive
+Job ORION_volumetrics is inactive
+</pre>
+<font color="green"><b>Completed job 15</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.8</td></tr></table>
+
+<pre>
+Job 16 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 16</b></font>
+
+<pre>
+Job 17 - structural_model_initial - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+
+<pre>
+Job 2 - estimate_input_isochores - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+
+<pre>
+Job 2 - iso_wells_only_as_test - for project realization 1
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.6</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.6</td></tr></table>
+
+<pre>
+Job 3 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+
+<pre>
+Job 4 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+
+<pre>
+Job 5 - refine_trend_contours.py - for project realization 1
+Refined trend polys in IL_trend_lines_alt1_refined for Valysar
+Refined trend polys in IL_trend_lines_alt1_refined for Therys
+Refined trend polys in IL_trend_lines_alt1_refined for Volon
+Refined trend polys in IL_trend_lines_alt2_refined for Valysar
+Refined trend polys in IL_trend_lines_alt2_refined for Therys
+Refined trend polys in IL_trend_lines_alt2_refined for Volon
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.9</td></tr></table>
+
+<pre>
+Job 6 - iso_trendcontours_alt1 - for project realization 1
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.4</td></tr></table>
+
+<pre>
+Job 7 - iso_trendcontours_alt2 - for project realization 1
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:03.10</td></tr></table>
+
+<pre>
+Job 8 - isotrend_combine_alt.py - for project realization 1
+Using weigth 0.5 for alt1 for Valysar
+Using weigth 0.5 for alt1 for Therys
+Using weigth 0.5 for alt1 for Volon
+Done!
+</pre>
+<font color="green"><b>Completed job 8</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:04.2</td></tr></table>
+
+<pre>
+Job 9 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 9</b></font>
+
+<pre>
+Job 10 - compare_sum_trendisochores.py - for project realization 1
+Category &lt;IS_sum_isochores&gt; already exists
+Category &lt;IS_diff_sum_isochores&gt; already exists
+Result at IS_diff_sum_isochores, where positive values means seismic envelope is thicker
+</pre>
+<font color="green"><b>Completed job 10</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:04.5</td></tr></table>
+
+<font color="green"><b>Completed workflow estimate_input_isochores</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:00:55</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:04.5</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:04.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:04.5</td></tr></table>
+
+<pre>
+Job 3 - sf_depthconvert_initial - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+
+<pre>
+Job 2 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+
+<pre>
+Job 3 - dc_initial_chose_thealternative.py. - for project realization 1
+Deactivate: initial_velocity_model_alt1
+Deactivate: sf_dconv_initial_alt1
+Deactivate: faults_dconv_initial_alt1
+Activate: velocity_map_alt2.py
+Activate: initial_velocity_model_alt2
+Activate: sf_dconv_initial_alt2
+Activate: faults_dconv_initial_alt2
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.3</td></tr></table>
+
+<pre>
+Job 4 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+
+<pre>
+Job 5 - initial_velocity_model_alt1 - for project realization 1 - deactivated
+
+<pre>
+Job 6 - sf_dconv_initial_alt1 - for project realization 1 - deactivated
+
+<pre>
+Job 7 - faults_dconv_initial_alt1 - for project realization 1 - deactivated
+
+<pre>
+Job 8 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 8</b></font>
+
+<pre>
+Job 9 - velocity_map_alt2.py - for project realization 1
+Velocity surface to TopVolantis GS_velocity_dconv
+</pre>
+<font color="green"><b>Completed job 9</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.5</td></tr></table>
+
+<pre>
+Job 10 - initial_velocity_model_alt2 - for project realization 1
+</pre>
+<font color="green"><b>Completed job 10</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:16.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:17.3</td></tr></table>
+
+<pre>
+Job 11 - sf_dconv_initial_alt2 - for project realization 1
+</pre>
+<font color="green"><b>Completed job 11</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:04.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:21.4</td></tr></table>
+
+<pre>
+Job 12 - faults_dconv_initial_alt2 - for project realization 1
+</pre>
+<font color="green"><b>Completed job 12</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.2</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:21.6</td></tr></table>
+
+<font color="green"><b>Completed workflow sf_depthconvert_initial</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:01:17</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:21.6</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:21.6</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:26.1</td></tr></table>
+
+<pre>
+Job 4 - sf_model_in_depth_initial - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+
+<pre>
+Job 2 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+
+<pre>
+Job 3 - Create Structural Model: Structura. - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+
+<pre>
+Job 4 - Edit Box: Model box - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+
+<pre>
+Job 5 - faults_depth_initial - for project realization 1
+Related stratigraphy object(s) will be cleared.
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.1</td></tr></table>
+
+<pre>
+Job 6 - Edit: Fault truncations - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+
+<pre>
+Job 7 - dp_filter_initial - for project realization 1
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.1</td></tr></table>
+
+<pre>
+Job 8 - sf_model_depth_initial - for project realization 1
+</pre>
+<font color="green"><b>Completed job 8</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.2</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.3</td></tr></table>
+
+<pre>
+Job 9 - sf_depth_initial_faultlines - for project realization 1
+</pre>
+<font color="green"><b>Completed job 9</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.3</td></tr></table>
+
+<font color="green"><b>Completed workflow sf_model_in_depth_initial</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:01:17</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:00.3</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:26.4</td></tr></table>
+
+<pre>
+Job 5 - gf_model_in_depth_initial - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+
+<pre>
+Job 2 - isochore_fitting_initial - for project realization 1
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.4</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.4</td></tr></table>
+
+<pre>
+Job 3 - gf_depth_initial - for project realization 1
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.2</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.6</td></tr></table>
+
+<pre>
+Job 4 - extract_gf_initial - for project realization 1
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:02.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.10</td></tr></table>
+
+<pre>
+Job 5 - extract_faultlines - for project realization 1
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.10</td></tr></table>
+
+<font color="green"><b>Completed workflow gf_model_in_depth_initial</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:01:20</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:03.0</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:03.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:29.4</td></tr></table>
+
+<pre>
+Job 6 - fix_maps_to_template_definitions.p. - for project realization 1
+================================================================================
+Checking horizons
+================================================================================
+Map TopVolantis/DS_gf_initial_extracted is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;TopVolantis&gt; in &lt;DS_gf_initial_extracted&gt;!
+Map TopTherys/DS_gf_initial_extracted is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;TopTherys&gt; in &lt;DS_gf_initial_extracted&gt;!
+Map TopVolon/DS_gf_initial_extracted is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;TopVolon&gt; in &lt;DS_gf_initial_extracted&gt;!
+Map BaseVolantis/DS_gf_initial_extracted is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;BaseVolantis&gt; in &lt;DS_gf_initial_extracted&gt;!
+A total of 4 maps in &lt;horizons&gt; has been fixed!
+================================================================================
+Checking zones
+================================================================================
+Map Valysar/IS_trendcontours_alt1 is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;Valysar&gt; in &lt;IS_trendcontours_alt1&gt;!
+Map Therys/IS_trendcontours_alt1 is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;Therys&gt; in &lt;IS_trendcontours_alt1&gt;!
+Map Volon/IS_trendcontours_alt1 is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;Volon&gt; in &lt;IS_trendcontours_alt1&gt;!
+Map Valysar/IS_wells_only is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;Valysar&gt; in &lt;IS_wells_only&gt;!
+Map Therys/IS_wells_only is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;Therys&gt; in &lt;IS_wells_only&gt;!
+Map Volon/IS_wells_only is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;Volon&gt; in &lt;IS_wells_only&gt;!
+Map Valysar/IS_trendcontours is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;Valysar&gt; in &lt;IS_trendcontours&gt;!
+Map Therys/IS_trendcontours is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;Therys&gt; in &lt;IS_trendcontours&gt;!
+Map Volon/IS_trendcontours is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;Volon&gt; in &lt;IS_trendcontours&gt;!
+Map Valysar/IS_trendcontours_alt2 is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;Valysar&gt; in &lt;IS_trendcontours_alt2&gt;!
+Map Therys/IS_trendcontours_alt2 is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;Therys&gt; in &lt;IS_trendcontours_alt2&gt;!
+Map Volon/IS_trendcontours_alt2 is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;Volon&gt; in &lt;IS_trendcontours_alt2&gt;!
+Map TopVolantis_BaseVolantis/IS_sum_isochores is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;TopVolantis_BaseVolantis&gt; in &lt;IS_sum_isochores&gt;!
+Map Valysar/IS_gf_extracted is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;Valysar&gt; in &lt;IS_gf_extracted&gt;!
+Map Therys/IS_gf_extracted is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;Therys&gt; in &lt;IS_gf_extracted&gt;!
+Map Volon/IS_gf_extracted is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;Volon&gt; in &lt;IS_gf_extracted&gt;!
+A total of 16 maps in &lt;zones&gt; has been fixed!
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:30.7</td></tr></table>
+
+<pre>
+Job 7 - compute_stddev_for_hum.py - for project realization 1
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:30.9</td></tr></table>
+
+<font color="green"><b>Completed workflow structural_model_initial</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:01:21</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:30.9</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 17</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:31.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:31.9</td></tr></table>
+
+<pre>
+Job 18 - structural_model_hum - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+
+<pre>
+Job 2 - hum_dc_chose_thealternative.py - for project realization 1
+Deactivate: hum_dc_alt1
+Activate: hum_dc_alt2
+Set model mode to 0 --&gt; PREDICTION
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.3</td></tr></table>
+
+<pre>
+Job 3 - hum_dc_alt1 - for project realization 1 - deactivated
+
+<pre>
+Job 4 - hum_dc_alt2 - for project realization 1
+Horizon well picks (by horizon) could not be found for 4 horizons.
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:09.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:10.1</td></tr></table>
+
+<pre>
+Job 5 - extract_from_structuralmodel_hum - for project realization 1
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:02.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:12.1</td></tr></table>
+
+<pre>
+Job 6 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+
+<pre>
+Job 7 - surfaces_from_hum_or_ert.py - for project realization 1
+Using maps from initial HUM
+HUM surface regridded from DS_gf_hum_extracted to DS_hum_ert_ahm for TopVolantis
+HUM surface regridded from DS_gf_hum_extracted to DS_hum_ert_ahm for TopTherys
+HUM surface regridded from DS_gf_hum_extracted to DS_hum_ert_ahm for TopVolon
+HUM surface regridded from DS_gf_hum_extracted to DS_hum_ert_ahm for BaseVolantis
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:12.3</td></tr></table>
+
+<pre>
+Job 8 - hum_dc_velomaps.py - for project realization 1
+Read filter maps...
+Process velocity maps...
+Velocity map for Above to category VS_input_reiterate_hum
+Velocity map for TopVolantis_BaseVolantis to category VS_input_reiterate_hum
+Stored Valysar in IS_input_reiterate_hum
+Stored Therys in IS_input_reiterate_hum
+Stored Volon in IS_input_reiterate_hum
+</pre>
+<font color="green"><b>Completed job 8</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:12.9</td></tr></table>
+
+<pre>
+Job 9 - extrapolate_vs_maps - for project realization 1
+</pre>
+<font color="green"><b>Completed job 9</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.2</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:13.1</td></tr></table>
+
+<pre>
+Job 10 - hum_postiterate_kriging - for project realization 1
+Horizon well picks (by horizon) could not be found for 4 horizons.
+</pre>
+<font color="green"><b>Completed job 10</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:09.7</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:22.7</td></tr></table>
+
+<pre>
+Job 11 - extract_postiterate - for project realization 1
+</pre>
+<font color="green"><b>Completed job 11</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:02.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:24.8</td></tr></table>
+
+<pre>
+Job 12 - extract_faults_postiterate - for project realization 1
+</pre>
+<font color="green"><b>Completed job 12</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:24.9</td></tr></table>
+
+<pre>
+Job 13 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 13</b></font>
+
+<pre>
+Job 14 - snap_points_v2.py - for project realization 1
+Read points TopVolantis
+Read fault polygons for TopVolantis
+Read points TopTherys
+Read fault polygons for TopTherys
+Read points TopVolon
+Read fault polygons for TopVolon
+Read points BaseVolantis
+Read fault polygons for BaseVolantis
+Eliminate inside points for TopVolantis by polygon TopVolantis
+Eliminate inside points for TopTherys by polygon TopVolantis
+Eliminate inside points for TopTherys by polygon TopTherys
+Eliminate inside points for TopVolon by polygon TopVolantis
+Eliminate inside points for TopVolon by polygon TopTherys
+Eliminate inside points for TopVolon by polygon TopVolon
+Eliminate inside points for BaseVolantis by polygon TopVolantis
+Eliminate inside points for BaseVolantis by polygon TopTherys
+Eliminate inside points for BaseVolantis by polygon TopVolon
+Eliminate inside points for BaseVolantis by polygon BaseVolantis
+
+Cutting done, see DP_filter_post_hum_input
+</pre>
+<font color="green"><b>Completed job 14</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:02.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:27.6</td></tr></table>
+
+<pre>
+Job 15 - faults_from_hum - for project realization 1
+Related stratigraphy object(s) will be cleared.
+</pre>
+<font color="green"><b>Completed job 15</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:27.7</td></tr></table>
+
+<pre>
+Job 16 - Edit: Fault truncations - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 16</b></font>
+
+<pre>
+Job 17 - filter_post_hum - for project realization 1
+</pre>
+<font color="green"><b>Completed job 17</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:28.0</td></tr></table>
+
+<pre>
+Job 18 - depth_post_hum - for project realization 1
+</pre>
+<font color="green"><b>Completed job 18</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:02.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:30.3</td></tr></table>
+
+<pre>
+Job 19 - extract_postprocess - for project realization 1
+</pre>
+<font color="green"><b>Completed job 19</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:03.6</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:33.9</td></tr></table>
+
+<pre>
+Job 20 - extract_postprocess_faultlines - for project realization 1
+</pre>
+<font color="green"><b>Completed job 20</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:33.9</td></tr></table>
+
+<pre>
+Job 21 - ds_postprocess_make_msl_basevelmod. - for project realization 1
+Set MSL and BaseVelmodel for DS_extract_postprocess
+Set MSL and BaseVelmodel for TS_time_extracted
+</pre>
+<font color="green"><b>Completed job 21</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:34.2</td></tr></table>
+
+<pre>
+Job 22 - fix_maps_to_template_definitions.p. - for project realization 1
+================================================================================
+Checking horizons
+================================================================================
+Map TopVolantis/DS_gf_hum_extracted is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;TopVolantis&gt; in &lt;DS_gf_hum_extracted&gt;!
+Map TopTherys/DS_gf_hum_extracted is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;TopTherys&gt; in &lt;DS_gf_hum_extracted&gt;!
+Map TopVolon/DS_gf_hum_extracted is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;TopVolon&gt; in &lt;DS_gf_hum_extracted&gt;!
+Map BaseVolantis/DS_gf_hum_extracted is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;BaseVolantis&gt; in &lt;DS_gf_hum_extracted&gt;!
+Map MSL/DS_extract_postprocess is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;MSL&gt; in &lt;DS_extract_postprocess&gt;!
+Map TopVolantis/DS_extract_postprocess is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;TopVolantis&gt; in &lt;DS_extract_postprocess&gt;!
+Map TopTherys/DS_extract_postprocess is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;TopTherys&gt; in &lt;DS_extract_postprocess&gt;!
+Map TopVolon/DS_extract_postprocess is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;TopVolon&gt; in &lt;DS_extract_postprocess&gt;!
+Map BaseVolantis/DS_extract_postprocess is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;BaseVolantis&gt; in &lt;DS_extract_postprocess&gt;!
+Map BaseVelmodel/DS_extract_postprocess is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;BaseVelmodel&gt; in &lt;DS_extract_postprocess&gt;!
+Map TopVolantis/DS_hum_postiterate_extracted is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;TopVolantis&gt; in &lt;DS_hum_postiterate_extracted&gt;!
+Map TopTherys/DS_hum_postiterate_extracted is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;TopTherys&gt; in &lt;DS_hum_postiterate_extracted&gt;!
+Map TopVolon/DS_hum_postiterate_extracted is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;TopVolon&gt; in &lt;DS_hum_postiterate_extracted&gt;!
+Map BaseVolantis/DS_hum_postiterate_extracted is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;BaseVolantis&gt; in &lt;DS_hum_postiterate_extracted&gt;!
+A total of 14 maps in &lt;horizons&gt; has been fixed!
+================================================================================
+Checking zones
+================================================================================
+Map Above/VS_input_reiterate_hum_filled is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;Above&gt; in &lt;VS_input_reiterate_hum_filled&gt;!
+Map TopVolantis_BaseVolantis/VS_input_reiterate_hum_filled is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;TopVolantis_BaseVolantis&gt; in &lt;VS_input_reiterate_hum_filled&gt;!
+Map Valysar/IS_extract_postprocess is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;Valysar&gt; in &lt;IS_extract_postprocess&gt;!
+Map Therys/IS_extract_postprocess is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;Therys&gt; in &lt;IS_extract_postprocess&gt;!
+Map Volon/IS_extract_postprocess is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;Volon&gt; in &lt;IS_extract_postprocess&gt;!
+A total of 5 maps in &lt;zones&gt; has been fixed!
+</pre>
+<font color="green"><b>Completed job 22</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:35.4</td></tr></table>
+
+<pre>
+Job 23 - surfaces_hum_to_ert.py - for project realization 1
+Surface regridded from DS_extract_postprocess en export to ../output/hum/TopVolantis.irap for TopVolantis
+Surface regridded from DS_extract_postprocess en export to ../output/hum/TopTherys.irap for TopTherys
+Surface regridded from DS_extract_postprocess en export to ../output/hum/TopVolon.irap for TopVolon
+Surface regridded from DS_extract_postprocess en export to ../output/hum/BaseVolantis.irap for BaseVolantis
+</pre>
+<font color="green"><b>Completed job 23</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:35.9</td></tr></table>
+
+<font color="green"><b>Completed workflow structural_model_hum</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:01:57</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:35.9</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 18</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:35.10</td></tr><tr><td><b>Total elapsed time</b></td><td>0:01:07.9</td></tr></table>
+
+<pre>
+Job 19 - regions_contacts - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 3 - mainregions - for project realization 1
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.0</td></tr></table>
+
+<pre>
+Job 4 - regions_comb_split - for project realization 1
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.1</td></tr></table>
+
+<pre>
+Job 5 - make_regionattributes.py - for project realization 1
+Generated file: ../output/regions/regs_fmuconfig.rmsregatt
+Done
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.3</td></tr></table>
+
+<pre>
+Job 6 - regs_fmuconfig - for project realization 1
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.3</td></tr></table>
+
+<pre>
+Job 7 - Region Attributes Table: regs_fmuc. - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+
+<pre>
+Job 8 - regionsattributes - for project realization 1
+</pre>
+<font color="green"><b>Completed job 8</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.3</td></tr></table>
+
+<pre>
+Job 9 - contactmodel - for project realization 1
+</pre>
+<font color="green"><b>Completed job 9</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.3</td></tr></table>
+
+<font color="green"><b>Completed workflow regions_contacts</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:01:58</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:00.3</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 19</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:01:08.2</td></tr></table>
+
+<pre>
+Job 20 - create_gridmodels - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+
+<pre>
+Job 2 - make_simgrid - for project realization 1
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.0</td></tr></table>
+
+<pre>
+Job 3 - origin_nw - for project realization 1
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.0</td></tr></table>
+
+<pre>
+Job 4 - zone_etc - for project realization 1
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.0</td></tr></table>
+
+<pre>
+Job 5 - extract_horizons_simgrid - for project realization 1
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.6</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.7</td></tr></table>
+
+<pre>
+Job 6 - qcforward_check_simgridgrid_vs_zon. - for project realization 1 - deactivated
+
+<pre>
+Job 7 - qcforward_check_gridquality.py - for project realization 1 - deactivated
+
+<pre>
+Job 8 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 8</b></font>
+
+<pre>
+Job 9 - adjust_grid_to_picks - for project realization 1
+</pre>
+<font color="green"><b>Completed job 9</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.2</td></tr></table>
+
+<pre>
+Job 10 - qcforward_check_simgridgrid_vs_per. - for project realization 1 - deactivated
+
+<pre>
+Job 11 - simgrid_regions - for project realization 1
+</pre>
+<font color="green"><b>Completed job 11</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.2</td></tr></table>
+
+<pre>
+Job 12 - contacts - for project realization 1
+</pre>
+<font color="green"><b>Completed job 12</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.2</td></tr></table>
+
+<pre>
+Job 13 - fwl_surface - for project realization 1
+</pre>
+<font color="green"><b>Completed job 13</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.3</td></tr></table>
+
+<pre>
+Job 14 - goc_surface - for project realization 1
+</pre>
+<font color="green"><b>Completed job 14</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.3</td></tr></table>
+
+<pre>
+Job 15 - make_contacts.py - for project realization 1
+Getting fwl as template...
+See contacts for updated data
+</pre>
+<font color="green"><b>Completed job 15</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.8</td></tr></table>
+
+<pre>
+Job 16 - copy_to_geogrid - for project realization 1
+</pre>
+<font color="green"><b>Completed job 16</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.8</td></tr></table>
+
+<pre>
+Job 17 - refine_to_geogrid - for project realization 1
+</pre>
+<font color="green"><b>Completed job 17</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:03.4</td></tr></table>
+
+<pre>
+Job 18 - extract_horizons_geogrid - for project realization 1
+</pre>
+<font color="green"><b>Completed job 18</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.9</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:04.3</td></tr></table>
+
+<pre>
+Job 19 - print_geogrid_dz_stats.py - for project realization 1
+Zone no 1
+  Mean: 0.825
+   Min: 0.244
+   Max: 1.916
+   P50: 0.804
+Zone no 2
+  Mean: 0.881
+   Min: 0.000
+   Max: 1.270
+   P50: 1.000
+Zone no 3
+  Mean: 0.990
+   Min: 0.000
+   Max: 2.594
+   P50: 0.904
+</pre>
+<font color="green"><b>Completed job 19</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:04.8</td></tr></table>
+
+<pre>
+Job 20 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 20</b></font>
+
+<pre>
+Job 21 - split_geogrid.py - for project realization 1
+Valysar     20
+Therys     34
+Volon     15
+Done
+</pre>
+<font color="green"><b>Completed job 21</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:02.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:06.8</td></tr></table>
+
+<pre>
+Job 22 - ensure_zone_name.py - for project realization 1
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/grid3d/_gridprop_roxapi.py:187: UserWarning: Existing RMS icon has data type &lt;class 'numpy.uint16'&gt; while GridProperty has RMS data type &lt;class 'numpy.uint8'&gt;. This may cause issues in data content while saving to RMS.
+Unsafe casting is allowed; this means that original values may be truncated which may give unpredictable results and/or mess up code names and values settings.
+  warn(message, UserWarning)
+Ensured that zone name is Valysar for Geogrid_Valysar
+Ensured that zone name is Therys for Geogrid_Therys
+Ensured that zone name is Volon for Geogrid_Volon
+</pre>
+<font color="green"><b>Completed job 22</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:07.8</td></tr></table>
+
+<pre>
+Job 23 - fix_maps_to_template_definitions.p. - for project realization 1
+================================================================================
+Checking horizons
+================================================================================
+Map TopVolantis/DS_extract_geogrid is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;TopVolantis&gt; in &lt;DS_extract_geogrid&gt;!
+Map TopTherys/DS_extract_geogrid is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;TopTherys&gt; in &lt;DS_extract_geogrid&gt;!
+Map TopVolon/DS_extract_geogrid is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;TopVolon&gt; in &lt;DS_extract_geogrid&gt;!
+Map BaseVolantis/DS_extract_geogrid is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;BaseVolantis&gt; in &lt;DS_extract_geogrid&gt;!
+Map TopVolantis/DS_extract_simgrid is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;TopVolantis&gt; in &lt;DS_extract_simgrid&gt;!
+Map TopTherys/DS_extract_simgrid is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;TopTherys&gt; in &lt;DS_extract_simgrid&gt;!
+Map TopVolon/DS_extract_simgrid is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;TopVolon&gt; in &lt;DS_extract_simgrid&gt;!
+Map BaseVolantis/DS_extract_simgrid is not according to template, you consider to make a fix...
+... and fix comes here!
+... done for &lt;BaseVolantis&gt; in &lt;DS_extract_simgrid&gt;!
+A total of 8 maps in &lt;horizons&gt; has been fixed!
+================================================================================
+Checking zones
+================================================================================
+A total of 0 maps in &lt;zones&gt; has been fixed!
+</pre>
+<font color="green"><b>Completed job 23</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:08.6</td></tr></table>
+
+<font color="green"><b>Completed workflow create_gridmodels</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:02:06</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:08.6</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 20</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:08.6</td></tr><tr><td><b>Total elapsed time</b></td><td>0:01:16.8</td></tr></table>
+
+<pre>
+Job 21 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 21</b></font>
+
+<pre>
+Job 22 - ORION_export_grids_and_geometry_pr. - for project realization 1
+---
+Writing simgrid grid to ../../share/results/grids
+Writing parameter to ../../share/results/grids/simgrid--zone.roff
+Writing parameter to ../../share/results/grids/simgrid--region.roff
+Writing parameter to ../../share/results/grids/simgrid--fwl.roff
+Writing parameter to ../../share/results/grids/simgrid--goc.roff
+Writing parameter to ../../share/results/grids/simgrid--fwl_wg.roff
+Writing parameter to ../../share/results/grids/simgrid--faultblock.roff
+---
+Writing geogrid grid to ../../share/results/grids
+Writing parameter to ../../share/results/grids/geogrid--zone.roff
+Writing parameter to ../../share/results/grids/geogrid--region.roff
+Writing parameter to ../../share/results/grids/geogrid--fwl.roff
+Writing parameter to ../../share/results/grids/geogrid--goc.roff
+Writing parameter to ../../share/results/grids/geogrid--fwl_wg.roff
+Writing parameter to ../../share/results/grids/geogrid--faultblock.roff
+---
+Writing geogrid_valysar grid to ../output/grids
+Writing parameter to ../output/grids/geogrid_valysar--zone.roff
+---
+Writing geogrid_therys grid to ../output/grids
+Writing parameter to ../output/grids/geogrid_therys--zone.roff
+---
+Writing geogrid_volon grid to ../output/grids
+Writing parameter to ../output/grids/geogrid_volon--zone.roff
+Done.
+</pre>
+<font color="green"><b>Completed job 22</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:02.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:01:19.1</td></tr></table>
+
+<pre>
+Job 23 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 24 - export_wells - for project realization 1
+</pre>
+<font color="green"><b>Completed job 24</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.10</td></tr><tr><td><b>Total elapsed time</b></td><td>0:01:20.0</td></tr></table>
+
+<pre>
+Job 25 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 25</b></font>
+
+<pre>
+Job 26 - RMS_facies_aps - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - ORION_empty_grid_models.py - for project realization 1 - deactivated
+
+<pre>
+Job 2 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 3 - cleanup_output_aps.py - for project realization 1
+Deleted old ../output/aps/ERTBOX.EGRID
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.3</td></tr></table>
+
+<pre>
+Job 4 - ORION_create_ertbox_grid.py - for project realization 1
+RMS is running in batch mode
+Done
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.5</td></tr></table>
+
+<pre>
+Job 5 - ORION_import_ertbox_grid.py - for project realization 1
+Import ../output/aps/ERTBOX.EGRID
+Store in gridmodel ERTBOX
+Done
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.3</td></tr></table>
+
+<pre>
+Job 6 - ORION_import_geo_subgrids.py - for project realization 1
+Importing grid model Geogrid_Valysar
+Importing grid model Geogrid_Therys
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/grid3d/_grid_roxapi.py:218: UserWarning: Equal Z coordinates detected and adjusted to avoid issues when converting to RMAPI.
+  tpi, bpi, zco, zma = grid_cpp.convert_xtgeo_to_rmsapi()
+Importing grid model Geogrid_Volon
+Done
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:03.1</td></tr></table>
+
+<pre>
+Job 7 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+
+<pre>
+Job 8 - block_wells - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+
+<pre>
+Job 2 - bw_valysar_vertical - for project realization 1
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.2</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.2</td></tr></table>
+
+<pre>
+Job 3 - bw_valysar_horizontal - for project realization 1
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.3</td></tr></table>
+
+<pre>
+Job 4 - bw_therys_vertical - for project realization 1
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.2</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.5</td></tr></table>
+
+<pre>
+Job 5 - bw_therys_horizontal - for project realization 1
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.6</td></tr></table>
+
+<pre>
+Job 6 - bw_volon_vertical - for project realization 1
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.2</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.8</td></tr></table>
+
+<pre>
+Job 7 - bw_volon_horizontal - for project realization 1
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.10</td></tr></table>
+
+<pre>
+Job 8 - blockwells_aps.py - for project realization 1
+Working with Valysar which have facies: {0: 'Floodplain', 1: 'Channel', 2: 'Crevasse', 5: 'Coal'}
+Well OP5_Y1
+No such well in blocked well set: OP5_Y1
+Well OP5_Y2
+No such well in blocked well set: OP5_Y2
+Well OP6
+No such well in blocked well set: OP6
+Well MLW_OP5_Y1
+No such well in blocked well set: MLW_OP5_Y1
+Well 55_33-1
+Well 55_33-2
+Well 55_33-3
+Well 55_33-A-1
+Well 55_33-A-2
+Well 55_33-A-3
+Well 55_33-A-4
+Well 55_33-A-5
+Well 55_33-A-6
+Working with Therys which have facies: {6: 'Calcite', 10: 'Offshore', 11: 'Lowershoreface', 12: 'Uppershoreface'}
+Well OP5_Y1
+No such well in blocked well set: OP5_Y1
+Well OP5_Y2
+No such well in blocked well set: OP5_Y2
+Well OP6
+No such well in blocked well set: OP6
+Well MLW_OP5_Y1
+No such well in blocked well set: MLW_OP5_Y1
+Well 55_33-1
+Well 55_33-2
+Well 55_33-3
+No such well in blocked well set: 55_33-3
+Well 55_33-A-1
+Well 55_33-A-2
+Well 55_33-A-3
+Well 55_33-A-4
+No such well in blocked well set: 55_33-A-4
+Well 55_33-A-5
+Well 55_33-A-6
+Working with Volon which have facies: {0: 'Floodplain', 1: 'Channel', 6: 'Calcite'}
+Well OP5_Y1
+No such well in blocked well set: OP5_Y1
+Well OP5_Y2
+No such well in blocked well set: OP5_Y2
+Well OP6
+No such well in blocked well set: OP6
+Well MLW_OP5_Y1
+No such well in blocked well set: MLW_OP5_Y1
+Well 55_33-1
+Well 55_33-2
+Well 55_33-3
+Well 55_33-A-1
+Well 55_33-A-2
+Well 55_33-A-3
+Well 55_33-A-4
+Well 55_33-A-5
+Well 55_33-A-6
+Making APS input logs done
+</pre>
+<font color="green"><b>Completed job 8</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.7</td></tr></table>
+
+<font color="green"><b>Completed workflow block_wells</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:02:15</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:01.7</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 8</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.10</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:05.0</td></tr></table>
+
+<pre>
+Job 9 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 10 - prepare_facies_probability - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+
+<pre>
+Job 2 - ds_extract_geogrid_make_msl_baseve. - for project realization 1
+Set MSL and BaseVelmodel for DS_extract_geogrid
+Set MSL and BaseVelmodel for TS_time_extracted
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.3</td></tr></table>
+
+<pre>
+Job 3 - velocitymodel_fromtimedepth_surfac. - for project realization 1
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:19.2</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:19.4</td></tr></table>
+
+<pre>
+Job 4 - dc_relai_simpli - for project realization 1
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:15.7</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:35.2</td></tr></table>
+
+<pre>
+Job 5 - relai_simpli - for project realization 1
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:35.2</td></tr></table>
+
+<pre>
+Job 6 - relai_simpli - for project realization 1
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.4</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:35.5</td></tr></table>
+
+<pre>
+Job 7 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+
+<pre>
+Job 8 - relai_simpli - for project realization 1
+</pre>
+<font color="green"><b>Completed job 8</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:35.5</td></tr></table>
+
+<pre>
+Job 9 - Show/Edit Trend Function Values: f. - for project realization 1 - deactivated
+
+<pre>
+Job 10 - Show/Edit Trend Function Values: f. - for project realization 1 - deactivated
+
+<pre>
+Job 11 - Show/Edit Trend Function Values: f. - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 11</b></font>
+
+<pre>
+Job 12 - Show/Edit Trend Function Values: f. - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 12</b></font>
+
+<pre>
+Job 13 - prob_channel_relai_simpli - for project realization 1
+</pre>
+<font color="green"><b>Completed job 13</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.2</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:35.7</td></tr></table>
+
+<pre>
+Job 14 - prob_floodplain_relai_simpli - for project realization 1
+</pre>
+<font color="green"><b>Completed job 14</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:35.8</td></tr></table>
+
+<pre>
+Job 15 - prob_coal_relai_simpli - for project realization 1
+</pre>
+<font color="green"><b>Completed job 15</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:35.10</td></tr></table>
+
+<pre>
+Job 16 - modify_prob_coal_valysar.py - for project realization 1
+Update coal etc trend for base layer
+</pre>
+<font color="green"><b>Completed job 16</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:36.2</td></tr></table>
+
+<font color="green"><b>Completed workflow prepare_facies_probability</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:02:52</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:36.2</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 10</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:36.2</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:41.3</td></tr></table>
+
+<pre>
+Job 11 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 11</b></font>
+
+<pre>
+Job 12 - create_constant_aps_trends.py - for project realization 1
+Setting facies probabilities from global variables
+Creating trendparameters for zone Valysar in grid Geogrid_Valysar
+  - INFO: Floodplain is defined as the background facies
+  - trend_aps_Floodplain with value 0.43
+  - trend_aps_Channel with value 0.34
+  - trend_aps_Crevasse with value 0.13
+  - trend_aps_Coal with value 0.10
+Creating trendparameters for zone Therys in grid Geogrid_Therys
+  - trend_aps_Calcite with value 0.10
+  - INFO: Offshore is defined as the background facies
+  - trend_aps_Offshore with value 0.40
+  - trend_aps_Lowershoreface with value 0.30
+  - trend_aps_Uppershoreface with value 0.20
+Creating trendparameters for zone Volon in grid Geogrid_Volon
+  - INFO: Floodplain is defined as the background facies
+  - trend_aps_Floodplain with value 0.30
+  - trend_aps_Channel with value 0.62
+  - trend_aps_Calcite with value 0.08
+</pre>
+<font color="green"><b>Completed job 12</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:42.8</td></tr></table>
+
+<pre>
+Job 13 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 13</b></font>
+
+<pre>
+Job 14 - RMS_switch_for_valysar_seiscond.py. - for project realization 1
+Activated seismic conditioning in Valysar, will overwite
+</pre>
+<font color="green"><b>Completed job 14</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:43.1</td></tr></table>
+
+<pre>
+Job 15 - create_seimic_aps_trends_valysar.p. - for project realization 1
+Working on facies Channel
+  - Using parameter prob_channel_relai_simpli as input
+  - Adjusting mean Channel fraction from 0.37 to 0.34
+  - Storing modified trend as trend_aps_Channel
+Working on facies Coal
+  - Using parameter prob_coal_relai_simpli as input
+  - Adjusting mean Coal fraction from 0.08 to 0.10
+  - Storing modified trend as trend_aps_Coal
+Working on facies Floodplain
+  - Using parameter prob_floodplain_relai_simpli as input
+  - Adjusting mean Floodplain fraction from 0.31 to 0.43
+  - Storing modified trend as trend_aps_Floodplain
+
+Starting normalization using aps.toolbox script
+{'project': Project(name=&quot;&quot;), 'grid_model_name': 'Geogrid_Valysar', 'modelling_facies_per_zone': {1: ['Floodplain', 'Channel', 'Crevasse', 'Coal']}, 'prob_param_per_facies': {'Floodplain': 'trend_aps_Floodplain', 'Channel': 'trend_aps_Channel', 'Crevasse': 'trend_aps_Crevasse', 'Coal': 'trend_aps_Coal'}, 'overwrite': True, 'max_allowed_fraction_of_values_outside_tolerance': 1}
+Check normalisation of facies probabilities for realisation 1
+Zone number: 1
+Finished normalization of facies probabilities
+Done
+</pre>
+<font color="green"><b>Completed job 15</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:43.3</td></tr></table>
+
+<pre>
+Job 16 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 16</b></font>
+
+<pre>
+Job 17 - modify_aps_trends_valysar.py - for project realization 1
+Modifying trendparameters in Geogrid_Valysar
+  - Setting value for base layer in trend_aps_Coal to 0.97
+  - Setting value for base layer in trend_aps_Crevasse to 0.01
+  - Setting value for base layer in trend_aps_Channel to 0.01
+  - Setting value for base layer in trend_aps_Floodplain to 0.01
+</pre>
+<font color="green"><b>Completed job 17</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:43.6</td></tr></table>
+
+<pre>
+Job 18 - prob_facies - for project realization 1
+Predicting parameters.
+Predicting parameter aps_Channel.
+      * Number of threads used for calculation: 1
+Predicting parameter aps_Crevasse.
+      * Number of threads used for calculation: 1
+Predicting parameter aps_Floodplain.
+      * Number of threads used for calculation: 1
+Predicting parameter aps_Coal.
+      * Number of threads used for calculation: 1
+</pre>
+<font color="green"><b>Completed job 18</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.6</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:44.1</td></tr></table>
+
+<pre>
+Job 19 - VALYSAR - for project realization 1
+WARNING:
+         No automatic grid conformity check for 'Geogrid_Valysar'
+         This grid is not created by an RMS grid building job.
+GUI version: 1.5.0.post1.dev272+g39fa9f26d
+Check normalisation of facies probabilities for realisation 1
+- Read file: /tmp/tmpcrqo_viq.xml
+Zone number: 1
+- Number of cells that are normalised for zone: 1 are 156761 of 268640 cells.
+- Updated probability cube: probcube_aps_Coal
+- Updated probability cube: probcube_aps_Crevasse
+- Updated probability cube: probcube_aps_Channel
+- Updated probability cube: probcube_aps_Floodplain
+Finished normalization of facies probabilities
+
+Update APS model parameters from FMU parameters
+The APS parameters are updated for the job: VALYSAR
+ 
+FMU mode. Prepare for simulation of GRF's in ERTBOX
+
+Simulation of gaussian fields for realisation number: 1
+ 
+Export 3D parameter files from ERTBOX
+ 
+Import parameters for initial ensemble from files into ERTBOX and Geogrid_Valysar
+
+APS truncations for realisation 1
+
+
+Finished
+</pre>
+<font color="green"><b>Completed job 19</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:05.4</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:49.5</td></tr></table>
+
+<pre>
+Job 20 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 20</b></font>
+
+<pre>
+Job 21 - prob_facies - for project realization 1
+Predicting parameters.
+Predicting parameter aps_Offshore.
+      * Number of threads used for calculation: 1
+Predicting parameter aps_Lowershoreface.
+      * Number of threads used for calculation: 1
+Predicting parameter aps_Uppershoreface.
+      * Number of threads used for calculation: 1
+Predicting parameter aps_Calcite.
+      * Number of threads used for calculation: 1
+</pre>
+<font color="green"><b>Completed job 21</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.7</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:51.3</td></tr></table>
+
+<pre>
+Job 22 - THERYS - for project realization 1
+WARNING:
+         No automatic grid conformity check for 'Geogrid_Therys'
+         This grid is not created by an RMS grid building job.
+GUI version: 1.5.0.post1.dev272+g39fa9f26d
+Check normalisation of facies probabilities for realisation 1
+- Read file: /tmp/tmpvj4prmg0.xml
+Zone number: 1
+- Number of cells that are normalised for zone: 1 are 136828 of 183896 cells.
+- Updated probability cube: probcube_aps_Uppershoreface
+- Updated probability cube: probcube_aps_Offshore
+- Updated probability cube: probcube_aps_Lowershoreface
+- Updated probability cube: probcube_aps_Calcite
+Finished normalization of facies probabilities
+
+Update APS model parameters from FMU parameters
+The APS parameters are updated for the job: THERYS
+ 
+FMU mode. Prepare for simulation of GRF's in ERTBOX
+
+Simulation of gaussian fields for realisation number: 1
+ 
+Export 3D parameter files from ERTBOX
+ 
+Import parameters for initial ensemble from files into ERTBOX and Geogrid_Therys
+
+APS truncations for realisation 1
+
+
+Finished
+</pre>
+<font color="green"><b>Completed job 22</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:02.6</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:53.8</td></tr></table>
+
+<pre>
+Job 23 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 23</b></font>
+
+<pre>
+Job 24 - modify_aps_trends_volon.py - for project realization 1
+Modifying trendparameters in Geogrid_Volon
+  - Setting value for top layer in trend_aps_Calcite to 0.98
+  - Setting value for top layer in trend_aps_Channel to 0.01
+  - Setting value for top layer in trend_aps_Floodplain to 0.01
+</pre>
+<font color="green"><b>Completed job 24</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:54.1</td></tr></table>
+
+<pre>
+Job 25 - prob_facies - for project realization 1
+Predicting parameters.
+Predicting parameter aps_Floodplain.
+      * Number of threads used for calculation: 1
+Predicting parameter aps_Channel.
+      * Number of threads used for calculation: 1
+Predicting parameter aps_Calcite.
+      * Number of threads used for calculation: 1
+</pre>
+<font color="green"><b>Completed job 25</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.2</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:55.3</td></tr></table>
+
+<pre>
+Job 26 - VOLON - for project realization 1
+WARNING:
+         No automatic grid conformity check for 'Geogrid_Volon'
+         This grid is not created by an RMS grid building job.
+GUI version: 1.5.0.post1.dev272+g39fa9f26d
+Check normalisation of facies probabilities for realisation 1
+- Read file: /tmp/tmpoc83yozh.xml
+Zone number: 1
+- Number of cells that are normalised for zone: 1 are 168733 of 200640 cells.
+- Updated probability cube: probcube_aps_Calcite
+- Updated probability cube: probcube_aps_Floodplain
+- Updated probability cube: probcube_aps_Channel
+Finished normalization of facies probabilities
+
+Update APS model parameters from FMU parameters
+The APS parameters are updated for the job: VOLON
+ 
+FMU mode. Prepare for simulation of GRF's in ERTBOX
+
+Simulation of gaussian fields for realisation number: 1
+ 
+Export 3D parameter files from ERTBOX
+ 
+Import parameters for initial ensemble from files into ERTBOX and Geogrid_Volon
+
+APS truncations for realisation 1
+
+
+Finished
+</pre>
+<font color="green"><b>Completed job 26</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.6</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:56.8</td></tr></table>
+
+<pre>
+Job 27 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 27</b></font>
+
+<pre>
+Job 28 - merge_aps_facies.py - for project realization 1
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/grid3d/_gridprop_roxapi.py:187: UserWarning: Existing RMS icon has data type &lt;class 'numpy.uint8'&gt; while GridProperty has RMS data type uint16. This may cause issues in data content while saving to RMS.
+Unsafe casting is allowed; this means that original values may be truncated which may give unpredictable results and/or mess up code names and values settings.
+  warn(message, UserWarning)
+Copied facies_aps to FACIES for Geogrid_Valysar
+Copied facies_aps to FACIES for Geogrid_Therys
+Copied facies_aps to FACIES for Geogrid_Volon
+</pre>
+<font color="green"><b>Completed job 28</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:57.1</td></tr></table>
+
+<pre>
+Job 29 - RMS_single_to_multi_resample_facie. - for project realization 1
+4.13.2.dev4+g015cf74bb
+Property is FACIES
+XXX valysar
+.. Zone no 1...
+.. Single grid is Geogrid_Valysar
+LOC (array([ 0,  0,  0, ..., 91, 91, 91]), array([  0,   0,   0, ..., 145, 145, 145]), array([ 0,  1,  2, ..., 17, 18, 19]))
+.. Min/max K 0 - 19
+XXX therys
+.. Zone no 2...
+.. Single grid is Geogrid_Therys
+LOC (array([ 0,  0,  0, ..., 91, 91, 91]), array([  0,   0,   0, ..., 144, 145, 145]), array([20, 21, 22, ..., 21, 20, 21]))
+.. Min/max K 20 - 53
+XXX volon
+.. Zone no 3...
+.. Single grid is Geogrid_Volon
+LOC (array([ 0,  0,  0, ..., 91, 91, 91]), array([  0,   0,   0, ..., 145, 145, 145]), array([54, 55, 56, ..., 66, 67, 68]))
+.. Min/max K 54 - 68
+Property to Roxar is FACIES...
+Done
+</pre>
+<font color="green"><b>Completed job 29</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:57.8</td></tr></table>
+
+<pre>
+Job 30 - RMS_export_facies_related_paramete. - for project realization 1
+Writing Geogrid's FACIES to ../../share/results/grids
+Writing Geogrid_Valysar's FACIES to ../output/grids
+Writing Geogrid_Valysar's facies_aps to ../output/grids
+Writing Geogrid_Valysar's relai_simpli to ../output/grids
+Writing Geogrid_Valysar's prob_channel_relai_simpli to ../output/grids
+Writing Geogrid_Valysar's prob_floodplain_relai_simpli to ../output/grids
+Writing Geogrid_Valysar's prob_coal_relai_simpli to ../output/grids
+Writing Geogrid_Valysar's prob_coal_relai_simpli_edit to ../output/grids
+Skip Geogrid_Valysar's prob_crev_estimate since it's empty
+Skip Geogrid_Valysar's prob_flod_estimate since it's empty
+Writing Geogrid_Valysar's GRF1 to ../output/grids
+Writing Geogrid_Valysar's GRF2 to ../output/grids
+Writing Geogrid_Valysar's GRF3 to ../output/grids
+Skip Geogrid_Valysar's GRF1_transf since it's empty
+Skip Geogrid_Valysar's GRF2_transf since it's empty
+Writing Geogrid_Valysar's trend_aps_Floodplain to ../output/grids
+Writing Geogrid_Valysar's trend_aps_Channel to ../output/grids
+Writing Geogrid_Valysar's trend_aps_Crevasse to ../output/grids
+Writing Geogrid_Valysar's trend_aps_Coal to ../output/grids
+Writing Geogrid_Valysar's probcube_aps_Channel to ../output/grids
+Writing Geogrid_Valysar's probcube_aps_Crevasse to ../output/grids
+Writing Geogrid_Valysar's probcube_aps_Floodplain to ../output/grids
+Writing Geogrid_Valysar's probcube_aps_Coal to ../output/grids
+Writing Geogrid_Therys's FACIES to ../output/grids
+Writing Geogrid_Therys's facies_aps to ../output/grids
+Writing Geogrid_Therys's GRF1 to ../output/grids
+Writing Geogrid_Therys's GRF2 to ../output/grids
+Writing Geogrid_Therys's GRF3 to ../output/grids
+Skip Geogrid_Therys's GRF1_transf since it's empty
+Skip Geogrid_Therys's GRF2_transf since it's empty
+Skip Geogrid_Therys's GRF3_transf since it's empty
+Skip Geogrid_Therys's prob_facies_proxy since it's empty
+Skip Geogrid_Therys's prob_facies_proxy_trend since it's empty
+Skip Geogrid_Therys's prob_uppershoreface_estimate since it's empty
+Skip Geogrid_Therys's prob_lowershoreface_estimate since it's empty
+Skip Geogrid_Therys's prob_offshoreface_estimate since it's empty
+Skip Geogrid_Therys's GRF1_trend since it's empty
+Writing Geogrid_Therys's trend_aps_Calcite to ../output/grids
+Writing Geogrid_Therys's trend_aps_Offshore to ../output/grids
+Writing Geogrid_Therys's trend_aps_Lowershoreface to ../output/grids
+Writing Geogrid_Therys's trend_aps_Uppershoreface to ../output/grids
+Writing Geogrid_Therys's probcube_aps_Offshore to ../output/grids
+Writing Geogrid_Therys's probcube_aps_Lowershoreface to ../output/grids
+Writing Geogrid_Therys's probcube_aps_Uppershoreface to ../output/grids
+Writing Geogrid_Therys's probcube_aps_Calcite to ../output/grids
+Writing Geogrid_Volon's FACIES to ../output/grids
+Writing Geogrid_Volon's facies_aps to ../output/grids
+Writing Geogrid_Volon's GRF1 to ../output/grids
+Writing Geogrid_Volon's GRF2 to ../output/grids
+Writing Geogrid_Volon's GRF3 to ../output/grids
+Skip Geogrid_Volon's prob_calcite since it's empty
+Writing Geogrid_Volon's trend_aps_Floodplain to ../output/grids
+Writing Geogrid_Volon's trend_aps_Channel to ../output/grids
+Writing Geogrid_Volon's trend_aps_Calcite to ../output/grids
+Writing Geogrid_Volon's probcube_aps_Floodplain to ../output/grids
+Writing Geogrid_Volon's probcube_aps_Channel to ../output/grids
+Writing Geogrid_Volon's probcube_aps_Calcite to ../output/grids
+Done.
+</pre>
+<font color="green"><b>Completed job 30</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:02.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:59.9</td></tr></table>
+
+<font color="green"><b>Completed workflow RMS_facies_aps</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:03:10</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:59.9</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 26</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:01:00.7</td></tr><tr><td><b>Total elapsed time</b></td><td>0:02:20.7</td></tr></table>
+
+<pre>
+Job 27 - ORION_facies_aps - for project realization 1 - deactivated
+
+<pre>
+Job 28 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 29 - RMS_props_simple - for project realization 1 - deactivated
+
+<pre>
+Job 30 - RMS_props_standard - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - ORION_import_geo_subgrids_with_fac. - for project realization 1
+Importing grid model Geogrid_Valysar
+Importing discrete parameters...
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/grid3d/_gridprop_roxapi.py:187: UserWarning: Existing RMS icon has data type &lt;class 'numpy.uint8'&gt; while GridProperty has RMS data type &lt;class 'numpy.uint16'&gt;. This may cause issues in data content while saving to RMS.
+Unsafe casting is allowed; this means that original values may be truncated which may give unpredictable results and/or mess up code names and values settings.
+  warn(message, UserWarning)
+Importing grid model Geogrid_Therys
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/grid3d/_grid_roxapi.py:218: UserWarning: Equal Z coordinates detected and adjusted to avoid issues when converting to RMAPI.
+  tpi, bpi, zco, zma = grid_cpp.convert_xtgeo_to_rmsapi()
+Importing discrete parameters...
+Importing grid model Geogrid_Volon
+Importing discrete parameters...
+Done
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:02.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.0</td></tr></table>
+
+<pre>
+Job 2 - import_welldata - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+
+<pre>
+Job 2 - import_wells - for project realization 1
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.5</td></tr></table>
+
+<pre>
+Job 3 - wells_rename_traj.py - for project realization 1
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.5</td></tr></table>
+
+<pre>
+Job 4 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+
+<font color="green"><b>Completed workflow import_welldata</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:03:13</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:00.5</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.5</td></tr></table>
+
+<pre>
+Job 3 - process_well_tops_etc - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 3 - activate_set1 - for project realization 1
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.0</td></tr></table>
+
+<pre>
+Job 4 - empty_active_set - for project realization 1
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.0</td></tr></table>
+
+<pre>
+Job 5 - create_horizon_wpicks - for project realization 1
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.3</td></tr></table>
+
+<pre>
+Job 6 - create_zone_wpicks - for project realization 1
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.4</td></tr></table>
+
+<pre>
+Job 7 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+
+<pre>
+Job 8 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 8</b></font>
+
+<pre>
+Job 9 - process_well_logs.py - for project realization 1
+</pre>
+<font color="green"><b>Completed job 9</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.1</td></tr></table>
+
+<pre>
+Job 10 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 10</b></font>
+
+<pre>
+Job 11 - wells_mask_shoulders.py - for project realization 1
+Use:  55_33-1
+Use:  55_33-2
+Use:  55_33-3
+Use:  55_33-A-1
+Use:  55_33-A-2
+Use:  55_33-A-3
+Use:  55_33-A-4
+Use:  55_33-A-5
+Use:  55_33-A-6
+</pre>
+<font color="green"><b>Completed job 11</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.4</td></tr></table>
+
+<font color="green"><b>Completed workflow process_well_tops_etc</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:03:16</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:02.4</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:02.4</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:04.10</td></tr></table>
+
+<pre>
+Job 4 - block_wells - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+
+<pre>
+Job 2 - bw_valysar_vertical - for project realization 1
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.3</td></tr></table>
+
+<pre>
+Job 3 - bw_valysar_horizontal - for project realization 1
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.4</td></tr></table>
+
+<pre>
+Job 4 - bw_therys_vertical - for project realization 1
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.2</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.6</td></tr></table>
+
+<pre>
+Job 5 - bw_therys_horizontal - for project realization 1
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.7</td></tr></table>
+
+<pre>
+Job 6 - bw_volon_vertical - for project realization 1
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.2</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.9</td></tr></table>
+
+<pre>
+Job 7 - bw_volon_horizontal - for project realization 1
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.2</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.1</td></tr></table>
+
+<pre>
+Job 8 - blockwells_aps.py - for project realization 1
+Working with Valysar which have facies: {0: 'Floodplain', 1: 'Channel', 2: 'Crevasse', 5: 'Coal'}
+Well OP5_Y1
+No such well in blocked well set: OP5_Y1
+Well OP5_Y2
+No such well in blocked well set: OP5_Y2
+Well OP6
+No such well in blocked well set: OP6
+Well MLW_OP5_Y1
+No such well in blocked well set: MLW_OP5_Y1
+Well 55_33-1
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-2
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-3
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-A-1
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-A-2
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-A-3
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-A-4
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-A-5
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-A-6
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Working with Therys which have facies: {6: 'Calcite', 10: 'Offshore', 11: 'Lowershoreface', 12: 'Uppershoreface'}
+Well OP5_Y1
+No such well in blocked well set: OP5_Y1
+Well OP5_Y2
+No such well in blocked well set: OP5_Y2
+Well OP6
+No such well in blocked well set: OP6
+Well MLW_OP5_Y1
+No such well in blocked well set: MLW_OP5_Y1
+Well 55_33-1
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-2
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-3
+No such well in blocked well set: 55_33-3
+Well 55_33-A-1
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-A-2
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-A-3
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-A-4
+No such well in blocked well set: 55_33-A-4
+Well 55_33-A-5
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-A-6
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Working with Volon which have facies: {0: 'Floodplain', 1: 'Channel', 6: 'Calcite'}
+Well OP5_Y1
+No such well in blocked well set: OP5_Y1
+Well OP5_Y2
+No such well in blocked well set: OP5_Y2
+Well OP6
+No such well in blocked well set: OP6
+Well MLW_OP5_Y1
+No such well in blocked well set: MLW_OP5_Y1
+Well 55_33-1
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-2
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-3
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-A-1
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-A-2
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-A-3
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-A-4
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-A-5
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Well 55_33-A-6
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:387: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Making APS input logs done
+</pre>
+<font color="green"><b>Completed job 8</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.9</td></tr></table>
+
+<font color="green"><b>Completed workflow block_wells</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:03:18</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:01.9</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:02.2</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:07.1</td></tr></table>
+
+<pre>
+Job 5 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 6 - Create Univariate: Data analysis - for project realization 1 - deactivated
+
+<pre>
+Job 7 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 8 - std_valysar - for project realization 1
+Simulating parameters.
+Simulating parameters PHIT, KLOGH, VSH and VPHYL in body 1 of 4 (Facies type: Channel).
+      * Number of threads used for calculation: 1
+Simulating parameter PHIT in body 2 of 4 (Facies type: Coal).
+      * Number of threads used for calculation: 1
+Simulating parameter KLOGH in body 2 of 4 (Facies type: Coal).
+Simulating parameters VSH and VPHYL in body 2 of 4 (Facies type: Coal).
+      * Number of threads used for calculation: 1
+Simulating parameters PHIT, KLOGH, VSH and VPHYL in body 3 of 4 (Facies type: Crevasse).
+      * Number of threads used for calculation: 1
+Simulating parameters PHIT, VSH and VPHYL in body 4 of 4 (Facies type: Floodplain).
+      * Number of threads used for calculation: 1
+Simulating parameter KLOGH in body 4 of 4 (Facies type: Floodplain).
+      * Number of threads used for calculation: 1
+</pre>
+<font color="green"><b>Completed job 8</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:04.4</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:11.5</td></tr></table>
+
+<pre>
+Job 9 - std_therys - for project realization 1
+Simulating parameters.
+Simulating parameters PHIT, KLOGH, VSH and VPHYL in body 1 of 4 (Facies type: Uppershoreface).
+      * Number of threads used for calculation: 1
+Simulating parameters PHIT, KLOGH, VSH and VPHYL in body 2 of 4 (Facies type: Lowershoreface).
+      * Number of threads used for calculation: 1
+Simulating parameters PHIT, KLOGH, VSH and VPHYL in body 3 of 4 (Facies type: Offshore).
+      * Number of threads used for calculation: 1
+Simulating parameter PHIT in body 4 of 4 (Facies type: Calcite).
+      * Number of threads used for calculation: 1
+Simulating parameter KLOGH in body 4 of 4 (Facies type: Calcite).
+Simulating parameter VSH in body 4 of 4 (Facies type: Calcite).
+      * Number of threads used for calculation: 1
+Simulating parameter VPHYL in body 4 of 4 (Facies type: Calcite).
+      * Number of threads used for calculation: 1
+</pre>
+<font color="green"><b>Completed job 9</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:04.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:15.10</td></tr></table>
+
+<pre>
+Job 10 - std_volon - for project realization 1
+Simulating parameters.
+Simulating parameter PHIT in body 1 of 3 (Facies type: Calcite).
+      * Number of threads used for calculation: 1
+Simulating parameter KLOGH in body 1 of 3 (Facies type: Calcite).
+Simulating parameters VSH and VPHYL in body 1 of 3 (Facies type: Calcite).
+      * Number of threads used for calculation: 1
+Simulating parameters PHIT, KLOGH, VSH and VPHYL in body 2 of 3 (Facies type: Channel).
+      * Number of threads used for calculation: 1
+Simulating parameters PHIT, KLOGH, VSH and VPHYL in body 3 of 3 (Facies type: Floodplain).
+      * Number of threads used for calculation: 1
+</pre>
+<font color="green"><b>Completed job 10</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:02.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:18.0</td></tr></table>
+
+<pre>
+Job 11 - props_std_collect.py - for project realization 1
+std_PHIT  -&gt;  PHIT for Geogrid_Valysar
+std_KLOGH  -&gt;  KLOGH for Geogrid_Valysar
+std_VSH  -&gt;  VSH for Geogrid_Valysar
+std_VPHYL  -&gt;  VPHYL for Geogrid_Valysar
+std_PHIT  -&gt;  PHIT for Geogrid_Therys
+std_KLOGH  -&gt;  KLOGH for Geogrid_Therys
+std_VSH  -&gt;  VSH for Geogrid_Therys
+std_VPHYL  -&gt;  VPHYL for Geogrid_Therys
+std_PHIT  -&gt;  PHIT for Geogrid_Volon
+std_KLOGH  -&gt;  KLOGH for Geogrid_Volon
+std_VSH  -&gt;  VSH for Geogrid_Volon
+std_VPHYL  -&gt;  VPHYL for Geogrid_Volon
+</pre>
+<font color="green"><b>Completed job 11</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:18.5</td></tr></table>
+
+<pre>
+Job 12 - RMS_props_resample_etc - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - RMS_load_grid_for_props_resample_e. - for project realization 1
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.3</td></tr></table>
+
+<pre>
+Job 2 - single_to_multi_resample.py - for project realization 1
+4.13.2.dev4+g015cf74bb
+Property is FACIES
+XXX valysar
+.. Zone no 1...
+.. Single grid is Geogrid_Valysar
+LOC (array([ 0,  0,  0, ..., 91, 91, 91]), array([  0,   0,   0, ..., 145, 145, 145]), array([ 0,  1,  2, ..., 17, 18, 19]))
+.. Min/max K 0 - 19
+XXX therys
+.. Zone no 2...
+.. Single grid is Geogrid_Therys
+LOC (array([ 0,  0,  0, ..., 91, 91, 91]), array([  0,   0,   0, ..., 144, 145, 145]), array([20, 21, 22, ..., 21, 20, 21]))
+.. Min/max K 20 - 53
+XXX volon
+.. Zone no 3...
+.. Single grid is Geogrid_Volon
+LOC (array([ 0,  0,  0, ..., 91, 91, 91]), array([  0,   0,   0, ..., 145, 145, 145]), array([54, 55, 56, ..., 66, 67, 68]))
+.. Min/max K 54 - 68
+Property to Roxar is FACIES...
+Property is PHIT
+XXX valysar
+.. Zone no 1...
+.. Single grid is Geogrid_Valysar
+LOC (array([ 0,  0,  0, ..., 91, 91, 91]), array([  0,   0,   0, ..., 145, 145, 145]), array([ 0,  1,  2, ..., 17, 18, 19]))
+.. Min/max K 0 - 19
+XXX therys
+.. Zone no 2...
+.. Single grid is Geogrid_Therys
+LOC (array([ 0,  0,  0, ..., 91, 91, 91]), array([  0,   0,   0, ..., 144, 145, 145]), array([20, 21, 22, ..., 21, 20, 21]))
+.. Min/max K 20 - 53
+XXX volon
+.. Zone no 3...
+.. Single grid is Geogrid_Volon
+LOC (array([ 0,  0,  0, ..., 91, 91, 91]), array([  0,   0,   0, ..., 145, 145, 145]), array([54, 55, 56, ..., 66, 67, 68]))
+.. Min/max K 54 - 68
+Property to Roxar is PHIT...
+Property is KLOGH
+XXX valysar
+.. Zone no 1...
+.. Single grid is Geogrid_Valysar
+LOC (array([ 0,  0,  0, ..., 91, 91, 91]), array([  0,   0,   0, ..., 145, 145, 145]), array([ 0,  1,  2, ..., 17, 18, 19]))
+.. Min/max K 0 - 19
+XXX therys
+.. Zone no 2...
+.. Single grid is Geogrid_Therys
+LOC (array([ 0,  0,  0, ..., 91, 91, 91]), array([  0,   0,   0, ..., 144, 145, 145]), array([20, 21, 22, ..., 21, 20, 21]))
+.. Min/max K 20 - 53
+XXX volon
+.. Zone no 3...
+.. Single grid is Geogrid_Volon
+LOC (array([ 0,  0,  0, ..., 91, 91, 91]), array([  0,   0,   0, ..., 145, 145, 145]), array([54, 55, 56, ..., 66, 67, 68]))
+.. Min/max K 54 - 68
+Property to Roxar is KLOGH...
+Property is VSH
+XXX valysar
+.. Zone no 1...
+.. Single grid is Geogrid_Valysar
+LOC (array([ 0,  0,  0, ..., 91, 91, 91]), array([  0,   0,   0, ..., 145, 145, 145]), array([ 0,  1,  2, ..., 17, 18, 19]))
+.. Min/max K 0 - 19
+XXX therys
+.. Zone no 2...
+.. Single grid is Geogrid_Therys
+LOC (array([ 0,  0,  0, ..., 91, 91, 91]), array([  0,   0,   0, ..., 144, 145, 145]), array([20, 21, 22, ..., 21, 20, 21]))
+.. Min/max K 20 - 53
+XXX volon
+.. Zone no 3...
+.. Single grid is Geogrid_Volon
+LOC (array([ 0,  0,  0, ..., 91, 91, 91]), array([  0,   0,   0, ..., 145, 145, 145]), array([54, 55, 56, ..., 66, 67, 68]))
+.. Min/max K 54 - 68
+Property to Roxar is VSH...
+Property is VPHYL
+XXX valysar
+.. Zone no 1...
+.. Single grid is Geogrid_Valysar
+LOC (array([ 0,  0,  0, ..., 91, 91, 91]), array([  0,   0,   0, ..., 145, 145, 145]), array([ 0,  1,  2, ..., 17, 18, 19]))
+.. Min/max K 0 - 19
+XXX therys
+.. Zone no 2...
+.. Single grid is Geogrid_Therys
+LOC (array([ 0,  0,  0, ..., 91, 91, 91]), array([  0,   0,   0, ..., 144, 145, 145]), array([20, 21, 22, ..., 21, 20, 21]))
+.. Min/max K 20 - 53
+XXX volon
+.. Zone no 3...
+.. Single grid is Geogrid_Volon
+LOC (array([ 0,  0,  0, ..., 91, 91, 91]), array([  0,   0,   0, ..., 145, 145, 145]), array([54, 55, 56, ..., 66, 67, 68]))
+.. Min/max K 54 - 68
+Property to Roxar is VPHYL...
+Done
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.5</td></tr></table>
+
+<pre>
+Job 3 - create_kv.py - for project realization 1
+rmsapi version is 1.11
+XTGeo version is 4.13.2.dev4+g015cf74bb
+Average KH is 508.820265004779
+Average KV is 304.01082688872685
+Made KV property, store icon:  KV
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:03.1</td></tr></table>
+
+<font color="green"><b>Completed workflow RMS_props_resample_etc</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:03:32</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:03.1</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 12</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:03.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:21.6</td></tr></table>
+
+<pre>
+Job 13 - RMS_export_properties.py - for project realization 1
+4.13.2.dev4+g015cf74bb
+------------------------------
+Writing parameter to ../../share/results/grids/geogrid--phit.roff
+Writing parameter to ../../share/results/grids/geogrid--klogh.roff
+Writing parameter to ../../share/results/grids/geogrid--vsh.roff
+Writing parameter to ../../share/results/grids/geogrid--vphyl.roff
+Writing parameter to ../../share/results/grids/geogrid--kv.roff
+------------------------------
+Writing parameter to ../output/grids/geogrid_valysar--phit.roff
+Writing parameter to ../output/grids/geogrid_valysar--klogh.roff
+Writing parameter to ../output/grids/geogrid_valysar--vsh.roff
+Writing parameter to ../output/grids/geogrid_valysar--vphyl.roff
+------------------------------
+Writing parameter to ../output/grids/geogrid_therys--phit.roff
+Writing parameter to ../output/grids/geogrid_therys--klogh.roff
+Writing parameter to ../output/grids/geogrid_therys--vsh.roff
+Writing parameter to ../output/grids/geogrid_therys--vphyl.roff
+------------------------------
+Writing parameter to ../output/grids/geogrid_volon--phit.roff
+Writing parameter to ../output/grids/geogrid_volon--klogh.roff
+Writing parameter to ../output/grids/geogrid_volon--vsh.roff
+Writing parameter to ../output/grids/geogrid_volon--vphyl.roff
+Done.
+</pre>
+<font color="green"><b>Completed job 13</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:22.6</td></tr></table>
+
+<font color="green"><b>Completed workflow RMS_props_standard</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:03:33</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:22.6</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 30</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:22.10</td></tr><tr><td><b>Total elapsed time</b></td><td>0:02:43.7</td></tr></table>
+
+<pre>
+Job 31 - ORION_props_simple - for project realization 1 - deactivated
+
+<pre>
+Job 32 - ORION_props_standard - for project realization 1 - deactivated
+
+<pre>
+Job 33 - RMS_make_sw - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 2 - RMS_load_grid_and_props_for_make_s. - for project realization 1
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.5</td></tr></table>
+
+<pre>
+Job 3 - tables_for_sw_calc.py - for project realization 1
+['Floodplain', 'Channel', 'Crevasse', 'Coal', 'Calcite', 'Offshore', 'Lowershoreface', 'Uppershoreface']
+&lt;frozen importlib._bootstrap&gt;:1049: ImportWarning: _RmsTkinterHook.find_spec() not found; falling back to find_module()
+      Floodplain  Channel  Crevasse  ...  Offshore  Lowershoreface  Uppershoreface
+AOIL        30.0      4.5       6.5  ...      25.0             6.5             4.5
+
+[1 rows x 8 columns]
+      Floodplain  Channel  Crevasse  ...  Offshore  Lowershoreface  Uppershoreface
+BOIL        -6.0     -2.2      -3.3  ...      -6.0            -3.3            -2.2
+
+[1 rows x 8 columns]
+          Floodplain  Channel  ...  Lowershoreface  Uppershoreface
+SWIRROIL         0.2      0.0  ...             0.1             0.0
+
+[1 rows x 8 columns]
+      Floodplain  Channel  Crevasse  ...  Offshore  Lowershoreface  Uppershoreface
+AGAS        20.0      3.8       7.5  ...       8.0             5.8             3.8
+
+[1 rows x 8 columns]
+      Floodplain  Channel  Crevasse  ...  Offshore  Lowershoreface  Uppershoreface
+BGAS        -6.0     -1.9      -2.6  ...      -7.0            -2.6            -1.9
+
+[1 rows x 8 columns]
+          Floodplain  Channel  ...  Lowershoreface  Uppershoreface
+SWIRRGAS         0.0      0.0  ...             0.1             0.0
+
+[1 rows x 8 columns]
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.8</td></tr></table>
+
+<pre>
+Job 4 - switinit_oil - for project realization 1
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.3</td></tr></table>
+
+<pre>
+Job 5 - swinit_gas - for project realization 1
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.7</td></tr></table>
+
+<pre>
+Job 6 - sw_combine.py - for project realization 1
+Combing Sw done
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:03.8</td></tr></table>
+
+<pre>
+Job 7 - RMS_export_sw.py - for project realization 1
+4.13.2.dev4+g015cf74bb
+Writing parameter to ../../share/results/grids/geogrid--sw_oil.roff
+Writing parameter to ../../share/results/grids/geogrid--sw_oil_h.roff
+Writing parameter to ../../share/results/grids/geogrid--sw_gas.roff
+Writing parameter to ../../share/results/grids/geogrid--sw.roff
+Writing parameter to ../../share/results/grids/geogrid--so.roff
+Writing parameter to ../../share/results/grids/geogrid--sg.roff
+Done.
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:04.5</td></tr></table>
+
+<font color="green"><b>Completed workflow RMS_make_sw</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:03:38</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:04.5</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 33</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:04.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:02:48.2</td></tr></table>
+
+<pre>
+Job 34 - ORION_make_sw - for project realization 1 - deactivated
+
+<pre>
+Job 35 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 36 - RMS_eclipse_props - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - RMS_load_grid_and_props_for_eclips. - for project realization 1
+Got exception: Trying to set codes in Roxar: {1: 'WestLowland', 2: 'CentralSouth', 3: 'CentralNorth', 4: 'NorthHorst', 5: 'CentralRamp', 6: 'CentralHorst', 7: 'EastLowland'} for type &lt;class 'numpy.uint16'&gt;. Cannot set code names on a region model. Consider editing the codes!
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.8</td></tr></table>
+
+<pre>
+Job 2 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+
+<pre>
+Job 3 - total_pore_volume - for project realization 1
+Cells with negative volume detected. Cell volumes set equal to zero.
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.1</td></tr></table>
+
+<pre>
+Job 4 - edit_total_pore_zero_values.py - for project realization 1
+Done
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.4</td></tr></table>
+
+<pre>
+Job 5 - satnum_geo.py - for project realization 1
+Create Satnum and Satnum_weight parameters in Geogrid - work in progress...
+Setting satnum = 0 for Coal facies (facies code 5)
+Setting satnum = 0 for Calcite facies (facies code 6)
+Setting satnum = 1 for Channel facies (facies code 1)
+Setting satnum = 2 for Crevasse facies (facies code 2)
+Setting satnum = 3 for Uppershoreface facies (facies code 12)
+Setting satnum = 4 for Lowershoreface facies (facies code 11)
+Setting satnum = 5 for Offshore facies (facies code 10)
+Setting satnum = 6 for Floodplain facies (facies code 0)
+Done. Created Satnum and Satnum_weight parameters in gridmodel Geogrid
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.9</td></tr></table>
+
+<pre>
+Job 6 - swl_geo.py - for project realization 1
+xtgeo version: 4.13.2.dev4+g015cf74bb
+Create Swl parameter in Geogrid.
+Done
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:03.4</td></tr></table>
+
+<pre>
+Job 7 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+
+<pre>
+Job 8 - geo2sim_tablecorrespondance - for project realization 1 - deactivated
+
+<pre>
+Job 9 - rescaling_establish_parameter_corr. - for project realization 1
+Column refinement factor is 2
+Row refinement factor is 2
+Layer refinement factor for Valysar is 2
+Layer refinement factor for Therys is 2
+Layer refinement factor for Volon is 3
+Established ('RescalingColumn', 'RescalingRow', 'RescalingLayer') parameters for rescaling sampling
+</pre>
+<font color="green"><b>Completed job 9</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:04.1</td></tr></table>
+
+<pre>
+Job 10 - geo2sim - for project realization 1
+</pre>
+<font color="green"><b>Completed job 10</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.7</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:05.8</td></tr></table>
+
+<pre>
+Job 11 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 11</b></font>
+
+<pre>
+Job 12 - fipnum.py - for project realization 1
+Done creating fipnum paramter FIPNUM
+</pre>
+<font color="green"><b>Completed job 12</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:06.1</td></tr></table>
+
+<pre>
+Job 13 - multnum - for project realization 1
+</pre>
+<font color="green"><b>Completed job 13</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:06.1</td></tr></table>
+
+<pre>
+Job 14 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 15 - eqlnum - for project realization 1 - deactivated
+
+<pre>
+Job 16 - eqlnum_calculator - for project realization 1
+</pre>
+<font color="green"><b>Completed job 16</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:06.1</td></tr></table>
+
+<pre>
+Job 17 - pvtnum - for project realization 1 - deactivated
+
+<pre>
+Job 18 - pvtnum_calculator - for project realization 1
+</pre>
+<font color="green"><b>Completed job 18</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:06.1</td></tr></table>
+
+<pre>
+Job 19 - fipzon - for project realization 1
+</pre>
+<font color="green"><b>Completed job 19</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:06.1</td></tr></table>
+
+<pre>
+Job 20 - cell_depth - for project realization 1
+</pre>
+<font color="green"><b>Completed job 20</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:06.2</td></tr></table>
+
+<pre>
+Job 21 - satnum_sim.py - for project realization 1
+xtgeo version: 4.13.2.dev4+g015cf74bb
+Running script for splitting satnum vertically...
+Name of input satnum parameter (without split): Satnum_rescaled
+Name of output satnum parameter to be created (with split): SATNUM
+Work in progress...
+satnum 1 split criteria is sw = 0.3 which is 0.961737886111045 meters above fwl
+satnum 2 split criteria is sw = 0.3 which is 16.20408663536812 meters above fwl
+satnum 3 split criteria is sw = 0.3 which is 1.0224356343411445 meters above fwl
+satnum 4 split criteria is sw = 0.3 which is 70.52588983990607 meters above fwl
+satnum 5 split criteria is sw = 0.3 which is 1465429.5097342643 meters above fwl
+satnum 6 split criteria is sw = 0.3 which is 2835520.9006657004 meters above fwl
+Done. Created parameter: SATNUM
+</pre>
+<font color="green"><b>Completed job 21</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:06.4</td></tr></table>
+
+<pre>
+Job 22 - swcr_sgu_sim.py - for project realization 1
+xtgeo version: 4.13.2.dev4+g015cf74bb
+Create SWCR and SGU parameters in Simgrid.
+Done
+</pre>
+<font color="green"><b>Completed job 22</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:06.7</td></tr></table>
+
+<pre>
+Job 23 - Bulk_volume - for project realization 1
+Cells with negative volume detected. Cell volumes set equal to zero.
+</pre>
+<font color="green"><b>Completed job 23</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:06.7</td></tr></table>
+
+<pre>
+Job 24 - set_poro2zero_if_below_minpv.py - for project realization 1
+xtgeo version: 4.13.2.dev4+g015cf74bb
+Setting poro = 0 for cells with (scaled) porv &lt; 100.
+Done
+</pre>
+<font color="green"><b>Completed job 24</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:06.10</td></tr></table>
+
+<pre>
+Job 25 - set_poro2zero_outside_area_of_inte. - for project realization 1
+xtgeo version: 4.13.2.dev4+g015cf74bb
+Exit without editing area of interest
+</pre>
+<font color="green"><b>Completed job 25</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:07.3</td></tr></table>
+
+<pre>
+Job 26 - RMS_export_grid_props.py - for project realization 1
+4.13.2.dev4+g015cf74bb
+Writing parameter to ../../share/results/grids/geogrid--total_bulk.roff
+Writing parameter to ../../share/results/grids/geogrid--total_pore.roff
+Writing parameter to ../../share/results/grids/geogrid--satnum.roff
+Writing parameter to ../../share/results/grids/geogrid--satnum_weight.roff
+Writing parameter to ../../share/results/grids/geogrid--swl.roff
+Writing parameter to ../../share/results/grids/simgrid--poro.roff
+Writing parameter to ../../share/results/grids/simgrid--permx.roff
+Writing parameter to ../../share/results/grids/simgrid--permy.roff
+Writing parameter to ../../share/results/grids/simgrid--permz.roff
+Writing parameter to ../../share/results/grids/simgrid--swatinit.roff
+Writing parameter to ../../share/results/grids/simgrid--vphyl.roff
+Writing parameter to ../../share/results/grids/simgrid--satnum_rescaled.roff
+Writing parameter to ../../share/results/grids/simgrid--satnum.roff
+Writing parameter to ../../share/results/grids/simgrid--eqlnum.roff
+Writing parameter to ../../share/results/grids/simgrid--pvtnum.roff
+Writing parameter to ../../share/results/grids/simgrid--fipnum.roff
+Writing parameter to ../../share/results/grids/simgrid--multnum.roff
+Writing parameter to ../../share/results/grids/simgrid--fipzon.roff
+Writing parameter to ../../share/results/grids/simgrid--cell_z.roff
+Writing parameter to ../../share/results/grids/simgrid--total_bulk.roff
+Writing parameter to ../../share/results/grids/simgrid--swl.roff
+Writing parameter to ../../share/results/grids/simgrid--swcr.roff
+Writing parameter to ../../share/results/grids/simgrid--sgu.roff
+Done.
+</pre>
+<font color="green"><b>Completed job 26</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:08.3</td></tr></table>
+
+<font color="green"><b>Completed workflow RMS_eclipse_props</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:03:46</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:08.3</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 36</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:08.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:02:56.5</td></tr></table>
+
+<pre>
+Job 37 - ORION_eclipse_props - for project realization 1 - deactivated
+
+<pre>
+Job 38 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 39 - faultseal - for project realization 1 - deactivated
+
+<pre>
+Job 40 - RMS_eclipse_export - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - RMS_load_simgrid_and_props_for_ecl. - for project realization 1
+Got exception: Trying to set codes in Roxar: {1: 'WestLowland', 2: 'CentralSouth', 3: 'CentralNorth', 4: 'NorthHorst', 5: 'CentralRamp', 6: 'CentralHorst', 7: 'EastLowland'} for type &lt;class 'numpy.uint16'&gt;. Cannot set code names on a region model. Consider editing the codes!
+Got exception: Trying to set codes in Roxar: {1: 'WestLowland', 2: 'CentralSouth'} for type &lt;class 'numpy.uint16'&gt;. Cannot set code names on a region model. Consider editing the codes!
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/grid3d/_gridprop_roxapi.py:187: UserWarning: Existing RMS icon has data type &lt;class 'numpy.uint8'&gt; while GridProperty has RMS data type &lt;class 'numpy.uint16'&gt;. This may cause issues in data content while saving to RMS.
+Unsafe casting is allowed; this means that original values may be truncated which may give unpredictable results and/or mess up code names and values settings.
+  warn(message, UserWarning)
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.5</td></tr></table>
+
+<pre>
+Job 2 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+
+<pre>
+Job 3 - make_eclipse_output_folders.py - for project realization 1
+Folder &lt;../../eclipse/include/runspec&gt; is already there
+Folder &lt;../../eclipse/include/grid&gt; is already there
+Folder &lt;../../eclipse/include/edit&gt; is already there
+Folder &lt;../../eclipse/include/props&gt; is already there
+Folder &lt;../../eclipse/include/solution&gt; is already there
+Folder &lt;../../eclipse/include/regions&gt; is already there
+Folder &lt;../../eclipse/include/schedule&gt; is already there
+Folder &lt;../../eclipse/include/summary&gt; is already there
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.8</td></tr></table>
+
+<pre>
+Job 4 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+
+<pre>
+Job 5 - grid - for project realization 1
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.1</td></tr></table>
+
+<pre>
+Job 6 - faults - for project realization 1
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.1</td></tr></table>
+
+<pre>
+Job 7 - poro - for project realization 1
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.2</td></tr></table>
+
+<pre>
+Job 8 - perm - for project realization 1
+</pre>
+<font color="green"><b>Completed job 8</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.2</td></tr></table>
+
+<pre>
+Job 9 - swatinit - for project realization 1
+</pre>
+<font color="green"><b>Completed job 9</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.2</td></tr></table>
+
+<pre>
+Job 10 - swl - for project realization 1
+</pre>
+<font color="green"><b>Completed job 10</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.3</td></tr></table>
+
+<pre>
+Job 11 - swcr - for project realization 1
+</pre>
+<font color="green"><b>Completed job 11</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.3</td></tr></table>
+
+<pre>
+Job 12 - sgu - for project realization 1
+</pre>
+<font color="green"><b>Completed job 12</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.4</td></tr></table>
+
+<pre>
+Job 13 - eqlnum - for project realization 1
+</pre>
+<font color="green"><b>Completed job 13</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.4</td></tr></table>
+
+<pre>
+Job 14 - fipnum - for project realization 1
+</pre>
+<font color="green"><b>Completed job 14</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.5</td></tr></table>
+
+<pre>
+Job 15 - fipzon - for project realization 1
+</pre>
+<font color="green"><b>Completed job 15</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.5</td></tr></table>
+
+<pre>
+Job 16 - satnum - for project realization 1
+</pre>
+<font color="green"><b>Completed job 16</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.5</td></tr></table>
+
+<pre>
+Job 17 - pvtnum - for project realization 1
+</pre>
+<font color="green"><b>Completed job 17</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.6</td></tr></table>
+
+<pre>
+Job 18 - multnum - for project realization 1
+</pre>
+<font color="green"><b>Completed job 18</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.6</td></tr></table>
+
+<pre>
+Job 19 - trans - for project realization 1
+The multiplier data specified is empty.
+</pre>
+<font color="green"><b>Completed job 19</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.7</td></tr></table>
+
+<pre>
+Job 20 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 20</b></font>
+
+<pre>
+Job 21 - eclipse_dimens.py - for project realization 1
+-------------------------------------------
+DIMENS keyword is exported to ../../eclipse/include/runspec/drogon.dimens
+-------------------------------------------
+</pre>
+<font color="green"><b>Completed job 21</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.9</td></tr></table>
+
+<pre>
+Job 22 - eclipse_tabdims.py - for project realization 1
+Number of SATNUMs is 12
+-------------------------------------------
+TABDIMS keyword is exported to ../../eclipse/include/runspec/drogon.tabdims
+-------------------------------------------
+</pre>
+<font color="green"><b>Completed job 22</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.2</td></tr></table>
+
+<pre>
+Job 23 - eclipse_eqldims.py - for project realization 1
+Number of EQLNUMs is 7
+-------------------------------------------
+EQLDIMS keyword is exported to ../../eclipse/include/runspec/drogon.eqldims
+-------------------------------------------
+</pre>
+<font color="green"><b>Completed job 23</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.4</td></tr></table>
+
+<pre>
+Job 24 - eclipse_regdims.py - for project realization 1
+Number of FIPNUMs is 21
+-------------------------------------------
+REGDIMS keyword is exported to ../../eclipse/include/runspec/drogon.regdims
+-------------------------------------------
+</pre>
+<font color="green"><b>Completed job 24</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.7</td></tr></table>
+
+<pre>
+Job 25 - eclipse_gridopts.py - for project realization 1
+Number of MULTNUMs is 21
+-------------------------------------------
+GRIDOPTS keyword is exported to ../../eclipse/include/runspec/drogon.gridopts
+-------------------------------------------
+</pre>
+<font color="green"><b>Completed job 25</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.10</td></tr></table>
+
+<pre>
+Job 26 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 26</b></font>
+
+<pre>
+Job 27 - equil - for project realization 1
+</pre>
+<font color="green"><b>Completed job 27</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.10</td></tr></table>
+
+<pre>
+Job 28 - eclipse_thpres.py - for project realization 1
+Number of EQLNUMs is 7
+-------------------------------------------
+THPRES keyword is exported to ../../eclipse/include/solution/drogon.thpres
+-------------------------------------------
+</pre>
+<font color="green"><b>Completed job 28</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:03.2</td></tr></table>
+
+<pre>
+Job 29 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 29</b></font>
+
+<pre>
+Job 30 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 30</b></font>
+
+<pre>
+Job 31 - prepare_pyscal_input_lowbasehigh.p. - for project realization 1
+Reading variables from global variable file
+Converting densities from g/cc to kg/m3 (multiply by 1000)
+---
+Converting densities from g/cc to kg/m3 (multiply by 1000)
+---
+Converting densities from g/cc to kg/m3 (multiply by 1000)
+---
+setting kroend to default value 1
+setting kroend to default value 1
+setting kroend to default value 1
+Number of satnum regions is 12 - check carefully that this is consistent with the SATNUM parameter
+--- columns included in pyscal csvfile:
+ ['SATNUM', 'CASE', 'a', 'b', 'poro_ref', 'perm_ref', 'swirr', 'rho_o', 'rho_w', 'drho', 'sorw', 'sorg', 'sgcr', 'krwend', 'krgend', 'swcr_add', 'kroend', 'Lw', 'Ew', 'Tw', 'Lo', 'Eo', 'To', 'Lg', 'Eg', 'Tg', 'Log', 'Eog', 'Tog', 'swl', 'swcr', 'COMMENT']
+---
+rho_o is not included in list of variables to export.
+To include 'rho_o' in export, please add it to the header list variable
+rho_w is not included in list of variables to export.
+To include 'rho_w' in export, please add it to the header list variable
+swcr_add is not included in list of variables to export.
+To include 'swcr_add' in export, please add it to the header list variable
+---
+krwmax is not included in global variable file. Should it be?
+kromax is not included in global variable file. Should it be?
+&lt;frozen importlib._bootstrap&gt;:1049: ImportWarning: _RmsTkinterHook.find_spec() not found; falling back to find_module()
+
+--- pyscal csvfile exported to:
+ ../../rms/output/pyscal/pyscal_config_lowbasehigh.csv
+Done
+</pre>
+<font color="green"><b>Completed job 31</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:03.5</td></tr></table>
+
+<pre>
+Job 32 - run_pyscal_with_interpolation.py - for project realization 1
+--Create relperm by interpolation--
+oil/water interpolation value: 0
+oil/gas interpolation value: 0
+Running pyscal with run_external...
+Done
+</pre>
+<font color="green"><b>Completed job 32</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:05.6</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:09.1</td></tr></table>
+
+<font color="green"><b>Completed workflow RMS_eclipse_export</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:03:55</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:09.1</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 40</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:09.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:03:05.6</td></tr></table>
+
+<pre>
+Job 41 - ORION_eclipse_export - for project realization 1 - deactivated
+
+<pre>
+Job 42 - RMS_eclipse_well_modelling - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 5 - make_needed_folders.py - for project realization 1
+Seems that you run from rms/model folder --- good!
+Folder is already there, OK!  ../../eclipse/include/runspec
+Folder is already there, OK!  ../../eclipse/include/grid
+Folder is already there, OK!  ../../eclipse/include/edit
+Folder is already there, OK!  ../../eclipse/include/props
+Folder is already there, OK!  ../../eclipse/include/solution
+Folder is already there, OK!  ../../eclipse/include/regions
+Folder is already there, OK!  ../../eclipse/include/schedule
+Folder is already there, OK!  ../../eclipse/include/summary
+Folder is already there, OK!  ../output/aps
+Folder is already there, OK!  ../output/hum
+Folder is already there, OK!  ../output/hum_runs
+Folder is already there, OK!  ../output/pyscal
+Folder is already there, OK!  ../output/qc
+Folder is already there, OK!  ../output/regions
+Folder is already there, OK!  ../output/well_modelling
+Folder is already there, OK!  ../output/wells
+Folder is already there, OK!  ../output/zone
+Folder is already there, OK!  ../output/grids
+Folder is already there, OK!  ../../fmuconfig/output
+Folder is already there, OK!  ../../share/results/grids
+Folder is already there, OK!  ../../share/results/maps
+Folder is already there, OK!  ../../share/results/cubes
+Folder is already there, OK!  ../../share/results/polygons
+Folder is already there, OK!  ../../share/results/seismic
+Folder is already there, OK!  ../../share/results/tables
+Folder is already there, OK!  ../../share/results/volumes
+Folder is already there, OK!  ../../share/results/wells
+Folder is already there, OK!  ../../share/observations/seismic
+Folder is already there, OK!  ../../sim2seis/output/pem
+Folder is already there, OK!  ../../sim2seis/output/seismic_forward
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.3</td></tr></table>
+
+<pre>
+Job 6 - empty_events.py - for project realization 1
+Empty event set drogon_prod.
+Empty event set drogon_hist.
+Empty event set dst_55_33-1_wells.
+Empty event set dst_55_33-1_prod.
+Empty event set drogon_pred.
+Done
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.3</td></tr></table>
+
+<pre>
+Job 7 - RMS_load_grid_and_props_for_wellmo. - for project realization 1
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.5</td></tr></table>
+
+<pre>
+Job 8 - import_welldata - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+
+<pre>
+Job 2 - import_wells - for project realization 1
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.5</td></tr></table>
+
+<pre>
+Job 3 - wells_rename_traj.py - for project realization 1
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.7</td></tr></table>
+
+<pre>
+Job 4 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+
+<font color="green"><b>Completed workflow import_welldata</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:03:57</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:00.7</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 8</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.7</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.3</td></tr></table>
+
+<pre>
+Job 9 - process_well_tops_etc - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 3 - activate_set1 - for project realization 1
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.0</td></tr></table>
+
+<pre>
+Job 4 - empty_active_set - for project realization 1
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.0</td></tr></table>
+
+<pre>
+Job 5 - create_horizon_wpicks - for project realization 1
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.4</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.4</td></tr></table>
+
+<pre>
+Job 6 - create_zone_wpicks - for project realization 1
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.5</td></tr></table>
+
+<pre>
+Job 7 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+
+<pre>
+Job 8 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 8</b></font>
+
+<pre>
+Job 9 - process_well_logs.py - for project realization 1
+</pre>
+<font color="green"><b>Completed job 9</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.2</td></tr></table>
+
+<pre>
+Job 10 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 10</b></font>
+
+<pre>
+Job 11 - wells_mask_shoulders.py - for project realization 1
+Use:  55_33-1
+Use:  55_33-2
+Use:  55_33-3
+Use:  55_33-A-1
+Use:  55_33-A-2
+Use:  55_33-A-3
+Use:  55_33-A-4
+Use:  55_33-A-5
+Use:  55_33-A-6
+</pre>
+<font color="green"><b>Completed job 11</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.5</td></tr></table>
+
+<font color="green"><b>Completed workflow process_well_tops_etc</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:03:59</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:02.5</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 9</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:02.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:03.8</td></tr></table>
+
+<pre>
+Job 10 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 10</b></font>
+
+<pre>
+Job 11 - pdm_rms - for project realization 1
+</pre>
+<font color="green"><b>Completed job 11</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:03.8</td></tr></table>
+
+<pre>
+Job 12 - rms_eclipse - for project realization 1
+</pre>
+<font color="green"><b>Completed job 12</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:03.8</td></tr></table>
+
+<pre>
+Job 13 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 13</b></font>
+
+<pre>
+Job 14 - wells_copy_rft.py - for project realization 1
+&lt;frozen importlib._bootstrap&gt;:1049: ImportWarning: _RmsTkinterHook.find_spec() not found; falling back to find_module()
+RFT well created: RFT_55_33-A-2
+RFT well created: RFT_55_33-A-3
+RFT well created: RFT_55_33-A-4
+RFT well created: RFT_55_33-A-5
+RFT well created: RFT_55_33-A-6
+
+Created 5 RFT wells
+</pre>
+<font color="green"><b>Completed job 14</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:04.0</td></tr></table>
+
+<pre>
+Job 15 - drogon_hist - for project realization 1
+</pre>
+<font color="green"><b>Completed job 15</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:04.0</td></tr></table>
+
+<pre>
+Job 16 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 16</b></font>
+
+<pre>
+Job 17 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 17</b></font>
+
+<pre>
+Job 18 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 18</b></font>
+
+<pre>
+Job 19 - rate_scaling.py - for project realization 1
+wi_scaling 55/33-A-5 {'from_date': '2018-01-01', 'to_date': '2019-01-01', 'multiplier': 1} WWIR
+wi_scaling 55/33-A-5 {'from_date': '2019-01-01', 'to_date': '2020-07-01', 'multiplier': 1} WWIR
+oil_scaling 55/33-A-1 {'from_date': '2018-01-01', 'to_date': '2020-07-01', 'multiplier': 1} WOPR
+wat_scaling 55/33-A-1 {'from_date': '2018-01-01', 'to_date': '2020-07-01', 'multiplier': 1} WWPR
+gas_scaling 55/33-A-1 {'from_date': '2018-01-01', 'to_date': '2020-07-01', 'multiplier': 1} WGPR
+Done
+</pre>
+<font color="green"><b>Completed job 19</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:04.3</td></tr></table>
+
+<pre>
+Job 20 - prod - for project realization 1
+</pre>
+<font color="green"><b>Completed job 20</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:04.4</td></tr></table>
+
+<pre>
+Job 21 - prod - for project realization 1
+</pre>
+<font color="green"><b>Completed job 21</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:04.4</td></tr></table>
+
+<pre>
+Job 22 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 22</b></font>
+
+<pre>
+Job 23 - drogon_hist - for project realization 1
+Flow model events created with warnings. See QA Flow Model Events dialog box.
+</pre>
+<font color="green"><b>Completed job 23</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.2</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:04.6</td></tr></table>
+
+<pre>
+Job 24 - drogon_hist - for project realization 1
+</pre>
+<font color="green"><b>Completed job 24</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:04.6</td></tr></table>
+
+<pre>
+Job 25 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 25</b></font>
+
+<pre>
+Job 26 - qa_drogon_events - for project realization 1
+</pre>
+<font color="green"><b>Completed job 26</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:04.6</td></tr></table>
+
+<pre>
+Job 27 - perflog_from_events.py - for project realization 1
+Loaded 55_33-1
+Loaded 55_33-2
+Loaded 55_33-3
+Loaded 55_33-A-1
+Well found 55_33-A-1
+Well found 55_33-A-1
+Well found 55_33-A-1
+Loaded 55_33-A-2
+Well found 55_33-A-2
+Loaded 55_33-A-3
+Well found 55_33-A-3
+Well found 55_33-A-3
+Well found 55_33-A-3
+Loaded 55_33-A-4
+Well found 55_33-A-4
+Well found 55_33-A-4
+Loaded 55_33-A-5
+Well found 55_33-A-5
+Well found 55_33-A-5
+Well found 55_33-A-5
+Loaded 55_33-A-6
+Well found 55_33-A-6
+Well found 55_33-A-6
+Well found 55_33-A-6
+</pre>
+<font color="green"><b>Completed job 27</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:06.1</td></tr></table>
+
+<font color="green"><b>Completed workflow RMS_eclipse_well_modelling</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:04:01</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:06.1</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 42</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:06.2</td></tr><tr><td><b>Total elapsed time</b></td><td>0:03:11.8</td></tr></table>
+
+<pre>
+Job 43 - ORION_eclipse_well_modelling - for project realization 1 - deactivated
+
+<pre>
+Job 44 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 45 - RMS_volumetrics - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - RMS_load_grid_and_props_for_volume. - for project realization 1
+Check zonation for Geogrid
+['Valysar', 'Therys', 'Volon']
+Got exception: Trying to set codes in Roxar: {1: 'WestLowland', 2: 'CentralSouth', 3: 'CentralNorth', 4: 'NorthHorst', 5: 'CentralRamp', 6: 'CentralHorst', 7: 'EastLowland'} for type &lt;class 'numpy.uint16'&gt;. Cannot set code names on a region model. Consider editing the codes! while processing Region
+Check zonation for Simgrid
+['Valysar', 'Therys', 'Volon']
+Got exception: Trying to set codes in Roxar: {1: 'WestLowland', 2: 'CentralSouth', 3: 'CentralNorth', 4: 'NorthHorst', 5: 'CentralRamp', 6: 'CentralHorst', 7: 'EastLowland'} for type &lt;class 'numpy.uint16'&gt;. Cannot set code names on a region model. Consider editing the codes! while processing Region
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.5</td></tr></table>
+
+<pre>
+Job 2 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+
+<pre>
+Job 3 - geogrid_volumes - for project realization 1
+Cells with negative volume detected. Cell volumes set equal to zero.
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.6</td></tr></table>
+
+<pre>
+Job 4 - simgrid_volumes - for project realization 1
+Cells with negative volume detected. Cell volumes set equal to zero.
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.7</td></tr></table>
+
+<pre>
+Job 5 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+
+<pre>
+Job 6 - volumes2csv_dataio.py - for project realization 1
+&lt;frozen importlib._bootstrap&gt;:1049: ImportWarning: _RmsTkinterHook.find_spec() not found; falling back to find_module()
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/fmu/dataio/providers/objectdata/_tables.py:91: FutureWarning: The table provided does not contain all required standard table index columns for this content: ['FLUID', 'ZONE', 'REGION']. This may not be allowed in the future.
+  warnings.warn(
+Volume result to: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/volumes/geogrid--vol.csv
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/fmu/dataio/providers/objectdata/_tables.py:91: FutureWarning: The table provided does not contain all required standard table index columns for this content: ['FLUID', 'ZONE', 'REGION']. This may not be allowed in the future.
+  warnings.warn(
+Volume result to: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/volumes/simgrid--vol.csv
+Done
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:02.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:04.7</td></tr></table>
+
+<pre>
+Job 7 - export_inplace_volumes.py - for project realization 1
+&lt;frozen importlib._bootstrap&gt;:1049: ImportWarning: _RmsTkinterHook.find_spec() not found; falling back to find_module()
+&lt;string&gt;:19: UserWarning: export_inplace_volumes is experimental and may change in future versions.
+&lt;frozen importlib._bootstrap&gt;:1049: ImportWarning: _RmsTkinterHook.find_spec() not found; falling back to find_module()
+&lt;frozen importlib._bootstrap&gt;:1049: ImportWarning: _RmsTkinterHook.find_spec() not found; falling back to find_module()
+Output inplace_volumes to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/tables/inplace_volumes/geogrid.parquet
+&lt;string&gt;:27: UserWarning: export_inplace_volumes is experimental and may change in future versions.
+Output inplace_volumes to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/tables/inplace_volumes/simgrid.parquet
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:05.8</td></tr></table>
+
+<font color="green"><b>Completed workflow RMS_volumetrics</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:04:07</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:05.8</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 45</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:05.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:03:17.6</td></tr></table>
+
+<pre>
+Job 46 - ORION_volumetrics - for project realization 1 - deactivated
+
+<pre>
+Job 47 - RMS_export_data - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 3 - RMS_load_grid_and_props_for_export. - for project realization 1
+Got exception: Trying to set codes in Roxar: {1: 'WestLowland', 2: 'CentralSouth', 3: 'CentralNorth', 4: 'NorthHorst', 5: 'CentralRamp', 6: 'CentralHorst', 7: 'EastLowland'} for type &lt;class 'numpy.uint16'&gt;. Cannot set code names on a region model. Consider editing the codes!
+Got exception: Trying to set codes in Roxar: {1: 'WestLowland', 2: 'CentralSouth', 3: 'CentralNorth', 4: 'NorthHorst', 5: 'CentralRamp', 6: 'CentralHorst', 7: 'EastLowland'} for type &lt;class 'numpy.uint16'&gt;. Cannot set code names on a region model. Consider editing the codes!
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:02.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.5</td></tr></table>
+
+<pre>
+Job 4 - make_needed_folders.py - for project realization 1
+Seems that you run from rms/model folder --- good!
+Folder is already there, OK!  ../../eclipse/include/runspec
+Folder is already there, OK!  ../../eclipse/include/grid
+Folder is already there, OK!  ../../eclipse/include/edit
+Folder is already there, OK!  ../../eclipse/include/props
+Folder is already there, OK!  ../../eclipse/include/solution
+Folder is already there, OK!  ../../eclipse/include/regions
+Folder is already there, OK!  ../../eclipse/include/schedule
+Folder is already there, OK!  ../../eclipse/include/summary
+Folder is already there, OK!  ../output/aps
+Folder is already there, OK!  ../output/hum
+Folder is already there, OK!  ../output/hum_runs
+Folder is already there, OK!  ../output/pyscal
+Folder is already there, OK!  ../output/qc
+Folder is already there, OK!  ../output/regions
+Folder is already there, OK!  ../output/well_modelling
+Folder is already there, OK!  ../output/wells
+Folder is already there, OK!  ../output/zone
+Folder is already there, OK!  ../output/grids
+Folder is already there, OK!  ../../fmuconfig/output
+Folder is already there, OK!  ../../share/results/grids
+Folder is already there, OK!  ../../share/results/maps
+Folder is already there, OK!  ../../share/results/cubes
+Folder is already there, OK!  ../../share/results/polygons
+Folder is already there, OK!  ../../share/results/seismic
+Folder is already there, OK!  ../../share/results/tables
+Folder is already there, OK!  ../../share/results/volumes
+Folder is already there, OK!  ../../share/results/wells
+Folder is already there, OK!  ../../share/observations/seismic
+Folder is already there, OK!  ../../sim2seis/output/pem
+Folder is already there, OK!  ../../sim2seis/output/seismic_forward
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.8</td></tr></table>
+
+<pre>
+Job 5 - fix_maps_to_template_definitions.p. - for project realization 1
+&lt;string&gt;:54: PendingDeprecationWarning: The 'surface_from_roxar' function is deprecated and will be removed in a future version. Use 'surface_from_rms' instead.
+================================================================================
+Checking horizons
+================================================================================
+A total of 0 maps in &lt;horizons&gt; has been fixed!
+================================================================================
+Checking zones
+================================================================================
+A total of 0 maps in &lt;zones&gt; has been fixed!
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:03.3</td></tr></table>
+
+<pre>
+Job 6 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 7 - export_fault_polygons_dataio.py - for project realization 1
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/xyz/polygons.py:405: PendingDeprecationWarning: Direct access to the dataframe property in Polygons class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+             X_UTME        Y_UTMN      Z_TVDSS  POLY_ID
+0     460496.454102  5.934222e+06  1645.492310        0
+1     460498.492188  5.934240e+06  1645.037109        0
+2     460501.658203  5.934278e+06  1644.103760        0
+3     460506.428589  5.934402e+06  1641.165894        0
+4     460511.035400  5.934428e+06  1640.478516        0
+...             ...           ...          ...      ...
+1004  462701.306580  5.932496e+06  1665.550049        5
+1005  462720.733704  5.932482e+06  1665.145142        5
+1006  462726.168396  5.932479e+06  1665.026367        5
+1007  462837.867798  5.932410e+06  1664.638672        5
+1008  462856.824219  5.932398e+06  1664.572876        5
+
+[1009 rows x 4 columns]
+Export with metadata to: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/polygons/topvolantis--gl_faultlines_extract_postprocess.csv
+Export with metadata to: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/polygons/topvolantis--gl_faultlines_extract_postprocess.pol
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/xyz/polygons.py:405: PendingDeprecationWarning: Direct access to the dataframe property in Polygons class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+             X_UTME        Y_UTMN      Z_TVDSS  POLY_ID
+0     460494.197021  5.936048e+06  1689.237793        0
+1     460505.160645  5.936025e+06  1687.344360        0
+2     460526.297607  5.935981e+06  1683.694214        0
+3     460560.736938  5.935899e+06  1676.790894        0
+4     460563.623779  5.935889e+06  1675.930908        0
+...             ...           ...          ...      ...
+1016  463709.580811  5.932347e+06  1662.472290        5
+1017  463671.800537  5.932338e+06  1662.490234        5
+1018  463555.285522  5.932305e+06  1662.699097        5
+1019  463552.387817  5.932304e+06  1662.669556        5
+1020  463475.974365  5.932298e+06  1661.296265        5
+
+[1021 rows x 4 columns]
+Export with metadata to: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/polygons/toptherys--gl_faultlines_extract_postprocess.csv
+Export with metadata to: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/polygons/toptherys--gl_faultlines_extract_postprocess.pol
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/xyz/polygons.py:405: PendingDeprecationWarning: Direct access to the dataframe property in Polygons class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+             X_UTME        Y_UTMN      Z_TVDSS  POLY_ID
+0     460600.953857  5.935800e+06  1685.602783        0
+1     460602.696899  5.935727e+06  1678.037842        0
+2     460602.915161  5.935718e+06  1677.089478        0
+3     460602.962524  5.935676e+06  1672.639160        0
+4     460596.132812  5.935596e+06  1664.092651        0
+...             ...           ...          ...      ...
+1011  462320.531982  5.932999e+06  1657.903442        5
+1012  462266.516815  5.933117e+06  1659.795532        5
+1013  462251.279510  5.933146e+06  1660.371338        5
+1014  462226.450592  5.933207e+06  1661.173462        5
+1015  462206.490784  5.933252e+06  1662.751709        5
+
+[1016 rows x 4 columns]
+Export with metadata to: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/polygons/topvolon--gl_faultlines_extract_postprocess.csv
+Export with metadata to: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/polygons/topvolon--gl_faultlines_extract_postprocess.pol
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/xyz/polygons.py:405: PendingDeprecationWarning: Direct access to the dataframe property in Polygons class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+             X_UTME        Y_UTMN      Z_TVDSS  POLY_ID
+0     460605.243652  5.935554e+06  1669.071533        0
+1     460603.350952  5.935504e+06  1664.691772        0
+2     460604.582153  5.935463e+06  1663.270142        0
+3     460604.742065  5.935406e+06  1661.261353        0
+4     460604.720581  5.935393e+06  1660.819092        0
+...             ...           ...          ...      ...
+1006  462189.998840  5.933237e+06  1679.240967        5
+1007  462178.097137  5.933268e+06  1679.166138        5
+1008  462177.747559  5.933269e+06  1679.160034        5
+1009  462176.345917  5.933274e+06  1679.143188        5
+1010  462169.317139  5.933296e+06  1679.063965        5
+
+[1011 rows x 4 columns]
+Export with metadata to: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/polygons/basevolantis--gl_faultlines_extract_postprocess.csv
+Export with metadata to: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/polygons/basevolantis--gl_faultlines_extract_postprocess.pol
+Done!
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:04.1</td></tr></table>
+
+<pre>
+Job 8 - export_field_outline_dataio.py - for project realization 1
+&lt;string&gt;:48: PendingDeprecationWarning: The 'surface_from_roxar' function is deprecated and will be removed in a future version. Use 'surface_from_rms' instead.
+&lt;string&gt;:64: PendingDeprecationWarning: The 'to_roxar()' method is deprecated and will be removed in a later xtgeo version. Use 'to_rms()' instead.
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/xyz/polygons.py:405: PendingDeprecationWarning: Direct access to the dataframe property in Polygons class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/xyz/polygons.py:414: PendingDeprecationWarning: Direct access to the dataframe property in Polygons class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Storing outline as outline--fwl
+Field outline stored: field_outline/outline--fwl
+Exporting to disk with fmu-datio
+Exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/polygons/topvolantis--field_outline_fwl.csv
+&lt;string&gt;:53: PendingDeprecationWarning: The 'surface_from_roxar' function is deprecated and will be removed in a future version. Use 'surface_from_rms' instead.
+&lt;string&gt;:64: PendingDeprecationWarning: The 'to_roxar()' method is deprecated and will be removed in a later xtgeo version. Use 'to_rms()' instead.
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/xyz/polygons.py:405: PendingDeprecationWarning: Direct access to the dataframe property in Polygons class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/xyz/polygons.py:414: PendingDeprecationWarning: Direct access to the dataframe property in Polygons class will be deprecated in xtgeo 5.0. Use `set_dataframe()` instead.
+  warnings.warn(
+Storing outline as outline--goc
+Field outline stored: field_outline/outline--goc
+Exporting to disk with fmu-datio
+Exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/polygons/topvolantis--field_outline_goc.csv
+</pre>
+<font color="green"><b>Completed job 8</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:02.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:06.2</td></tr></table>
+
+<pre>
+Job 9 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 10 - export_geogrid_zone_layer_yml_file. - for project realization 1
+Done. Created xtgeo compatible yml file ../../rms/output/zone/zonation_geo_map.yml
+</pre>
+<font color="green"><b>Completed job 10</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:06.4</td></tr></table>
+
+<pre>
+Job 11 - export_simgrid_zone_layer_yml_lyr_. - for project realization 1
+Zone layer mapping written to file: ../../rms/output/zone/zonation_ecl_map.yml
+Zone layer mapping written to file: ../../rms/output/zone/simgrid_zone_layer_mapping.lyr
+Done
+</pre>
+<font color="green"><b>Completed job 11</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:06.10</td></tr></table>
+
+<pre>
+Job 12 - make_zones_layer_table_4ert_dataio. - for project realization 1
+Export to: &lt;../../rms/output/zone/layer_zone_table.csv&gt; and &lt;../../rms/output/zone/layer_zone_table.txt&gt;
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/fmu/dataio/providers/objectdata/_export_models.py:66: FutureWarning: The &lt;content&gt; is not provided which will produce invalid metadata. In the future 'content' will be required explicitly! 
+
+Valid contents are: depth, facies_thickness, fault_lines, fault_surface, fault_properties, field_outline, field_region, fluid_contact, khproduct, lift_curves, named_area, parameters, pinchout, property, pvt, regions, relperm, rft, seismic, simulationtimeseries, subcrop, thickness, time, timeseries, transmissibilities, velocity, volumes, wellpicks 
+
+This list can be extended upon request and need.
+  warnings.warn(
+Dataio export to: /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/tables/layer_zone_table.csv
+</pre>
+<font color="green"><b>Completed job 12</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:07.2</td></tr></table>
+
+<pre>
+Job 13 - export_fip_region_zone_yml_file.py. - for project realization 1
+Done. Created file ../../share/results/tables/fip.yml
+</pre>
+<font color="green"><b>Completed job 13</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:07.5</td></tr></table>
+
+<pre>
+Job 14 - export_stratigraphy.py - for project realization 1
+Exported file: ../../rms/output/zone/stratigraphy.json
+</pre>
+<font color="green"><b>Completed job 14</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:07.7</td></tr></table>
+
+<pre>
+Job 15 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 16 - geogrid_parameter_export_dataio.py. - for project realization 1
+Stored grid as /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/grids/geogrid.roff
+Stored PHIT as /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/grids/geogrid--phit.roff
+Stored VSH as /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/grids/geogrid--vsh.roff
+Stored SW as /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/grids/geogrid--sw.roff
+Stored SG as /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/grids/geogrid--sg.roff
+Stored KLOGH as /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/grids/geogrid--klogh.roff
+Stored KV as /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/grids/geogrid--kv.roff
+Stored FACIES as /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/grids/geogrid--facies.roff
+Stored Region as /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/grids/geogrid--region.roff
+Stored Zone as /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/grids/geogrid--zone.roff
+Stored Swl as /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/grids/geogrid--swl.roff
+Done.
+</pre>
+<font color="green"><b>Completed job 16</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:02.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:10.0</td></tr></table>
+
+<pre>
+Job 17 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 18 - horizons_export_dataio.py - for project realization 1
+Using xtgeo version 4.13.2.dev4+g015cf74bb and fmu.dataio version 2.17.1.dev2+gac91ae2a6
+&lt;string&gt;:32: PendingDeprecationWarning: The 'surface_from_roxar' function is deprecated and will be removed in a future version. Use 'surface_from_rms' instead.
+Export to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/topvolantis--ds_extract_postprocess.gri
+Export to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/toptherys--ds_extract_postprocess.gri
+Export to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/topvolon--ds_extract_postprocess.gri
+Export to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/basevolantis--ds_extract_postprocess.gri
+Export to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/topvolantis--ds_extract_geogrid.gri
+Export to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/toptherys--ds_extract_geogrid.gri
+Export to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/topvolon--ds_extract_geogrid.gri
+Export to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/basevolantis--ds_extract_geogrid.gri
+</pre>
+<font color="green"><b>Completed job 18</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:10.5</td></tr></table>
+
+<pre>
+Job 19 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 20 - avg_facies_fraction_maps - for project realization 1
+</pre>
+<font color="green"><b>Completed job 20</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:02.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:12.8</td></tr></table>
+
+<pre>
+Job 21 - avg_property_maps - for project realization 1
+</pre>
+<font color="green"><b>Completed job 21</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.10</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:13.8</td></tr></table>
+
+<pre>
+Job 22 - avgmaps_prob_simpli - for project realization 1 - deactivated
+
+<pre>
+Job 23 - geoavg_maps_export_dataio.py - for project realization 1
+Using xtgeo 4.13.2.dev4+g015cf74bb and fmu.dataio 2.17.1.dev2+gac91ae2a6
+Valysar
+ --&gt;  KLOGH_Average
+&lt;string&gt;:60: PendingDeprecationWarning: The 'surface_from_roxar' function is deprecated and will be removed in a future version. Use 'surface_from_rms' instead.
+ --&gt;  Exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/valysar--klogh_average.gri (map average is 356.192)
+ --&gt;  PHIT_Average
+ --&gt;  Exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/valysar--phit_average.gri (map average is 0.149)
+ --&gt;  FACIES_Fraction_Floodplain
+ --&gt;  Exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/valysar--facies_fraction_floodplain.gri (map average is 0.423)
+ --&gt;  FACIES_Fraction_Channel
+ --&gt;  Exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/valysar--facies_fraction_channel.gri (map average is 0.321)
+ --&gt;  FACIES_Fraction_Crevasse
+ --&gt;  Exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/valysar--facies_fraction_crevasse.gri (map average is 0.120)
+ --&gt;  FACIES_Fraction_Coal
+ --&gt;  Exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/valysar--facies_fraction_coal.gri (map average is 0.136)
+Therys
+ --&gt;  KLOGH_Average
+ --&gt;  Exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/therys--klogh_average.gri (map average is 426.306)
+ --&gt;  PHIT_Average
+ --&gt;  Exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/therys--phit_average.gri (map average is 0.201)
+ --&gt;  FACIES_Fraction_Calcite
+ --&gt;  Exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/therys--facies_fraction_calcite.gri (map average is 0.101)
+ --&gt;  FACIES_Fraction_Offshore
+ --&gt;  Exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/therys--facies_fraction_offshore.gri (map average is 0.262)
+ --&gt;  FACIES_Fraction_Lowershoreface
+ --&gt;  Exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/therys--facies_fraction_lowershoreface.gri (map average is 0.271)
+ --&gt;  FACIES_Fraction_Uppershoreface
+ --&gt;  Exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/therys--facies_fraction_uppershoreface.gri (map average is 0.356)
+Volon
+ --&gt;  KLOGH_Average
+ --&gt;  Exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/volon--klogh_average.gri (map average is 918.225)
+ --&gt;  PHIT_Average
+ --&gt;  Exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/volon--phit_average.gri (map average is 0.166)
+ --&gt;  FACIES_Fraction_Floodplain
+ --&gt;  Exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/volon--facies_fraction_floodplain.gri (map average is 0.286)
+ --&gt;  FACIES_Fraction_Channel
+ --&gt;  Exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/volon--facies_fraction_channel.gri (map average is 0.575)
+ --&gt;  FACIES_Fraction_Calcite
+ --&gt;  Exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/volon--facies_fraction_calcite.gri (map average is 0.139)
+That's all
+</pre>
+<font color="green"><b>Completed job 23</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:14.8</td></tr></table>
+
+<pre>
+Job 24 - seisprobavg_maps_valysar_export_da. - for project realization 1 - deactivated
+
+<pre>
+Job 25 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 25</b></font>
+
+<pre>
+Job 26 - RMS_switch_for_aps_maps_export.py - for project realization 1 - deactivated
+
+<pre>
+Job 27 - avgmaps_apstrends - for project realization 1 - deactivated
+
+<pre>
+Job 28 - apstrends_maps_valysar_export_data. - for project realization 1 - deactivated
+
+<pre>
+Job 29 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 29</b></font>
+
+<pre>
+Job 30 - export_wells - for project realization 1
+</pre>
+<font color="green"><b>Completed job 30</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.10</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:15.8</td></tr></table>
+
+<pre>
+Job 31 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 31</b></font>
+
+<pre>
+Job 32 - create_grid_zonelog - for project realization 1
+"RFT_55_33-A-2.Drilled trajectory" does not have a default log run defined. "log" has been assigned.
+"RFT_55_33-A-3.Drilled trajectory" does not have a default log run defined. "log" has been assigned.
+"RFT_55_33-A-4.Drilled trajectory" does not have a default log run defined. "log" has been assigned.
+"RFT_55_33-A-5.Drilled trajectory" does not have a default log run defined. "log" has been assigned.
+"RFT_55_33-A-6.Drilled trajectory" does not have a default log run defined. "log" has been assigned.
+</pre>
+<font color="green"><b>Completed job 32</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:15.9</td></tr></table>
+
+<pre>
+Job 33 - extract_grid_zone_tops.py - for project realization 1
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/xtgeo/well/well1.py:378: PendingDeprecationWarning: Direct access to the dataframe property in Well class will be deprecated in xtgeo 5.0. Use `get_dataframe()` instead.
+  warnings.warn(
+Created /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/tables/formations.csv with metadata
+Done
+</pre>
+<font color="green"><b>Completed job 33</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:16.4</td></tr></table>
+
+<pre>
+Job 34 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 34</b></font>
+
+<pre>
+Job 35 - extract_grid_property_statistics.p. - for project realization 1
+INFO  &gt;&gt; Starting run...
+INFO  &gt;&gt; Reading grid geometry...
+INFO  &gt;&gt; Reading grid properties...
+INFO  &gt;&gt; Reusing gridprops: []
+INFO  &gt;&gt; New gridprops: ['PHIT', 'Total_bulk', 'KLOGH', 'SW', 'VSH', 'VPHYL', 'Region', 'Zone', 'FACIES']
+INFO  &gt;&gt; Creating property dataframe from grid properties
+INFO  &gt;&gt; Calculating statistics for CONT properties
+&lt;frozen importlib._bootstrap&gt;:1049: ImportWarning: _RmsTkinterHook.find_spec() not found; falling back to find_module()
+INFO  &gt;&gt; Dataframe with statistics written to ../../share/results/tables/grid_property_statistics_geogrid.csv
+Done
+</pre>
+<font color="green"><b>Completed job 35</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:05.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:21.5</td></tr></table>
+
+<pre>
+Job 36 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 36</b></font>
+
+<pre>
+Job 37 - export_well_attributes.py - for project realization 1
+Exported file: ../../rms/output/wells/well_attributes.json
+</pre>
+<font color="green"><b>Completed job 37</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:21.7</td></tr></table>
+
+<pre>
+Job 38 - export_well_picks.py - for project realization 1
+Exported file ../../share/results/tables/well_picks.csv
+Done
+</pre>
+<font color="green"><b>Completed job 38</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:22.0</td></tr></table>
+
+<pre>
+Job 39 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 39</b></font>
+
+<pre>
+Job 40 - export_standard_results - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 2 - export_structure_depth_surfaces.py. - for project realization 1
+&lt;string&gt;:14: UserWarning: export_structure_depth_surfaces is experimental and may change in future versions.
+/prog/res/rmsenv/x86_64/rhel8/bleeding/bleeding/rms14.2.2/lib/python3.11/site-packages/fmu/dataio/export/rms/_utils.py:124: PendingDeprecationWarning: The 'surface_from_roxar' function is deprecated and will be removed in a future version. Use 'surface_from_rms' instead.
+  xtgeo.surface_from_roxar(
+Output exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/structure_depth_surface/msl.gri
+Output exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/structure_depth_surface/topvolantis.gri
+Output exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/structure_depth_surface/toptherys.gri
+Output exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/structure_depth_surface/topvolon.gri
+Output exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/structure_depth_surface/basevolantis.gri
+Output exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/structure_depth_surface/basevelmodel.gri
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.5</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.5</td></tr></table>
+
+<pre>
+Job 3 - export_structure_depth_isochores.p. - for project realization 1
+&lt;string&gt;:14: UserWarning: export_structure_depth_isochores is experimental and may change in future versions.
+Output exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/structure_depth_isochore/valysar.gri
+Output exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/structure_depth_isochore/therys.gri
+Output exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/maps/structure_depth_isochore/volon.gri
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:00.8</td></tr></table>
+
+<pre>
+Job 4 - export_structure_depth_fault_lines. - for project realization 1
+&lt;string&gt;:14: UserWarning: export_structure_depth_fault_lines is experimental and may change in future versions.
+Output exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/polygons/structure_depth_fault_lines/topvolantis.parquet
+Output exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/polygons/structure_depth_fault_lines/toptherys.parquet
+Output exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/polygons/structure_depth_fault_lines/topvolon.parquet
+Output exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/polygons/structure_depth_fault_lines/basevolantis.parquet
+</pre>
+<font color="green"><b>Completed job 4</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.0</td></tr></table>
+
+<pre>
+Job 5 - export_inplace_volumes.py - for project realization 1 - deactivated
+
+<pre>
+Job 6 - copy_field_outline_to_standard_loc. - for project realization 1
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.0</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.0</td></tr></table>
+
+<pre>
+Job 7 - export_field_outline.py - for project realization 1
+&lt;string&gt;:14: UserWarning: export_field_outline is experimental and may change in future versions.
+Output exported to /scratch/fmu/alifb/01_drogon_design_orion_stochastic/realization-0/iter-0/share/results/polygons/field_outline/field_outline.parquet
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.3</td></tr></table>
+
+<font color="green"><b>Completed workflow export_standard_results</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:04:31</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:01.3</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 40</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:23.3</td></tr></table>
+
+<font color="green"><b>Completed workflow RMS_export_data</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:04:31</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:23.3</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 47</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:23.6</td></tr><tr><td><b>Total elapsed time</b></td><td>0:03:41.3</td></tr></table>
+
+<pre>
+Job 48 - RMS_sim2seis_preparation - for project realization 1
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<b>Project realization 1</b>
+<pre>
+Job 1 - RMS_load_grid_and_props_for_sim2se. - for project realization 1
+</pre>
+<font color="green"><b>Completed job 1</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.8</td></tr></table>
+
+<pre>
+Job 2 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 2</b></font>
+
+<pre>
+Job 3 - export_top_surf_time - for project realization 1
+</pre>
+<font color="green"><b>Completed job 3</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.1</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:01.8</td></tr></table>
+
+<pre>
+Job 4 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 5 - create_pem_props.py - for project realization 1
+XTGeo version is 4.13.2.dev4+g015cf74bb
+Wrote to coalfraction carbfraction ntg_pem net_fraction
+</pre>
+<font color="green"><b>Completed job 5</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:02.6</td></tr></table>
+
+<pre>
+Job 6 - rescaling_establish_parameter_corr. - for project realization 1
+Column refinement factor is 2
+Row refinement factor is 2
+Layer refinement factor for Valysar is 2
+Layer refinement factor for Therys is 2
+Layer refinement factor for Volon is 3
+Established ('RescalingColumn', 'RescalingRow', 'RescalingLayer') parameters for rescaling sampling
+</pre>
+<font color="green"><b>Completed job 6</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.8</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:03.4</td></tr></table>
+
+<pre>
+Job 7 - geo2sim_pem - for project realization 1
+</pre>
+<font color="green"><b>Completed job 7</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.4</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:03.8</td></tr></table>
+
+<pre>
+Job 8 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 9 - export_pem_props.py - for project realization 1
+Write grid to  ../../sim2seis/input/pem/
+Write grid properties to  ../../sim2seis/input/pem/
+Export: coalfraction
+Export: carbfraction
+Export: ntg_pem
+Export: poro_pem
+Done.
+</pre>
+<font color="green"><b>Completed job 9</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:04.0</td></tr></table>
+
+<pre>
+Job 10 - Note - for project realization 1 - deactivated
+
+<pre>
+Job 11 - export_pem_props_geogrid.py - for project realization 1
+Write grid to  ../../sim2seis/input/pem/
+Write grid properties to  ../../sim2seis/input/pem/
+Export: coalfraction
+Export: carbfraction
+Export: ntg_pem
+Export: SO
+Export: FWL
+Export: GOC
+Done.
+</pre>
+<font color="green"><b>Completed job 11</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:01.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:05.3</td></tr></table>
+
+<pre>
+Job 12 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 12</b></font>
+
+<pre>
+Job 13 - make_symlink_to_share_results_file. - for project realization 1
+&lt;frozen importlib._bootstrap&gt;:744: DeprecationWarning: BuiltinImporter.module_repr() is deprecated and slated for removal in Python 3.12
+&lt;frozen importlib._bootstrap&gt;:1049: ImportWarning: _RmsTkinterHook.find_spec() not found; falling back to find_module()
+
+OK
+Seen from folder [../../sim2seis/input/pem]: symlinked file [../../../share/results/grids/geogrid.roff] to [geogrid.roff]
+
+OK
+Seen from folder [../../sim2seis/input/pem]: symlinked file [../../../share/results/grids/geogrid--phit.roff] to [geogrid--phit.roff]
+
+OK
+Seen from folder [../../sim2seis/input/pem]: symlinked file [../../../share/results/grids/geogrid--facies.roff] to [geogrid--facies.roff]
+
+OK
+Seen from folder [../../sim2seis/input/pem]: symlinked file [../../../share/results/grids/geogrid--sg.roff] to [geogrid--sg.roff]
+
+OK
+Seen from folder [../../sim2seis/input/pem]: symlinked file [../../../share/results/grids/geogrid--sw.roff] to [geogrid--sw.roff]
+
+OK
+Seen from folder [../../sim2seis/input/pem]: symlinked file [../../../share/results/grids/geogrid--vsh.roff] to [geogrid--vsh.roff]
+
+OK
+Seen from folder [../../sim2seis/input/pem]: symlinked file [../../../share/results/grids/geogrid--zone.roff] to [geogrid--zone.roff]
+
+OK
+Seen from folder [../../sim2seis/input/pem]: symlinked file [../../../share/results/grids/geogrid--region.roff] to [geogrid--region.roff]
+Done
+</pre>
+<font color="green"><b>Completed job 13</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:00:05.6</td></tr></table>
+
+<font color="green"><b>Completed workflow RMS_sim2seis_preparation</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:04:36</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:00:05.6</td></tr></table>
+<hr /><div />
+</pre>
+<font color="green"><b>Completed job 48</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:05.6</td></tr><tr><td><b>Total elapsed time</b></td><td>0:03:46.9</td></tr></table>
+
+<pre>
+Job 49 - Note - for project realization 1 - skipped
+</pre>
+<font color="green"><b>Completed job 49</b></font>
+
+<pre>
+Job 50 - DST_55_33-1 - for project realization 1 - deactivated
+
+<pre>
+Job 51 - write_target_file_4ert.py - for project realization 1
+Created target file ../../RMS_TARGET_MAIN
+</pre>
+<font color="green"><b>Completed job 51</b></font>
+<table border="1"><tr><td><b>Elapsed time</b></td><td>0:00:00.3</td></tr><tr><td><b>Total elapsed time</b></td><td>0:03:47.1</td></tr></table>
+
+<font color="green"><b>Completed workflow ORION_MAIN</b></font>
+<table border="1"><tr><td><b>Finish time</b></td><td>11:04:37</td></tr><tr><td><b>Elapsed time for workflow</b></td><td>0:03:47.1</td></tr></table>
+<hr /><div />

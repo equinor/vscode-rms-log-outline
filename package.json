@@ -1,0 +1,86 @@
+{
+  "name": "rms-log-outline",
+  "displayName": "RMS Log Outline",
+  "description": "Outline for RMS workflow log",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.1"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "views": {
+      "explorer": [
+        {
+          "id": "rmsJobBlock",
+          "name": "RMS Log Outline",
+          "icon": "images/search-icon.svg"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "rms-log-outline.searchJob",
+        "title": "Search Job",
+        "category": "rms-log-outline",
+        "icon": {
+          "light": "images/search-icon.svg",
+          "dark": "images/search-icon.svg"
+        }
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "RMS Log Outline",
+      "properties": {
+        "rms_log_outline.folderIconLight": {
+          "type": "string",
+          "default": "#2100f4",
+          "description": "Hex color used to fill the folder-style parent icon in the light theme."
+        },
+        "rms_log_outline.folderIconDark": {
+          "type": "string",
+          "default": "#ffcc00",
+          "description": "Hex color used to fill the folder-style parent icon in the dark theme."
+        }
+      }
+    },
+    "viewsWelcome": [],
+    "menus": {
+      "view/title": [
+        {
+          "command": "rms-log-outline.searchJob",
+          "when": "view == rmsJobBlock",
+          "group": "navigation",
+          "icon": {
+            "light": "images/search-icon.svg",
+            "dark": "images/search-icon.svg"
+          }
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "npx tsc -p ./",
+    "watch": "npx tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.90.1",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "typescript-eslint": "^8.46.3",
+    "eslint": "^9.39.1",
+    "typescript": "^5.9.3",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
