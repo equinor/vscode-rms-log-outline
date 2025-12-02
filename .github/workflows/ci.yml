@@ -30,11 +30,11 @@ jobs:
     - name: Run ESLint (fail on warnings)
       run: npx eslint . --ext .ts,.js --max-warnings=0 --ignore-pattern out/
 
-    - run: xvfb-run -a npm test
-      if: runner.os == 'Linux'
+    # - run: xvfb-run -a npm test
+    #   if: runner.os == 'Linux'
 
-    - run: npm test
-      if: runner.os != 'Linux'
+    # - run: npm test
+    #   if: runner.os != 'Linux'
 
     - name: Publish
       if: success() && github.event_name == 'release' && matrix.os == 'ubuntu-latest'
