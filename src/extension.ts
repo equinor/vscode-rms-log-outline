@@ -286,7 +286,7 @@ export function activate(context: vscode.ExtensionContext) {
                 const ln = Math.max(0, block.titleLine);
                 const textLine = doc.lineAt(ln);
                 const rangeLine = textLine.range; // full line range
-                vscode.window.showTextDocument(doc.uri).then(ed => {
+                vscode.window.showTextDocument(doc.uri).then((ed: vscode.TextEditor) => {
                     ed.revealRange(rangeLine, vscode.TextEditorRevealType.InCenter);
                     ed.selection = new vscode.Selection(rangeLine.start, rangeLine.end);
                     provider.postHighlightToWebview(block.start, block.end, block.titleLine ?? undefined);
@@ -300,7 +300,7 @@ export function activate(context: vscode.ExtensionContext) {
         const startPos = doc.positionAt(block.start);
         const endPos = doc.positionAt(block.end);
         const range = new vscode.Range(startPos, endPos);
-        vscode.window.showTextDocument(doc.uri).then(ed => {
+        vscode.window.showTextDocument(doc.uri).then((ed: vscode.TextEditor) => {
             ed.revealRange(range, vscode.TextEditorRevealType.InCenter);
             ed.selection = new vscode.Selection(startPos, endPos);
             // also inform webview (if present) to highlight the same range (include titleLine if available)
@@ -309,12 +309,12 @@ export function activate(context: vscode.ExtensionContext) {
     }));
 
     // Expand/collapse commands for tree view items (context menu)
-    context.subscriptions.push(vscode.commands.registerCommand('rms-log-outline.expandNode', async (node) => {
+    context.subscriptions.push(vscode.commands.registerCommand('rms-log-outline.expandNode', async (node: JobBlockNode) => {
         if (!node) { return; }
         await treeView.reveal(node, { expand: true });
     }));
 
-    context.subscriptions.push(vscode.commands.registerCommand('rms-log-outline.collapseNode', async (node) => {
+    context.subscriptions.push(vscode.commands.registerCommand('rms-log-outline.collapseNode', async (node: JobBlockNode) => {
         if (!node) { return; }
         await treeView.reveal(node, { expand: false });
     }));
@@ -336,17 +336,17 @@ export function activate(context: vscode.ExtensionContext) {
     }));
 
     // Auto-refresh when active editor or document content changes
-    context.subscriptions.push(vscode.window.onDidChangeActiveTextEditor((e) => {
+    context.subscriptions.push(vscode.window.onDidChangeActiveTextEditor((e: vscode.TextEditor | undefined) => {
         if (e) {
             // If a text editor becomes active, clear the custom document override
             provider.setActiveCustomDocument(undefined);
         }
         provider.refresh();
     }));
-    context.subscriptions.push(vscode.workspace.onDidChangeTextDocument(() => provider.refresh()));
+    context.subscriptions.push(vscode.workspace.onDidChangeTextDocument((_e: vscode.TextDocumentChangeEvent) => provider.refresh()));
 
     // Refresh tree when folder icon color settings change
-    context.subscriptions.push(vscode.workspace.onDidChangeConfiguration((e) => {
+    context.subscriptions.push(vscode.workspace.onDidChangeConfiguration((e: vscode.ConfigurationChangeEvent) => {
         if (e.affectsConfiguration('rms_log_outline.folderIconLight') || e.affectsConfiguration('rms_log_outline.folderIconDark')) {
             provider.refresh();
         }
