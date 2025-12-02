@@ -9,7 +9,7 @@
     "url": "https://github.com/equinor/vscode-rms-log-outline"
   },
   "engines": {
-    "vscode": "^1.90.1"
+    "vscode": "^1.90.0"
   },
   "categories": [
     "Other"
