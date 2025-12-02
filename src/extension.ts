@@ -10,6 +10,7 @@ interface JobBlock {
     elapsed?: number | null;
     realization?: number | null;
     titleLine?: number | null;
+    failed?: boolean;
 }
 
 function loadAndPreprocess(html: string): string {
@@ -75,6 +76,10 @@ function parseJobBlocks(htmlIn: string, originalHtml?: string): JobBlock[] {
         // If title indicates skipped or deactivated, mark elapsed = 0
         const titleLower = title.toLowerCase();
         const titleIndicatesZero = /(?:-\s*skipped|-\s*deactivated)\s*$/.test(titleLower);
+
+        // Check if job failed by looking for "Job: ... failed." pattern
+        const failedPattern = /Job:\s+.*?\s+failed\./i;
+        const isFailed = failedPattern.test(contentNorm);
 
         // // Also normalize title if it contains the phrase
         // title = title.replace(/\s*-\s*for\s+project\s+realization\s*(\d+)\b/gi, ' #$1');
@@ -175,7 +180,7 @@ function parseJobBlocks(htmlIn: string, originalHtml?: string): JobBlock[] {
             }
         }
         const titleLine = (m as any)._titleLine !== undefined ? (m as any)._titleLine : null;
-        blocks.push({ level, title, content: contentNorm, start: startPos, end: endPos, elapsed, realization, titleLine });
+        blocks.push({ level, title, content: contentNorm, start: startPos, end: endPos, elapsed, realization, titleLine, failed: isFailed });
     }
 
     return blocks;
@@ -396,7 +401,9 @@ class JobBlockNode extends vscode.TreeItem {
         const t = (block.title || '').trim();
         try {
             // Use ThemeIcon with semantic ThemeColor so icons adapt to themes without SVGs
-            if (/^Note\b/i.test(t)) {
+            if (block.failed) {
+                this.iconPath = new vscode.ThemeIcon('error', new vscode.ThemeColor('errorForeground'));
+            } else if (/^Note\b/i.test(t)) {
                 this.iconPath = new vscode.ThemeIcon('note', new vscode.ThemeColor('charts.yellow'));
             } else if (/skipped$/i.test(t)) {
                 this.iconPath = new vscode.ThemeIcon('circle-slash', new vscode.ThemeColor('charts.blue'));
@@ -582,6 +589,28 @@ class JobBlocksProvider implements vscode.TreeDataProvider<JobBlockNode> {
         }
 
         for (const p of realizationParents) { sumChildElapsed(p); }
+
+        // Propagate failed status from children to parents
+        function propagateFailedStatus(node: JobBlockNode): boolean {
+            if (!node.children || node.children.length === 0) {
+                return node.block.failed === true;
+            }
+            let anyChildFailed = false;
+            for (const ch of node.children) {
+                if (propagateFailedStatus(ch)) {
+                    anyChildFailed = true;
+                }
+            }
+            if (anyChildFailed || node.block.failed) {
+                node.block.failed = true;
+                // Update icon to show failure
+                node.iconPath = new vscode.ThemeIcon('error', new vscode.ThemeColor('errorForeground'));
+                return true;
+            }
+            return false;
+        }
+
+        for (const p of realizationParents) { propagateFailedStatus(p); }
 
         function updateDisplay(node: JobBlockNode) {
             node.description = (typeof node.block.elapsed === 'number') ? formatSeconds(node.block.elapsed) : '';
