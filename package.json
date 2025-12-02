@@ -19,6 +19,18 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
+    "customEditors": [
+      {
+        "viewType": "rms-log-outline.logEditor",
+        "displayName": "RMS Log Viewer",
+        "selector": [
+          {
+            "filenamePattern": "*.log"
+          }
+        ],
+        "priority": "option"
+      }
+    ],
     "views": {
       "explorer": [
         {

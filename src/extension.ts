@@ -1,5 +1,3 @@
-// The module 'vscode' contains the VS Code extensibility API
-// Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
 
 // --- Translated from python/parser3.py ---
@@ -15,10 +13,6 @@ interface JobBlock {
 }
 
 function loadAndPreprocess(html: string): string {
-    // 1) remove content of HEAD tags (case-insensitive, multiline)
-    //html = html.replace(/<head\b[^>]*>[\s\S]*?<\/head>/gi, '');
-
-    // 2) if a line ends with " - deactivated" add "</pre>" before the line break or EOF
     html = html.replace(/( - deactivated)(?=(\r?\n|$))/g, '$1</pre>');
 
     return html;
@@ -252,20 +246,16 @@ function formatSeconds(secs: number): string {
     return `${trimmed}s`;
 }
 
-
-// This method is called when your extension is activated
-// Your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
-
-	// Use the console to output diagnostic information (console.log) and errors (console.error)
-	// This line of code will only be executed once when your extension is activated
-	console.log('Congratulations, your extension "rms-log-outline" is now active!');
 
     // Register JobBlocks Tree View provider (hierarchical)
     const provider = new JobBlocksProvider(context);
     const treeView = vscode.window.createTreeView('rmsJobBlock', { treeDataProvider: provider });
     provider.attachTreeView(treeView);
     context.subscriptions.push(treeView);
+
+    // Register Custom Editor Provider
+    context.subscriptions.push(RmsLogEditorProvider.register(context, provider));
 
     // Add a refresh command for the view
     context.subscriptions.push(vscode.commands.registerCommand('rms-log-outline.refreshJobBlocks', () => provider.refresh()));
@@ -280,7 +270,11 @@ export function activate(context: vscode.ExtensionContext) {
     // Command to reveal a block (used by both Explorer tree and webview)
     context.subscriptions.push(vscode.commands.registerCommand('rms-log-outline.revealBlock', (block: JobBlock) => {
         const editor = vscode.window.activeTextEditor;
-        if (!editor) { return; }
+        if (!editor) {
+            // Try to reveal in custom editor if available
+            provider.postHighlightToWebview(block.start, block.end, block.titleLine ?? undefined);
+            return;
+        }
         const doc = editor.document;
         if (block.titleLine !== undefined && block.titleLine !== null) {
             try {
@@ -337,7 +331,13 @@ export function activate(context: vscode.ExtensionContext) {
     }));
 
     // Auto-refresh when active editor or document content changes
-    context.subscriptions.push(vscode.window.onDidChangeActiveTextEditor(() => provider.refresh()));
+    context.subscriptions.push(vscode.window.onDidChangeActiveTextEditor((e) => {
+        if (e) {
+            // If a text editor becomes active, clear the custom document override
+            provider.setActiveCustomDocument(undefined);
+        }
+        provider.refresh();
+    }));
     context.subscriptions.push(vscode.workspace.onDidChangeTextDocument(() => provider.refresh()));
 
     // Refresh tree when folder icon color settings change
@@ -349,8 +349,6 @@ export function activate(context: vscode.ExtensionContext) {
 
 }
 
-// JobBlocksEditorProvider removed — tree view interactions are handled via Tree + HtmlPreviewEditorProvider
-
 class JobBlockNode extends vscode.TreeItem {
     children: JobBlockNode[] = [];
 
@@ -359,12 +357,9 @@ class JobBlockNode extends vscode.TreeItem {
         const height = 24;
         const cap = Math.min(indentPx, 12);
         const tx = cap;
-        // simple folder path (rounded) - two color variants for light/dark
-        // const lightFill = '#6b7280'; // neutral dark gray for light theme
-        const lightAccent = '#f3c13a';
         // scale original 256x256 SVG into 24x24 canvas
         const scale = 24 / 256;
-        const innerTranslate = tx / scale; // translate in original SVG units
+
 
         // path from user-provided SVG (flattened)
         const pathD = `M241.88037,110.64453A16.03934,16.03934,0,0,0,228.90039,104H216V88a16.01833,16.01833,0,0,0-16-16H130.667l-27.7334-20.7998A16.10323,16.10323,0,0,0,93.333,48H40A16.01833,16.01833,0,0,0,24,64V208c0,.05127.00684.10059.00781.15137.002.1123.00977.22412.0166.33642.01172.19043.02832.37891.05274.56592q.02051.15234.04639.30371c.03515.20459.07861.40576.1289.605.021.08252.04.16553.064.24756.06836.23877.14843.47217.23779.70117.0166.042.02978.08545.04687.12793a7.867,7.867,0,0,0,.39014.81592c.01563.02881.03467.05566.05078.084q.1919.33912.41553.65625c.019.02686.0332.05567.05225.08252.03564.04883.07763.09082.11377.13916.12255.16163.24951.31885.38378.47022.06836.07764.13672.1543.20752.22851.14161.14844.29.29.44287.42725.064.05713.125.11768.19043.17285a7.94692,7.94692,0,0,0,.69581.52832l.01953.01172a7.96822,7.96822,0,0,0,.73632.43311c.064.0332.12989.0625.19483.09375.19971.09765.40332.18847.61182.26953.0791.03027.1582.05859.23828.08691q.30176.1062.61377.188c.08447.02246.168.04541.25293.06494.21386.04883.43164.08643.65185.11817.0791.01123.15674.02685.23633.03613A8.06189,8.06189,0,0,0,32,216H208a8.00117,8.00117,0,0,0,7.58984-5.47021l28.48926-85.47022A16.039,16.039,0,0,0,241.88037,110.64453ZM93.333,64l27.7334,20.7998A16.10323,16.10323,0,0,0,130.667,88H200v16H69.76611a15.98037,15.98037,0,0,0-15.1792,10.94043L40,158.70166V64Z`;
@@ -424,12 +419,25 @@ class JobBlocksProvider implements vscode.TreeDataProvider<JobBlockNode> {
     private treeView?: vscode.TreeView<JobBlockNode>;
     private lastRoots: JobBlockNode[] = [];
     private webview?: vscode.Webview;
+    private activeCustomDocument?: vscode.TextDocument;
 
     attachTreeView(tv: vscode.TreeView<JobBlockNode>) { this.treeView = tv; }
 
     // Attach a webview to allow sending highlight messages
     attachWebview(webview: vscode.Webview) { this.webview = webview; }
     detachWebview() { this.webview = undefined; }
+
+    setActiveCustomDocument(doc: vscode.TextDocument | undefined) {
+        this.activeCustomDocument = doc;
+        this.refresh();
+    }
+
+    removeActiveCustomDocument(doc: vscode.TextDocument) {
+        if (this.activeCustomDocument && this.activeCustomDocument.uri.toString() === doc.uri.toString()) {
+            this.activeCustomDocument = undefined;
+            this.refresh();
+        }
+    }
 
     // Reveal a node by matching a document range (start/end)
     async revealRangeInTree(start: number, end: number) {
@@ -589,21 +597,30 @@ class JobBlocksProvider implements vscode.TreeDataProvider<JobBlockNode> {
     }
 
     async getChildren(element?: JobBlockNode): Promise<JobBlockNode[]> {
-        const editor = vscode.window.activeTextEditor;
-        if (!editor) {
-            // Show a message in the tree view (faded text block) when no editor is open
-            try { if (this.treeView) { this.treeView.message = 'The active editor cannot provide outline information.'; } } catch (e) {}
-            return [];
+        let text = '';
+        let docName = '';
+        
+        if (this.activeCustomDocument) {
+             text = this.activeCustomDocument.getText();
+             docName = require('path').basename(this.activeCustomDocument.fileName);
+        } else {
+            const editor = vscode.window.activeTextEditor;
+            if (!editor) {
+                // Show a message in the tree view (faded text block) when no editor is open
+                try { if (this.treeView) { this.treeView.message = 'The active editor cannot provide outline information.'; } } catch (e) {}
+                return [];
+            }
+            text = editor.document.getText();
+            docName = require('path').basename(editor.document.fileName);
         }
-        const text = editor.document.getText();
+
         const blocks = parseJobBlocks(loadAndPreprocess(text), text);
         if (!element) {
             if (!blocks || blocks.length === 0) {
                 // Display the where/why message like the Outline view
                 try {
                     if (this.treeView) {
-                        const name = editor.document.fileName ? require('path').basename(editor.document.fileName) : 'active document';
-                        this.treeView.message = `No RMS job blocks found in '${name}'.`;
+                        this.treeView.message = `No RMS job blocks found in '${docName}'.`;
                     }
                 } catch (e) {}
                 return [];
@@ -618,10 +635,17 @@ class JobBlocksProvider implements vscode.TreeDataProvider<JobBlockNode> {
 
     // Search for nodes matching a query (in title or content) and reveal the best match
     async searchAndReveal(query: string) {
-        const editor = vscode.window.activeTextEditor;
-        if (!editor) { vscode.window.showInformationMessage('No active editor'); return; }
+        let text = '';
+        if (this.activeCustomDocument) {
+             text = this.activeCustomDocument.getText();
+        } else {
+            const editor = vscode.window.activeTextEditor;
+            if (!editor) { vscode.window.showInformationMessage('No active editor'); return; }
+            text = editor.document.getText();
+        }
+
         // Ensure we have up-to-date nodes
-        const blocks = parseJobBlocks(loadAndPreprocess(editor.document.getText()), editor.document.getText());
+        const blocks = parseJobBlocks(loadAndPreprocess(text), text);
         const roots = this.buildHierarchy(blocks);
 
         const all: JobBlockNode[] = [];
@@ -646,3 +670,167 @@ class JobBlocksProvider implements vscode.TreeDataProvider<JobBlockNode> {
 
 // This method is called when your extension is deactivated
 export function deactivate() {}
+
+class RmsLogEditorProvider implements vscode.CustomTextEditorProvider {
+
+    public static register(context: vscode.ExtensionContext, jobBlocksProvider: JobBlocksProvider): vscode.Disposable {
+        const provider = new RmsLogEditorProvider(context, jobBlocksProvider);
+        const providerRegistration = vscode.window.registerCustomEditorProvider(RmsLogEditorProvider.viewType, provider);
+        return providerRegistration;
+    }
+
+    private static readonly viewType = 'rms-log-outline.logEditor';
+
+    constructor(
+        private readonly context: vscode.ExtensionContext,
+        private readonly jobBlocksProvider: JobBlocksProvider
+    ) { }
+
+    public async resolveCustomTextEditor(
+        document: vscode.TextDocument,
+        webviewPanel: vscode.WebviewPanel,
+        _token: vscode.CancellationToken
+    ): Promise<void> {
+        webviewPanel.webview.options = {
+            enableScripts: true,
+        };
+
+        function updateWebview() {
+            webviewPanel.webview.html = getHtmlForWebview(document);
+        }
+
+        const changeDocumentSubscription = vscode.workspace.onDidChangeTextDocument(e => {
+            if (e.document.uri.toString() === document.uri.toString()) {
+                updateWebview();
+            }
+        });
+
+        webviewPanel.onDidDispose(() => {
+            changeDocumentSubscription.dispose();
+            this.jobBlocksProvider.removeActiveCustomDocument(document);
+        });
+        
+        // When the panel becomes active, attach it to the provider for highlighting
+        webviewPanel.onDidChangeViewState(e => {
+            if (e.webviewPanel.active) {
+                this.jobBlocksProvider.attachWebview(webviewPanel.webview);
+                this.jobBlocksProvider.setActiveCustomDocument(document);
+            }
+        });
+        
+        if (webviewPanel.active) {
+            this.jobBlocksProvider.attachWebview(webviewPanel.webview);
+            this.jobBlocksProvider.setActiveCustomDocument(document);
+        }
+
+        updateWebview();
+    }
+}
+
+function getHtmlForWebview(document: vscode.TextDocument): string {
+    const text = document.getText();
+    // Use the existing preprocessing logic
+    let content = loadAndPreprocess(text);
+    
+    // Inject IDs for navigation
+    // We need two sets of blocks:
+    // 1. blocksOriginal: offsets relative to 'text' (original document), which match the Tree View IDs.
+    // 2. blocksContent: offsets relative to 'content' (preprocessed HTML), which match where we inject IDs.
+    const blocksOriginal = parseJobBlocks(content, text);
+    const blocksContent = parseJobBlocks(content);
+
+    // Create injection list by zipping them
+    // blocksOriginal[i] corresponds to blocksContent[i]
+    const injections = blocksContent.map((b, i) => ({
+        offset: b.start,
+        id: blocksOriginal[i].start
+    }));
+    
+    // Sort descending by offset to inject safely
+    injections.sort((a, b) => b.offset - a.offset);
+    
+    for (const item of injections) {
+        // We expect a <pre> tag at item.offset. 
+        if (content.substring(item.offset, item.offset + 4).toLowerCase() === '<pre') {
+            content = content.slice(0, item.offset + 4) + ` id="b_${item.id}"` + content.slice(item.offset + 4);
+        }
+    }
+
+    return `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMS Log</title>
+    <style>
+        body { 
+            font-family: var(--vscode-editor-font-family); 
+            font-size: var(--vscode-editor-font-size);
+            color: var(--vscode-editor-foreground);
+            background-color: var(--vscode-editor-background);
+            padding: 10px;
+        }
+        pre {
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    ${content}
+    <script>
+        const vscode = acquireVsCodeApi();
+        window.addEventListener('message', event => {
+            const message = event.data;
+            switch (message.command) {
+                case 'highlight':
+                    const el = document.getElementById('b_' + message.start);
+                    if (el) {
+                        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        
+                        // Visual highlight
+                        el.style.outline = '2px solid var(--vscode-editor-selectionBackground)';
+                        setTimeout(() => { el.style.outline = ''; }, 2000);
+
+                        // Select the header text (first non-empty line)
+                        const selection = window.getSelection();
+                        selection.removeAllRanges();
+                        const range = document.createRange();
+                        
+                        let textNode = null;
+                        // Find first text node
+                        for (let i = 0; i < el.childNodes.length; i++) {
+                            if (el.childNodes[i].nodeType === 3) {
+                                textNode = el.childNodes[i];
+                                break;
+                            }
+                        }
+                        
+                        if (textNode) {
+                            const text = textNode.textContent;
+                            let start = 0;
+                            while (start < text.length) {
+                                const end = text.indexOf('\\n', start);
+                                const lineEnd = end === -1 ? text.length : end;
+                                const line = text.substring(start, lineEnd);
+                                if (line.trim().length > 0) {
+                                    range.setStart(textNode, start);
+                                    range.setEnd(textNode, lineEnd);
+                                    selection.addRange(range);
+                                    break;
+                                }
+                                start = lineEnd + 1;
+                            }
+                        } else {
+                            // Fallback: select element
+                            range.selectNode(el);
+                            selection.addRange(range);
+                        }
+                    }
+                    break;
+            }
+        });
+    </script>
+</body>
+</html>`;
+}
+
